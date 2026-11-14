@@ -1,0 +1,41 @@
+{
+  "version": "v1",
+  "note": "The score measures how well a pitch's claims hold up; it does not predict success. Weights fixed before any outcome was seen.",
+  "not_measured": "The team (which VCs rank as the most important factor), market timing, product quality and valuation fairness are not scored.",
+  "parts": {
+    "A": {
+      "name": "Evidence balance",
+      "max": 40,
+      "basis": "Overly high claims are dismissed as cheap talk and penalised for credibility; classic pitch lies ('no one is doing what we're doing', 'conservative' projections) are exactly what public evidence checks. Contradicted claims count double.",
+      "sources": [
+        {"title": "Kleinert (2023), Entrepreneurship Theory and Practice", "url": "https://journals.sagepub.com/doi/10.1177/10422587231164750", "quote": "promising overly high growth ambitions might backfire for entrepreneurs—dismissed as cheap talk and even penalized due to investors’ credibility concerns"},
+        {"title": "Kawasaki & Reichert (2006), The Top Ten Lies of Entrepreneurs", "url": "https://guykawasaki.com/the_top_ten_lie_1-3/", "quote": "every pitch contains at least three or four of these lies"}
+      ]
+    },
+    "B": {
+      "name": "Specificity",
+      "max": 20,
+      "basis": "Only concrete claims (numbers, named customers, dates) can be checked; checkable, costly signals turn ambition into credible signals. This is about checkability, not writing style: style alone hardly matters for commercial pitches.",
+      "sources": [
+        {"title": "Kleinert (2023), Entrepreneurship Theory and Practice", "url": "https://journals.sagepub.com/doi/10.1177/10422587231164750", "quote": "Such costly signals can serve as credibility buffers and transform high ambitions from cheap talk into credible signals."},
+        {"title": "Parhankangas & Renko (2017), Journal of Business Venturing (caveat)", "url": "https://econpapers.repec.org/article/eeejbvent/v_3a32_3ay_3a2017_3ai_3a2_3ap_3a215-236.htm", "quote": "boost the success of social campaigns, but hardly matter for commercial campaigns"}
+      ]
+    },
+    "C": {
+      "name": "Consistency",
+      "max": 20,
+      "basis": "Numbers that can't all be true, or a founder contradicting the deck or themselves live, are the cheapest red flags to detect; inflated projections are usually exposed by the deck's own arithmetic.",
+      "sources": [
+        {"title": "Kawasaki & Reichert (2006), The Top Ten Lies of Entrepreneurs", "url": "https://guykawasaki.com/the_top_ten_lie_1-3/", "quote": "An entrepreneur’s projections are never conservative."}
+      ]
+    },
+    "D": {
+      "name": "Verifiable core",
+      "max": 20,
+      "basis": "Investors verify the core of a deal through diligence and references before investing; a pitch whose most load-bearing claims can't be checked asks for more trust.",
+      "sources": [
+        {"title": "Gompers, Gornall, Kaplan, Strebulaev (2020), How Do Venture Capitalists Make Decisions?", "url": "https://www.nber.org/system/files/working_papers/w22587/w22587.pdf", "quote": "the average firm spends 118 hours on due diligence over that period and the average firm calls 10 references"}
+      ]
+    }
+  }
+}

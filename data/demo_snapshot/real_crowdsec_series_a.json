@@ -1,0 +1,961 @@
+{
+  "deck_id": "real_crowdsec_series_a",
+  "status": "done",
+  "progress": "Finalized in 84s: 15 claims, 2 contradicted, 5 questions (0 arithmetic findings; web: 5 verdicts)",
+  "error": null,
+  "company": "CrowdSec",
+  "website": null,
+  "slides": [
+    "Safer\nTogether\nThe Network Effect of Cyber Security\nActionable Collective Threat Intelligence\nDiscover",
+    "Cyber\nsecurity\nis not a\nproblem\nof means\n192G of high\nvalue PI\n500K accounts\n267M records\n5.2M accounts\nsolarwind\n32M accounts\nhigh profile hack\nTens of thousand\nmail servers\nClient trust (for\nan auth system)\nBillions… and…\ncounting\n83M accounts\nThe others\n800K records\n5700 users",
+    "Cyber criminals are teaming…\nand we are not!\nSRC: CrowdStrike\nTWISTED SPIDER Maze QakBot MUMMY SPIDER SPRITE SPIDER Defray777 BazarLoader\nEregor MALLARD SPIDER Emotet LUNAR SPIDER BokBot Anchor\nProLock DoppelDridex TrickBot WIZARD SPIDER Sidoh\nDoppelPaymer DOPPEL SPIDER Zloader MagneticScraper\nSCULLY SPIDER DanaBot Cutwail v2 CARBON SPIDER Darkside RaaS Conti\nSMOKY SPIDER SmokeBot Pushdo NARWHAL SPIDER REvil RaaS PINCHY SPIDER Ryuk\nOperates\nDistributed\nLikely sold\naccess to\nDevelops\nAffiliate Of\nLikely Operates\nPrevious\ncollaboration\nAmadey Loader",
+    "Last 40 years approach to cybersecurity\nvs\nCrowdSec’s approach…\nvs",
+    "Here’s the plan…\n1> We edit an\nopen source\nsoftware\n2> which creates\na network, benefiting\nto its users\n3> This community\ngenerates a real time\nmap of rogue\nIP address\n4>… which we\nmonetize along\nwith extra services\nA Waze of Cybersecurity",
+    "Laurent\nSoubrevilla\nCOO\nCoder turned entrepreneur,\nloves automation & KPI driven\nstrategies. 3 times founder,\n1 exit, 3 fundraisers.\nAccountable for\nDelivery\nPlanning\nExecution\nCEO\n3 times founder, business angel.\n4 fundraisers, 3 exits. 22 years in\ncyber security. Changed focus\nfrom tech to business 10y ago.\nAccountable for\nVision\nMeans\nBusiness\nThibault\nKoechlin\nCTO\nFormer red team pentester. FOSS\nadvocate, coder & mentor.\nInvolved in many security projects.\nSwitched from offensive to\ndefensive security.\nAccountable for\nSecurity\nArchitecture\nStability\n…cumulating 50 years of entrepreneurial craftsmanship.\nA seasoned triumvirate, on a mission…\nPhilippe\nHumeau",
+    "Behavior\n(aggressing you)\nSyslog, Splunk\njournald, Cloudtrails,\nSIEM, ELK, Kafka, etc.\nours yours\ncommunity\nReputation\n(aggressing many)\n$_\n1 >Acquire 2 >Detect 3 >Remedy 4>Share\n(This process is fully automated)\nThe massively\ncollaborative IPS",
+    "CrowdSec already deals with\n50+ attacks & unwanted behaviors…\nWeb Scans\nPort Scans\n21 22 23 25 80\nVOIP abuse\nCredentials\nbrute-forcing\nXSS, SQLi, & Php-based\narmageddons\nL7 DDoS\n(Applicative)\nRansomware\n(lateral move)\nTargeted\nattacks\nBot scalping,\nscraping or\nmonitoring\nCredit card\nstuffing",
+    "+\nand builds a\nreal-time map of\ncybercriminal\nIP address pools\nAlready collecting more signals than anyone before, from 172 countries.",
+    "Helping to leverage\nour unfair advantage…\n… the number!",
+    "our network organizes a\nshortage, choking their\nweakest link.\nCyber criminals need IP\naddresses to scale their\nOPS & stay anonymous…",
+    "A fair model: Software against signals.\nGive… and you shall receive.\nMIT license.\nAs free as it can be\nTransparent, auditable\nand trustable.\nOpen to contribution\nFree, forever.\nWe monetize access to\nCTI for those not sharing\n$\nOPEN SOURCE (MIT)\nFREE (to use, copy, modify)",
+    "A network effect\nin the making…\n…but past its cold boot phase\nSeptember 2022\n130 000\nInstallations (in 2 years)\n7 200 000\nBad IPs identified\n19 000 000\nDaily reports received\n175\nCountries",
+    "CROWD\nSEC\nHoneypot (TR100)\nConsensus\nCROWD\nSEC\nWhitelist\nCROWD\nSEC\nPredictive Alg\nTR\n99\nTR\n99\nTR\n99\nTR\n99\nTR42\nTR7\nTR71\nSmoke database\nThere is no smoke without fire\nFire database",
+    "The power of 0.3%\n350\n300\n250\n200\n150\n100\n50\n0\nJan 2 Jan 16 Jan 30 Feb 13 Feb 27 Mar 13\nAlerts per week\nBlocked by reputation\nBlocked by behavior\n-92% of the bad traffic aimed at a server,\nIs blocked, just based on IP reputation.\n7.2 M IP\naddresses\n22K IP\naddresses\nSMOKE FIRE\n~0.35%\n(the 8% remaining are dealt\nwith by the behavior engine)",
+    "Building\na network\nof networks\nto gain a unique “vertical” vantage point!\nHealth\ncare\nRetail\nBank\nEnergy\nIT\nMedia\nHousing\nCar",
+    "CrowdSec\nis a 7D CTI\n4D CTI\n2D CTI\n● Which IP\n● Seen how many times last hour\n● Which behavior\n● Geography\n● Actionable. We are 99,99% sure!\n● Type of IP (4g, VPN, Tor, etc.)\n● Against what type of industry\n● Which IP\n● Was it aggressive recently\n● What vulnerability (CVE)\n● Type of IP (4g, VPN, Tor, etc.)\n● Which IP\n● What (simple) CVE",
+    "Network’s\nmaturity\nstages\nMore signals\n(see more threats)\nStronger signals\n(distribute more IP, still\nwith no false positive)\nReal time signals\n(identifying in seconds\nnot minutes)\nPHASE 1 PHASE 2 PHASE 3\nToday",
+    "We collect\nthe strict\nminimum Your logs\nare never\nexported\nAnd keep them for the\nleast amount of time",
+    "We also have\na gorgeous\nconsole",
+    "Which offers\nCTI",
+    "We don’t\ncompete\nWe\nreinforce\nLog Storage\nFirewalls\nEPP/EDR\nSIEM\nA.I.\nSOAR\nCTI\nLOG",
+    "Loved by\nprofessionals\nVoted #17 on G2 best 2022\ncybersecurity product,\nleader in 30+ categories.\n(And as Venture Beats highlighted, only 3 out of 50\nproducts are edited by startups. We outranked\nMicrosoft, GitHub, Symantec, Dynatrace, Tenable, ...)",
+    "Technical deck KPI deck Monetization plan Investment plan Team deck Communication & community deck\nSafer\ntogether\n“An excellent way to really\nprotect exposed servers”\nWilly Tarreau\n(Founder - Haproxy)\n“CrowdSec takes a novel approach to\nprogrammatically staying ahead of\nemerging threats through a novel\napplication of crowd-sourcing”\nOmkhar Arasaratnam\n(Engineering Director - Google)\n“It’s so good, I thought it already existed. I’ll\nbe among the 1st customers.”\nYoav Kutner\n(Founder - Magento & Oro Inc)\n“Crowdsec [is] making the world\nsafer [...] go grab and install it.”\nFlemming Riis\n(Director Risk Assessment - GoDaddy)\n“Likely the most innovative\nsecurity solution”\nMichel Moriniaux\n(SRE - Microsoft/LinkedIn)\n“An excellent approach\nto the problem”\nFrank Denis\n(Security guru, former OVH CISO)\n“In an everything-Cyber world, it’s\nreassuring to find some genuine\nsecurity professionals.”\nNicolas Ruff\n(Security Engineer, Google)",
+    "CrowdSec\nThis presentation is licensed under a Creative Commons Attribution 4.0\nInternational License."
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Team of three co-founders with about 50 years of combined entrepreneurial experience",
+      "quote": "…cumulating 50 years of entrepreneurial craftsmanship.",
+      "slide": 6,
+      "category": "team",
+      "value": 50.0,
+      "unit": "years",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent sources confirm CrowdSec has exactly three co-founders (Humeau, Koechlin, Soubrevilla) who had each previously run companies. The \"50 years combined\" figure is not stated anywhere and can't be checked, but it is plausible for founders with 20+ years each in the field.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Global Security Mag (interview with CEO Philippe Humeau)",
+            "url": "https://www.globalsecuritymag.fr/Philippe-Humeau-CrowdSec-un,20201026,104183.html",
+            "quote": "CrowdSec a été créée par trois fondateurs : Philippe Humeau, Thibault Koechlin et Laurent Soubrevilla.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Welcome to the Jungle – CrowdSec",
+            "url": "https://app.welcometothejungle.com/companies/CrowdSec",
+            "quote": "Previously founded and acted as CEO for NBS System.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Globalsante – The story of CrowdSec",
+            "url": "https://globalsante.org/en/the-story-of-crowdsec-a-key-player-in-the-cybersecurity-village/",
+            "quote": "In December 2019, Philippe Humeau, Thibault Koechlin, and Laurent Soubrevilla, three seasoned entrepreneurs, launched CrowdSec.",
+            "date": null,
+            "stance": "supports"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.3298,
+          "y": 0.9598,
+          "w": 0.4082,
+          "h": 0.038
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "CEO has 22 years in cyber security, 3 exits and 4 fundraisers",
+      "quote": "4 fundraisers, 3 exits. 22 years in",
+      "slide": 6,
+      "category": "team",
+      "value": 22.0,
+      "unit": "years",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Public profiles confirm the CEO's cyber security career since 1999 (about 22 years when the deck was written) and one exit, the 2016 sale of NBS System. I found no independent source for 3 exits or 4 fundraisers.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Opensource.com – Philippe Humeau bio",
+            "url": "https://opensource.com/users/philippe-humeau",
+            "quote": "The company (NBS) was sold in 2016 and Philippe founded CrowdSec in 2019, gathering all his experience to create a new Open-source security engine, based on both Reputation & Behavior to tackle the mass scale hacking problem.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "BabyBoomer.org – Breakfast Leadership Show",
+            "url": "https://babyboomer.org/shows/breakfast-leadership-show/crowdsourcing-cybersecurity-how-crowdsecs-firewall-battles-malicious-ips-with-philippe-humeau/",
+            "quote": "He has created five start-up companies and is a seed investor in ten others.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.4483,
+          "y": 0.4831,
+          "w": 0.1983,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "Detects 50+ attack types and unwanted behaviors",
+      "quote": "CrowdSec already deals with 50+ attacks & unwanted behaviors…",
+      "slide": 8,
+      "category": "product",
+      "value": 50.0,
+      "unit": "count",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 8,
+          "x": 0.2009,
+          "y": 0.8058,
+          "w": 0.6266,
+          "h": 0.1383
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "Signals collected from 172 countries, more than anyone before",
+      "quote": "Already collecting more signals than anyone before, from 172 countries.",
+      "slide": 9,
+      "category": "traction",
+      "value": 172.0,
+      "unit": "countries",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "CrowdSec's own site and press coverage show a network of 300K+ engines sending 60M+ signals a day from 175–190 countries, which is more than the deck's 172. The deck's 'more than anyone before' superlative has no independent confirmation.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "CrowdSec website",
+            "url": "https://www.crowdsec.net/",
+            "quote": "The growing CrowdSec Network is made of more than 300,000 active Security Engines in 190 countries, across all industries and business sizes, sharing more than 60 million signals a day on aggressive IPs.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "PR Newswire (CrowdSec Series A)",
+            "url": "https://www.prnewswire.com/news-releases/crowdsec-the-worlds-first-crowdsourced-cti-solution-raises-14m-in-series-a-funding-to-combat-cybercrime-301642126.html",
+            "quote": "At present, CrowdSec's community spans 175 countries.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Medium (CrowdSec)",
+            "url": "https://medium.com/@andreahervier/crowdsec-broke-into-154-countries-17-months-after-the-launch-a19b59dbcdd",
+            "quote": "17 months after launching the project, we broke into 154 countries - and here is what we did right:",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 9,
+          "x": 0.3368,
+          "y": 0.9187,
+          "w": 0.6292,
+          "h": 0.0449
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "130,000 installations in 2 years (as of Sept 2022)",
+      "quote": "130 000 Installations (in 2 years)",
+      "slide": 13,
+      "category": "traction",
+      "value": 130000.0,
+      "unit": "installations",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Press coverage around the Oct 2022 Series A puts CrowdSec at roughly 100,000 to 130,000 installations, so 130,000 is at the top of the range. Only one French article says 'nearly 130,000', and CrowdSec's own releases say 100,000 and 120,000.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Pôle Sociétés (French press on Series A)",
+            "url": "https://polesocietes.com/actualites/levee-de-fonds/cybersecurite-crowdsec-leve-14-millions-d-euros-pour-s-internationaliser",
+            "quote": "Le logiciel de CrowdSec a été installé près de 130 000 fois par des utilisateurs de plus de 174 pays différents.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "CrowdSec blog (Series A announcement)",
+            "url": "https://www.crowdsec.net/blog/crowdsec-announces-series-a-funding",
+            "quote": "Less than 3 years after the beginning of this adventure, we count over 120,000 installations in 175 countries, with adopters including governments, major e-commerce actors, media and financial institutions, armed forces, universities, hospitals, research centers, and more.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "PR Newswire (CrowdSec press release, Oct 6, 2022)",
+            "url": "https://www.prnewswire.com/news-releases/crowdsec-the-worlds-first-crowdsourced-cti-solution-raises-14m-in-series-a-funding-to-combat-cybercrime-301642126.html",
+            "quote": "The software recently hit the 100,000 installations mark, with adopters including governments, major e-commerce actors, media and financial institutions.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": "customers",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 13,
+          "x": 0.7236,
+          "y": 0.3023,
+          "w": 0.0897,
+          "h": 0.0588
+        },
+        {
+          "slide": 13,
+          "x": 0.6846,
+          "y": 0.3504,
+          "w": 0.1676,
+          "h": 0.038
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "7.2M bad IPs identified",
+      "quote": "7 200 000 Bad IPs identified",
+      "slide": 13,
+      "category": "traction",
+      "value": 7200000.0,
+      "unit": "IPs",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "CrowdSec's 2021 Series A announcement said it had identified and blocked over 7M malicious IPs after 17 months, which matches the deck's 7.2M figure as an early-stage number. The current total is much larger, so the figure is out of date.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "PR Newswire (CrowdSec Series A)",
+            "url": "https://www.prnewswire.com/news-releases/crowdsec-the-worlds-first-crowdsourced-cti-solution-raises-14m-in-series-a-funding-to-combat-cybercrime-301642126.html",
+            "quote": "Just 17 months on, CrowdSec had grown their community by 3000% and identified and blocked over 7M malicious IPs used by cybercriminals to carry out attacks.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Cyber Defense Magazine",
+            "url": "https://www.cyberdefensemagazine.com/publishers-spotlight-crowdsec-real-time-crowdsourced-protection/",
+            "quote": "50 Million malicious IPs flagged",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 13,
+          "x": 0.7119,
+          "y": 0.4063,
+          "w": 0.1131,
+          "h": 0.0588
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "19M daily reports received",
+      "quote": "19 000 000 Daily reports received",
+      "slide": 13,
+      "category": "traction",
+      "value": 19000000.0,
+      "unit": "reports_per_day",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "CrowdSec's own pages show daily signals growing from 16M (about 2022) to a 20M record and now 60M+, so 19M fits an older period but no source confirms that exact figure, and today's number is much higher.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "CrowdSec on LinkedIn",
+            "url": "https://www.linkedin.com/posts/crowdsec_crowdsec-meshed-security-leveraging-on-numbers-activity-6978252058357334016-n8pL",
+            "quote": "The community now reports more than 16M attack signals daily and has already flagged 8.5M malicious IPs.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "CrowdSec on LinkedIn",
+            "url": "https://www.linkedin.com/posts/crowdsec_crowdsec-meshed-security-leveraging-on-numbers-activity-6978252058357334016-n8pL",
+            "quote": "We hit 20 million threats reported per day - a record high for the community!",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "CrowdSec homepage",
+            "url": "https://www.crowdsec.net/",
+            "quote": "CrowdSec turns 60M+ attack signals a day from 300K+ Security Engines into IP reputation, firewall blocklists, and live exploit intelligence for SOC teams.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 13,
+          "x": 0.7056,
+          "y": 0.5103,
+          "w": 0.1258,
+          "h": 0.0588
+        },
+        {
+          "slide": 13,
+          "x": 0.6855,
+          "y": 0.5584,
+          "w": 0.166,
+          "h": 0.038
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "Network spans 175 countries",
+      "quote": "175 Countries",
+      "slide": 13,
+      "category": "traction",
+      "value": 175.0,
+      "unit": "countries",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "CrowdSec's own Oct 2022 press release said its community spans 175 countries, and later coverage cites 190+ countries, so 175 is accurate and possibly conservative. The sources are company-issued.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "PR Newswire (CrowdSec Series A release)",
+            "url": "https://www.prnewswire.com/news-releases/crowdsec-the-worlds-first-crowdsourced-cti-solution-raises-14m-in-series-a-funding-to-combat-cybercrime-301642126.html",
+            "quote": "At present, CrowdSec's community spans 175 countries.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Cyber Defense Magazine",
+            "url": "https://www.cyberdefensemagazine.com/publishers-spotlight-crowdsec-real-time-crowdsourced-protection/",
+            "quote": "190+ countries represented by the CrowdSec Community",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 13,
+          "x": 0.75,
+          "y": 0.6143,
+          "w": 0.0369,
+          "h": 0.0588
+        },
+        {
+          "slide": 13,
+          "x": 0.7317,
+          "y": 0.6624,
+          "w": 0.0736,
+          "h": 0.038
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "92% of bad traffic blocked by IP reputation alone",
+      "quote": "-92% of the bad traffic aimed at a server,",
+      "slide": 15,
+      "category": "product",
+      "value": 0.92,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 15,
+          "x": 0.5901,
+          "y": 0.0792,
+          "w": 0.399,
+          "h": 0.0588
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Only about 0.35% of IPs (22K of 7.2M) are in the fire list requiring behavior detection",
+      "quote": "~0.35%",
+      "slide": 15,
+      "category": "product",
+      "value": 0.0035,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 15,
+          "x": 0.2797,
+          "y": 0.7976,
+          "w": 0.0648,
+          "h": 0.0484
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Claims 99.99% certainty that CTI is actionable",
+      "quote": "Actionable. We are 99,99% sure!",
+      "slide": 17,
+      "category": "product",
+      "value": 0.9999,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 17,
+          "x": 0.6496,
+          "y": 0.2999,
+          "w": 0.2993,
+          "h": 0.0484
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Open source MIT licensed, free forever; monetizes CTI access for non-sharing users",
+      "quote": "We monetize access to CTI for those not sharing",
+      "slide": 12,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 12,
+          "x": 0.5268,
+          "y": 0.7351,
+          "w": 0.1446,
+          "h": 0.0311
+        },
+        {
+          "slide": 12,
+          "x": 0.523,
+          "y": 0.7617,
+          "w": 0.1522,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Complementary to existing security tools, does not compete",
+      "quote": "We don’t compete",
+      "slide": 22,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "CrowdSec integrates with existing tools, but it also sells its own WAF/IDS/IPS and is listed as a direct alternative to Fail2ban and Cloudflare WAF, so \"we don't compete\" is too strong.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "AppSec Component - CrowdSec WAF",
+            "url": "https://docs.crowdsec.net/docs/appsec/intro/",
+            "quote": "CrowdSec's AppSec Component is an open-source Web Application Firewall (WAF) that inspects HTTP requests in real time, with virtual patching and OWASP CRS.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "CrowdSec Alternatives - Firewalls and other similar apps like CrowdSec",
+            "url": "https://alternativeto.net/software/crowdsec",
+            "quote": "The best CrowdSec alternative is Cloudflare, which is free.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Frictionless DevSecOps: How CrowdSec fits Your Pipelines & Perimeter",
+            "url": "https://www.crowdsec.net/blog/devsecops-without-friction-how-crowdsec-fits-your-pipelines",
+            "quote": "CrowdSec integrates with existing infra and tools; you keep your preferred WAF, proxy, firewall, CDN, SIEM/SOAR.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 22,
+          "x": 0.1257,
+          "y": 0.165,
+          "w": 0.1611,
+          "h": 0.0933
+        },
+        {
+          "slide": 22,
+          "x": 0.1257,
+          "y": 0.237,
+          "w": 0.1721,
+          "h": 0.0933
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Ranked #17 on G2 best 2022 cybersecurity products, leader in 30+ categories",
+      "quote": "Voted #17 on G2 best 2022 cybersecurity product,",
+      "slide": 23,
+      "category": "customers",
+      "value": 17.0,
+      "unit": "rank",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "G2's own 2022 Best Security Products page and VentureBeat both place CrowdSec at #17. However, G2 shows CrowdSec in only 6 categories, so the 'leader in 30+ categories' part looks overstated and may really mean 30+ badges.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "VentureBeat",
+            "url": "https://venturebeat.com/2022/02/08/50-security-products-that-customers-really-love",
+            "quote": "exceptions include top-10 finishers Cynet and JumpCloud, as well as CrowdSec (No.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "G2 Best Security Products 2022",
+            "url": "https://www.g2.com/best-software-companies/2022/top-security",
+            "quote": "Best Security Products 2022",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "G2 – CrowdSec seller page",
+            "url": "https://www.g2.com/sellers/crowdsec",
+            "quote": "6 categories",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 23,
+          "x": 0.583,
+          "y": 0.5417,
+          "w": 0.2953,
+          "h": 0.0553
+        },
+        {
+          "slide": 23,
+          "x": 0.583,
+          "y": 0.5891,
+          "w": 0.2522,
+          "h": 0.0553
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Only 3 of 50 top products are from startups; outranked Microsoft, GitHub, Symantec",
+      "quote": "only 3 out of 50 products are edited by startups. We outranked Microsoft, GitHub, Symantec, Dynatrace, Tenable, ...)",
+      "slide": 23,
+      "category": "competition",
+      "value": 3.0,
+      "unit": "count",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "The G2 top-50 list reported by VentureBeat does rank CrowdSec (#17) above GitHub (#19), Symantec (#21), Dynatrace (#30) and Tenable (#32). However, the same article names at least five startups on the list (Cynet, JumpCloud, CrowdSec, Beagle Security, Virtru), not three. Microsoft's Azure Active Directory (#15) also ranks above CrowdSec, so 'outranked Microsoft' holds only for GitHub.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "50 security products that customers really love",
+            "url": "https://venturebeat.com/2022/02/08/50-security-products-that-customers-really-love",
+            "quote": "exceptions include top-10 finishers Cynet and JumpCloud, as well as CrowdSec (No.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 23,
+          "x": 0.8133,
+          "y": 0.7496,
+          "w": 0.1062,
+          "h": 0.0346
+        },
+        {
+          "slide": 23,
+          "x": 0.5841,
+          "y": 0.7793,
+          "w": 0.3223,
+          "h": 0.0346
+        },
+        {
+          "slide": 23,
+          "x": 0.569,
+          "y": 0.8089,
+          "w": 0.3349,
+          "h": 0.0346
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The deck says 130,000 installations in 2 years, but your own releases say 100,000 and then 120,000, and only one French article says 'nearly 130,000'. How do you define an installation, and how many of those are active engines that actually send signals today?",
+      "claim_ids": [
+        "c5"
+      ],
+      "why": "Installations are the top-of-funnel for the whole open-source-to-CTI monetization case, and the 130K figure sits at the top of the publicly reported range.",
+      "evidence_to_request": "Dated export of the installation/enrollment database (unique machine IDs) with monthly cumulative and 30-day active engines, plus the dedup methodology and the dashboard behind the Sept 2022 figure.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "The deck says you monetize CTI access for those not sharing, but what is actual paid conversion so far? How many of those 130K installs are paying, what is ARR, and what stops a non-sharer from just using the free tier or a fork given the MIT license?",
+      "claim_ids": [
+        "c12",
+        "c5"
+      ],
+      "why": "The business model rests on converting free users to paid CTI access, and no evidence has been shown that it works.",
+      "evidence_to_request": "Billing/Stripe export, current ARR and pipeline, pricing tiers, and conversion funnel from install to paid CTI subscriber.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You claim 92% of bad traffic is blocked by IP reputation alone and that CTI is '99.99% sure' actionable. What dataset and methodology produced those numbers, and what is the measured false-positive rate?",
+      "claim_ids": [
+        "c9",
+        "c10",
+        "c11"
+      ],
+      "why": "These product-efficacy claims underpin the core value proposition of the CTI offer, yet no method or source is provided.",
+      "evidence_to_request": "Methodology and raw data behind the 92%, 0.35% fire-list, and 99.99% figures, including false-positive rates, test environment and any third-party validation.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "The deck says 'we don't compete', yet CrowdSec sells its own WAF/IDS/IPS and is listed as a direct alternative to Fail2ban and Cloudflare WAF. Who do you displace in the budget, and how do incumbents respond when you encroach?",
+      "claim_ids": [
+        "c13",
+        "c15"
+      ],
+      "why": "Positioning as a complement affects market sizing and competitive risk, and the deck also overstates its G2 comparisons, such as only 3 startups in the top 50, which suggests loose framing.",
+      "evidence_to_request": "Competitive win/loss list, customer replacement examples, and a breakdown of which budget lines CrowdSec revenue displaces.",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "text": "You cite 3 exits and 4 fundraisers for the CEO, but we can only verify the 2016 NBS System sale. Can you walk us through each exit and raise, and also the G2 'leader in 30+ categories' claim when G2 lists you in only 6?",
+      "claim_ids": [
+        "c2",
+        "c14"
+      ],
+      "why": "Founder track record and third-party validation are credibility signals, and both are overstated relative to public sources.",
+      "evidence_to_request": "Founder CVs with company names, exit dates and acquirers, cap table or round history of prior ventures, and the G2 badge/category report.",
+      "priority": 5
+    }
+  ],
+  "created_at": "2026-11-14T04:23:39+00:00",
+  "mode": "deck",
+  "title": "CrowdSec Series A deck (2022)",
+  "slide_count": 25,
+  "transcript": [],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the whole case rests on 130,000 installations, which sits at the top of the press range, and the deck shows no revenue or paid conversion.",
+    "summary": "CrowdSec is an MIT-licensed open-source security engine that crowdsources IP reputation and plans to monetize threat-intelligence access for users who do not share signals. The deck claims 130,000 installations in 2 years, 7.2M bad IPs identified, 19M daily reports and a network spanning 175 countries. The network figures are supported or plausible, but they are dated and mostly come from company-issued sources. The 130,000 install count is unverified: the company's own releases say 100,000 and 120,000, and only one French article says nearly 130,000. Several secondary claims are overstated or contradicted: \"we don't compete\", \"only 3 of 50 are startups\" and \"leader in 30+ categories\". The CEO's 3 exits are also unconfirmed, with only one verified. None of these breaks the thesis alone, but together they show a habit of rounding up, and the monetization claim is untested.",
+    "strengths": [
+      "Three co-founders confirmed by independent sources, each of whom previously ran a company; the CEO has been in cybersecurity since 1999.",
+      "Ranked #17 on G2's 2022 best security products list, confirmed by G2 and VentureBeat, ahead of GitHub, Symantec, Dynatrace and Tenable.",
+      "Network scale is credible: 7.2M bad IPs matches the 2021 Series A announcement, and the 175-country footprint matches the company's October 2022 press release, with later coverage citing 190+ countries.",
+      "Open-source distribution gives low-friction adoption and a data network effect, since more engines mean more signals."
+    ],
+    "red_flags": [
+      {
+        "text": "The central traction number, 130,000 installations in 2 years, is unverified and at the top of the 100K-130K range in press coverage. The company's own releases say 100K and 120K, and installations are not defined, so active engines sending signals are unknown.",
+        "claim_ids": [
+          "c5"
+        ]
+      },
+      {
+        "text": "The monetization model, selling CTI access to non-sharers, has no revenue, ARR or paid-conversion evidence. MIT licensing and a free tier make it unclear what stops non-sharers from forking or staying free.",
+        "claim_ids": [
+          "c12",
+          "c5"
+        ]
+      },
+      {
+        "text": "The security-efficacy figures (92% of bad traffic blocked by IP reputation alone, 0.35% fire list, 99.99% actionable) have no stated methodology, dataset or false-positive rate, and none has been checked.",
+        "claim_ids": [
+          "c9",
+          "c10",
+          "c11"
+        ]
+      },
+      {
+        "text": "Competitive and ranking claims are overstated. \"We don't compete\" is contradicted, since CrowdSec sells its own WAF/IDS/IPS and is listed as an alternative to Fail2ban and Cloudflare WAF. \"Only 3 of 50 are startups\" is contradicted by at least five startups on the list. Microsoft outranks CrowdSec on the list, so \"outranked Microsoft\" holds only for GitHub.",
+        "claim_ids": [
+          "c13",
+          "c15"
+        ]
+      },
+      {
+        "text": "Credential inflation: only one CEO exit (NBS System, 2016) is verified, versus 3 exits and 4 fundraisers claimed. \"Leader in 30+ categories\" looks like badge counting, since G2 lists CrowdSec in 6 categories.",
+        "claim_ids": [
+          "c2",
+          "c14"
+        ]
+      }
+    ],
+    "questions": [
+      "How do you define an installation, and how many of the 130K are active engines sending signals in the last 30 days today?",
+      "What is actual paid conversion for CTI access: how many paying customers, what ARR, and what stops a non-sharer from using the free tier or a fork under the MIT license?",
+      "What dataset and method produced the 92% blocked, 0.35% fire list and 99.99% actionable figures, and what is the measured false-positive rate?",
+      "You say you don't compete, but you sell a WAF/IDS/IPS and are listed against Fail2ban and Cloudflare WAF. Whose budget do you displace, and how do incumbents respond?",
+      "Can you walk us through each of the CEO's 3 exits and 4 raises, and explain the 30+ categories claim when G2 lists you in 6?"
+    ],
+    "evidence_requests": [
+      "Dated export of the installation/enrollment database (unique machine IDs) with monthly cumulative installs and 30-day active engines, plus dedup methodology",
+      "Billing/Stripe export, current ARR, pipeline, pricing tiers and the install-to-paid conversion funnel",
+      "Methodology and raw data behind the 92%, 0.35% and 99.99% figures, including false-positive rates and any third-party validation",
+      "Founder CVs with company names, exit dates and acquirers, plus the G2 badge/category report",
+      "Competitive win/loss list with customer replacement examples"
+    ],
+    "live_notes": [],
+    "generated_at": "2026-11-14T05:15:13+00:00"
+  },
+  "source_url": "https://docs.google.com/presentation/d/1akI0F7CYqff7xJuPklrQiYE4xymv6bU1FHHjvP9lBLY",
+  "outcome": "Raised a 14.1 M EUR Series A led by Supernova (2022)",
+  "outcome_won": true,
+  "outcome_source": "https://github.com/crowdsecurity/fundraising-decks",
+  "score": {
+    "total": 70.1,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 20.8,
+        "max_points": 40.0,
+        "detail": "5 supported and 2 contradicted of 15 claims; load-weighted 21% backed and 8% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 17.3,
+        "max_points": 20.0,
+        "detail": "13 of 15 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 12.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 2 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: evidence balance (20.8/40).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "c12",
+        "text": "Open source MIT licensed, free forever; monetizes CTI access for non-sharing users",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "c10",
+        "text": "Only about 0.35% of IPs (22K of 7.2M) are in the fire list requiring behavior detection",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "c11",
+        "text": "Claims 99.99% certainty that CTI is actionable",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "c13",
+        "text": "Complementary to existing security tools, does not compete",
+        "part": "A",
+        "effect": -1.7,
+        "reason": "CrowdSec integrates with existing tools, but it also sells its own WAF/IDS/IPS and is listed as a direct alternative to Fail2ban and Cloudflare WAF, so \"we don't compete\" is too strong."
+      },
+      {
+        "claim_id": "c15",
+        "text": "Only 3 of 50 top products are from startups; outranked Microsoft, GitHub, Symantec",
+        "part": "A",
+        "effect": -1.7,
+        "reason": "The G2 top-50 list reported by VentureBeat does rank CrowdSec (#17) above GitHub (#19), Symantec (#21), Dynatrace (#30) and Tenable (#32). However, the same article names at least five startups on the list (Cynet, JumpCl"
+      },
+      {
+        "claim_id": "c12",
+        "text": "Open source MIT licensed, free forever; monetizes CTI access for non-sharing users",
+        "part": "B",
+        "effect": -1.3,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c13",
+        "text": "Complementary to existing security tools, does not compete",
+        "part": "B",
+        "effect": -1.3,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c1",
+        "text": "Team of three co-founders with about 50 years of combined entrepreneurial experience",
+        "part": "A",
+        "effect": 0.8,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": null
+}

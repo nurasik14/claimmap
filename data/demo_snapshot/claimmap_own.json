@@ -1,0 +1,784 @@
+{
+  "deck_id": "claimmap_own",
+  "status": "done",
+  "progress": "Finalized in 15s: 14 claims, 1 contradicted, 5 questions (0 arithmetic findings; web: 2 verdicts, web search skipped for c1 (ValueError))",
+  "error": null,
+  "company": "ClaimMap",
+  "website": null,
+  "slides": [
+    "ClaimMap\n- Know what a deal rests on, before and during the pitch\n- Hackathon build, 14 Nov 2026\n- Team: Nurassyl Serikov (CS, City University of Hong Kong)",
+    "Problem\n- VCs spend 118 hours on due diligence per deal on average (survey of 885 VCs, Gompers et al. 2020)\n- Experienced investors say every pitch contains at least three or four common lies (Kawasaki and\nReichert, 2006)\n- A deal usually rests on a few load-bearing claims, but decks list dozens",
+    "Solution\n- Claim map: every deck claim, checked with arithmetic and web evidence, ranked by how much of the\ndeal rests on it\n- Live mode: transcribes the pitch and flags drift from the deck about 4-6 seconds after it is said\n- One-page investment memo and a 0-100 ClaimMap Score with cited criteria",
+    "Competition\n- GoPresent and TechTruth check deck claims and return flat lists of verdicts\n- Faktum and VeriFact fact-check spoken claims live, one sentence at a time\n- None of them compares the live pitch with the founder's own deck or ranks which claims the deal rests\non",
+    "Traction\n- Built in one day at this hackathon\n- Tested on 3 founder-published decks and 8 TechCrunch Startup Battlefield final pitches\n- 0 paying customers so far",
+    "Business model\n- Per-seat subscription for funds, free tier for angels\n- Reference price: TechTruth charges VC funds 799 EUR for a beta trial",
+    "Ask\n- 2-3 funds to pilot ClaimMap on their next 10 decks"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "VCs spend an average of 118 hours on due diligence per deal",
+      "quote": "VCs spend 118 hours on due diligence per deal on average (survey of 885 VCs, Gompers et al. 2020)",
+      "slide": 2,
+      "category": "market",
+      "value": 118.0,
+      "unit": "hours_per_deal",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.0494,
+          "y": 0.1928,
+          "w": 0.9102,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Experienced investors say every pitch contains at least three or four common lies",
+      "quote": "Experienced investors say every pitch contains at least three or four common lies (Kawasaki and\nReichert, 2006)",
+      "slide": 2,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Guy Kawasaki's own blog post, co-credited to his partner Bill Reichert and dated January 2006, says every pitch they see contains at least three or four of these lies. The claim is a single investor's opinion, though, not a measured fact.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Guy Kawasaki blog – The Top Ten Lies of Entrepreneurs",
+            "url": "https://guykawasaki.com/the_top_ten_lie_1-3/",
+            "quote": "We get pitched dozens of times every year, and every pitch contains at least three or four of these lies.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Skok123 – repost of Kawasaki's list",
+            "url": "https://www.skok123.com/post/perspective-from-the-no-bullshitaki-guy",
+            "quote": "Luckily, my partner, Bill Reichert, had already documented this list of the top ten lies of entrepreneurs.)",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "ResearchGate – When do investors forgive entrepreneurs for lying?",
+            "url": "https://www.researchgate.net/publication/259133181_When_do_investors_forgive_entrepreneurs_for_lying",
+            "quote": "just about every entrepreneur who pitches me tells at least four of these eleven lies”(Kawasaki, 2008: 44).",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.0527,
+          "y": 0.25,
+          "w": 0.9102,
+          "h": 0.0264
+        },
+        {
+          "slide": 2,
+          "x": 0.037,
+          "y": 0.2976,
+          "w": 0.138,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "Claim map checks every deck claim with arithmetic and web evidence and ranks by how much the deal rests on it",
+      "quote": "every deck claim, checked with arithmetic and web evidence, ranked by how much of the deal rests on it",
+      "slide": 3,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.1593,
+          "y": 0.1928,
+          "w": 0.8037,
+          "h": 0.0264
+        },
+        {
+          "slide": 3,
+          "x": 0.037,
+          "y": 0.2404,
+          "w": 0.1313,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "Live mode flags drift from the deck about 4-6 seconds after it is said",
+      "quote": "transcribes the pitch and flags drift from the deck about 4-6 seconds after it is said",
+      "slide": 3,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.1537,
+          "y": 0.2976,
+          "w": 0.7318,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "One-page investment memo and 0-100 ClaimMap Score with cited criteria",
+      "quote": "One-page investment memo and a 0-100 ClaimMap Score with cited criteria",
+      "slide": 3,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.0494,
+          "y": 0.3547,
+          "w": 0.6789,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "Competitors GoPresent and TechTruth only return flat lists of verdicts on deck claims",
+      "quote": "GoPresent and TechTruth check deck claims and return flat lists of verdicts",
+      "slide": 4,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.63,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Both companies do check deck claims, but neither returns only flat verdict lists: GoPresent produces IC-memo drafts, gap lists and investor coaching, and TechTruth produces a 9-chapter report with founder checks and benchmarking.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "The pitch deck BS detector for VCs (GoPresent)",
+            "url": "https://www.gopresent.ai/for-scouts",
+            "quote": "Every claim in the deck is pulled out and put against the public record, then written up as an IC memo draft your team can circulate.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "TechTruth.ai — AI Claim Verification for VCs",
+            "url": "https://www.techtruth.ai/",
+            "quote": "Founder background check, AI wrapper detection, stage benchmarking — 9-chapter report.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Find out why investors say No (GoPresent)",
+            "url": "https://www.gopresent.ai/",
+            "quote": "You also get investor Q&A coaching and a revised deck with the gaps addressed.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 4,
+          "x": 0.0494,
+          "y": 0.1928,
+          "w": 0.6711,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "Faktum and VeriFact fact-check spoken claims live, one sentence at a time",
+      "quote": "Faktum and VeriFact fact-check spoken claims live, one sentence at a time",
+      "slide": 4,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.63,
+      "check": {
+        "verdict": "supported",
+        "reason": "Both products exist and fact-check spoken claims in real time: Faktum for meetings on iOS and macOS, and VeriFact for Zoom calls. Neither source confirms the 'one sentence at a time' granularity. Both pages are the vendors' own sites, not independent coverage.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Faktum — Real-Time AI Meeting Fact-Checker for iOS & macOS",
+            "url": "https://getfaktum.com/",
+            "quote": "Passive AI meeting assistant for iOS & macOS that transcribes in 30 languages and fact-checks every spoken claim against the web in real time, with sources.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "VeriFact — Real-Time Fact Checking for Zoom Meetings",
+            "url": "https://www.verifact.live/",
+            "quote": "Streaming, not batch: Claims are processed as they're spoken — verdicts land while the discussion is still open.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 4,
+          "x": 0.0494,
+          "y": 0.25,
+          "w": 0.67,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "No competitor compares live pitch with founder's deck or ranks load-bearing claims",
+      "quote": "None of them compares the live pitch with the founder's own deck or ranks which claims the deal rests\non",
+      "slide": 4,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c6",
+        "c7",
+        "c3",
+        "c4"
+      ],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Many tools already check deck claims against web evidence (DeckVue, TechTruth, GoPresent), and PitchBob has announced a planned 'Live Pitch vs. Deck Delta' feature, but I found no shipped product that both compares the live pitch to the deck and ranks load-bearing claims. That makes 'none of them' plausible but not proven, and it is at risk as PitchBob's feature ships.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "How PitchBob's AI Analyst Matched VC Judgments in Startup Pitches",
+            "url": "https://pitchbob.io/blog/case-study-how-we-used-pitchbobs-ai-analyst-to-evaluate-startup-pitches----and-how-it-matched-vc-judgments",
+            "quote": "Live Pitch vs. Deck Delta: A feature that compares the emailed deck with the on-stage pitch (or transcript) to assess message consistency.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "DeckVue",
+            "url": "https://deckvue.ai/",
+            "quote": "AI fact-checks key claims on market size, competition, and team against web sources with confidence scores.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "TechTruth.ai — AI Claim Verification for VCs",
+            "url": "https://www.techtruth.ai/",
+            "quote": "Every claim in the deck is matched against evidence.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 4,
+          "x": 0.0494,
+          "y": 0.3071,
+          "w": 0.9136,
+          "h": 0.0264
+        },
+        {
+          "slide": 4,
+          "x": 0.037,
+          "y": 0.3547,
+          "w": 0.0225,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "Product built in one day at the hackathon",
+      "quote": "Built in one day at this hackathon",
+      "slide": 5,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 5,
+          "x": 0.0494,
+          "y": 0.1928,
+          "w": 0.2963,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "Tested on 3 founder-published decks and 8 TechCrunch Startup Battlefield final pitches",
+      "quote": "Tested on 3 founder-published decks and 8 TechCrunch Startup Battlefield final pitches",
+      "slide": 5,
+      "category": "traction",
+      "value": 11.0,
+      "unit": "test_cases",
+      "depends_on": [
+        "c3",
+        "c4"
+      ],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "This is the team's own internal testing record. No public source shows ClaimMap, its test runs, or which decks and pitches it was tested on, so it can't be confirmed or refuted from the web.",
+        "sources": [],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 5,
+          "x": 0.0494,
+          "y": 0.25,
+          "w": 0.7812,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "0 paying customers",
+      "quote": "0 paying customers so far",
+      "slide": 5,
+      "category": "customers",
+      "value": 0.0,
+      "unit": "customers",
+      "depends_on": [],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "ClaimMap is a hackathon build dated 14 Nov 2026, and my search found no public pages, press coverage or filings about its customers or revenue. The \"0 paying customers\" figure is the startup's own number, and nothing I found confirms or conflicts with it.",
+        "sources": [],
+        "method": "web"
+      },
+      "role": "customers",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 5,
+          "x": 0.0494,
+          "y": 0.3071,
+          "w": 0.2312,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Per-seat subscription for funds with free tier for angels",
+      "quote": "Per-seat subscription for funds, free tier for angels",
+      "slide": 6,
+      "category": "financials",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0494,
+          "y": 0.1928,
+          "w": 0.4478,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "TechTruth charges VC funds EUR 799 for a beta trial (pricing reference)",
+      "quote": "TechTruth charges VC funds 799 EUR for a beta trial",
+      "slide": 6,
+      "category": "competition",
+      "value": 799.0,
+      "unit": "EUR",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "TechTruth.ai's own public site advertises a €799 (excl. VAT) beta trial fee for VC funds, which gives 3 months of unlimited audits. This is the company's own page, not an independent source.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "TechTruth.ai",
+            "url": "https://www.techtruth.ai/",
+            "quote": "€799 trial fee (excluding VAT), unlimited audits, direct line to the founding team.",
+            "date": null,
+            "stance": "supports"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.2031,
+          "y": 0.25,
+          "w": 0.4747,
+          "h": 0.0264
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Ask: 2-3 funds to pilot ClaimMap on their next 10 decks",
+      "quote": "2-3 funds to pilot ClaimMap on their next 10 decks",
+      "slide": 7,
+      "category": "ask",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c3",
+        "c4",
+        "c10",
+        "c11",
+        "c8"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0494,
+          "y": 0.1928,
+          "w": 0.4489,
+          "h": 0.0264
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Your deck says GoPresent and TechTruth only return flat lists of verdicts, but GoPresent's site advertises IC-memo drafts, gap lists and investor coaching, and TechTruth sells a 9-chapter report with founder checks and benchmarking. What does ClaimMap do that those products can't, and why is that more than a feature gap?",
+      "claim_ids": [
+        "c6",
+        "c8"
+      ],
+      "why": "Tests the contradicted competitor claim that underpins the 'no competitor' differentiation the pilot ask relies on.",
+      "evidence_to_request": "Side-by-side output of ClaimMap, GoPresent and TechTruth on the same deck, plus a feature matrix with screenshots of each competitor's report.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "You say no one compares the live pitch to the deck and ranks load-bearing claims, but PitchBob has announced a 'Live Pitch vs. Deck Delta' feature, and Faktum and VeriFact already fact-check speech live. What stops them from shipping this within a quarter, and what is your defensible edge on claim ranking?",
+      "claim_ids": [
+        "c8",
+        "c7"
+      ],
+      "why": "Tests whether the 'none of them' positioning survives announced and adjacent competitors, which the pilot ask depends on.",
+      "evidence_to_request": "Technical description of the load-bearing ranking method, any validation of its rankings against investor judgment, and the PitchBob roadmap evidence you have seen.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You claim live mode flags drift 4-6 seconds after a statement and that every deck claim is checked with arithmetic and web evidence. Can you show the latency measured end to end on a real pitch, and the accuracy of the flags, including false positives?",
+      "claim_ids": [
+        "c4",
+        "c3"
+      ],
+      "why": "Tests the two core product claims, with no verification so far, that the whole pilot proposition rests on.",
+      "evidence_to_request": "Screen recording with timestamps of a live run on a real pitch, a latency log, and a labeled precision/recall table across the test set.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "You say you tested on 3 founder-published decks and 8 TechCrunch Battlefield final pitches. Which ones, what did ClaimMap flag, and how do you know the flags were right and the ranking matched what actually mattered to the deal?",
+      "claim_ids": [
+        "c10",
+        "c3"
+      ],
+      "why": "Tests the only evidence of product validity offered, which is internal and unverifiable, behind the ask.",
+      "evidence_to_request": "List of the 11 test items with ClaimMap outputs, ground-truth labels and the method used to score them.",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "text": "You have 0 paying customers and are asking 2-3 funds to pilot on their next 10 decks. Do any funds have commitments or conversations underway, and what would make a fund pay per seat after the pilot?",
+      "claim_ids": [
+        "c14",
+        "c11",
+        "c12"
+      ],
+      "why": "Tests demand and conversion behind the pilot ask, given zero customers and an untested pricing model.",
+      "evidence_to_request": "Names of funds in conversation, any LOIs or pilot agreements, and the pilot success criteria and pricing assumptions.",
+      "priority": 5
+    }
+  ],
+  "created_at": "2026-11-14T04:46:16+00:00",
+  "mode": "deck",
+  "title": "ClaimMap (our own pitch deck)",
+  "slide_count": 7,
+  "transcript": [],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the deck misstates its two closest competitors, and the core product claims (checking every claim, flagging drift in 4-6 seconds) have no evidence behind them yet.",
+    "summary": "ClaimMap is a hackathon-built tool that checks every deck claim with arithmetic and web evidence, ranks claims by how much the deal rests on them, and flags drift live 4-6 seconds after it is said. It asks 2-3 funds to pilot it on their next 10 decks. The claim that GoPresent and TechTruth only return flat verdict lists is contradicted by their own sites: GoPresent produces IC-memo drafts, gap lists and coaching, and TechTruth a 9-chapter report with founder checks and benchmarking. The claim that Faktum and VeriFact fact-check speech live holds up, and the TechTruth EUR 799 beta price is confirmed. The differentiation claim (nobody compares the live pitch to the deck and ranks load-bearing claims) is plausible but unproven, and PitchBob has announced a similar live-delta feature. Nothing about the product's accuracy, latency or test results is verified, and there are 0 paying customers. We reviewed the deck only, so none of this has been tested live.",
+    "strengths": [
+      "Targets a real workflow gap: no shipped product found that both compares the live pitch to the deck and ranks load-bearing claims",
+      "Pricing reference is accurate: TechTruth's EUR 799 beta trial for VC funds is confirmed, which gives a benchmark for monetization",
+      "The ask is small and concrete: a pilot on 10 decks per fund, and the founder discloses 0 paying customers",
+      "Claims about live-speech checking by Faktum and VeriFact are accurate, so the team knows the landscape in part"
+    ],
+    "red_flags": [
+      {
+        "text": "The deck's description of its closest competitors is wrong. GoPresent and TechTruth go beyond flat verdict lists (memos, gap lists, coaching, a 9-chapter report with founder checks and benchmarking), so the positioning is overstated and the 'no competitor' story is weaker.",
+        "claim_ids": [
+          "c6",
+          "c8"
+        ]
+      },
+      {
+        "text": "The differentiation claim is unproven and at risk. PitchBob has announced a 'Live Pitch vs. Deck Delta' feature, and Faktum and VeriFact already check speech live. The edge could be a feature one competitor ships within a quarter.",
+        "claim_ids": [
+          "c8",
+          "c7"
+        ]
+      },
+      {
+        "text": "The central product claims have no evidence: checking every claim with arithmetic and web evidence, ranking by deal load, and a 4-6 second drift flag. No latency measurement, precision/recall figures or false-positive rates were provided.",
+        "claim_ids": [
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "text": "The traction is only an internal test on 3 founder decks and 8 Battlefield pitches. No public source confirms it, and there is no ground truth showing that the flags or the ranking were correct.",
+        "claim_ids": [
+          "c10"
+        ]
+      },
+      {
+        "text": "No customers or commitments: the ask is a pilot with no named funds, LOIs or success criteria, and the per-seat pricing model is untested. The product was built in one day at a hackathon.",
+        "claim_ids": [
+          "c11",
+          "c14",
+          "c12",
+          "c9"
+        ]
+      }
+    ],
+    "questions": [
+      "GoPresent and TechTruth already offer IC memos, gap lists and founder checks. What can ClaimMap do that they can't, and is it more than a feature gap?",
+      "What stops PitchBob, Faktum or VeriFact from shipping live deck-vs-pitch comparison and claim ranking within a quarter? What is the defensible edge in ranking?",
+      "What is the end-to-end drift-flag latency on a real pitch, and what are the precision, recall and false-positive rates?",
+      "Which 11 decks and pitches were tested, what did ClaimMap flag, and how was correctness of the flags and the load ranking judged?",
+      "Do any funds have conversations, LOIs or pilot commitments, and what would make a fund pay per seat after the pilot?"
+    ],
+    "evidence_requests": [
+      "Side-by-side outputs of ClaimMap, GoPresent and TechTruth on the same deck, with a feature matrix and screenshots",
+      "Screen recording with timestamps of a live run on a real pitch, plus a latency log",
+      "List of the 11 test items with ClaimMap outputs, ground-truth labels and a precision/recall table",
+      "Technical description of the load-bearing ranking method and any validation against investor judgment",
+      "Names of funds in conversation, any LOIs or pilot agreements, and the pilot success criteria and pricing assumptions"
+    ],
+    "live_notes": [],
+    "generated_at": "2026-11-14T05:15:17+00:00"
+  },
+  "source_url": null,
+  "outcome": null,
+  "outcome_won": null,
+  "outcome_source": null,
+  "score": {
+    "total": 48.4,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 18.7,
+        "max_points": 40.0,
+        "detail": "3 supported and 1 contradicted of 14 claims; load-weighted 13% backed and 10% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 5.7,
+        "max_points": 20.0,
+        "detail": "4 of 14 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 4.0,
+        "max_points": 20.0,
+        "detail": "1 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: verifiable core (4/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "c14",
+        "text": "Ask: 2-3 funds to pilot ClaimMap on their next 10 decks",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "c3",
+        "text": "Claim map checks every deck claim with arithmetic and web evidence and ranks by how much the deal rests on it",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (95% load); it could not be checked."
+      },
+      {
+        "claim_id": "c4",
+        "text": "Live mode flags drift from the deck about 4-6 seconds after it is said",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (95% load); it could not be checked."
+      },
+      {
+        "claim_id": "c6",
+        "text": "Competitors GoPresent and TechTruth only return flat lists of verdicts on deck claims",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (63% load); it could not be checked."
+      },
+      {
+        "claim_id": "c6",
+        "text": "Competitors GoPresent and TechTruth only return flat lists of verdicts on deck claims",
+        "part": "A",
+        "effect": -3.8,
+        "reason": "Both companies do check deck claims, but neither returns only flat verdict lists: GoPresent produces IC-memo drafts, gap lists and investor coaching, and TechTruth produces a 9-chapter report with founder checks and benc"
+      },
+      {
+        "claim_id": "c7",
+        "text": "Faktum and VeriFact fact-check spoken claims live, one sentence at a time",
+        "part": "A",
+        "effect": 1.9,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "c12",
+        "text": "Per-seat subscription for funds with free tier for angels",
+        "part": "B",
+        "effect": -1.4,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c14",
+        "text": "Ask: 2-3 funds to pilot ClaimMap on their next 10 decks",
+        "part": "B",
+        "effect": -1.4,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": null
+}

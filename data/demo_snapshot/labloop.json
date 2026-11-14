@@ -1,0 +1,1069 @@
+{
+  "deck_id": "labloop",
+  "status": "done",
+  "progress": "Finalized in 20s: 18 claims, 1 contradicted, 6 questions (0 arithmetic findings; web: 0 verdicts)",
+  "error": null,
+  "company": "LabLoop",
+  "website": "labloop.example.com",
+  "slides": [
+    "LabLoop\n- Robotic sample prep for contract research labs\n- Seed round deck, 2026 (fictional test company)\n- labloop.example.com",
+    "Problem\n- Contract labs spend 30% of technician time on manual sample prep\n- Errors in manual pipetting cause 1 in 20 assay re-runs",
+    "Traction\n- 26 paying customers\n- 40% month-on-month revenue growth since January\n- $38k monthly recurring revenue",
+    "Market\n- US contract-lab automation market: $4.1B TAM\n- We target 2% market share by year 3",
+    "Competition\n- No direct competitors\n- Incumbent liquid handlers are 10x the price",
+    "Team\n- CEO: 8 years at Thermo Fisher\n- CTO: robotics PhD, ETH Zurich\n- Team of 25 people",
+    "Financials and ask\n- Revenue forecast: $5M in year 3\n- Monthly burn: $90k\n- Raising $3M seed at a $15M pre-money valuation"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Manual sample prep consumes 30% of contract-lab technician time",
+      "quote": "Contract labs spend 30% of technician time on manual sample prep",
+      "slide": 2,
+      "category": "market",
+      "value": 0.3,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "No independent source gives 30% for contract-lab technicians specifically; the public figures I found are higher (about 60%, from vendor and trade-press sources) and measure different things, so the deck's 30% is plausible but unconfirmed.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Tecan blog",
+            "url": "https://www.tecan.com/blog/breaking-through-the-sample-preparation-bottleneck",
+            "quote": "No wonder it can take up to 60% of a laboratory technician’s time.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "LCGC / Chromatography Online",
+            "url": "https://www.chromatographyonline.com/view/tips-and-tricks-for-simple-and-successful-sample-preparation-in-your-lab",
+            "quote": "Sample preparation is the source of 30% of errors and of 61% of the time spent on tasks in the analytical lab.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "LCGC Trends in Sample Preparation survey",
+            "url": "https://www.chromatographyonline.com/view/trends-sample-preparation-part-1-current-state-field",
+            "quote": "In the current survey, time is more evenly distributed across these areas.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.7117,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Manual pipetting errors cause 1 in 20 assay re-runs",
+      "quote": "Errors in manual pipetting cause 1 in 20 assay re-runs",
+      "slide": 2,
+      "category": "market",
+      "value": 0.05,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Sources show manual pipetting is a real, documented source of error and rework, but none of them gives a figure like '1 in 20 (5%) of assay re-runs are caused by pipetting errors', so the claim can be neither confirmed nor refuted.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Pipettes.com (Accuracy Matters)",
+            "url": "https://www.pipettes.com/calibration-services/pipettes-university/accuracy-matters-blog/the-remarkable-cost-of-pipette-errors",
+            "quote": "Assay rework is a common occurrence in the lab.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "PMC – Assessing variations in manual pipetting",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10569977/",
+            "quote": "Variation in pipetting is a known unknown, as it is generally accepted that variations exist, but thus far, there have been limited studies on the extent of these variations in practice.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Lippi et al., Estimating imprecision of manual pipetting (ResearchGate)",
+            "url": "https://www.researchgate.net/publication/309726635_Estimating_the_intra-_and_inter-individual_imprecision_of_manual_pipetting",
+            "quote": "The mean intra-individual imprecision was 5.7% (range, 0%–11.8%) for pipetting 10 μL, 0.8% (range, 0.4%–1.9%) for pipetting 100 μL, and 0.2% (range, 0.1%–0.5%) for pipetting 1 mL.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.5691,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "26 paying customers",
+      "quote": "26 paying customers",
+      "slide": 3,
+      "category": "traction",
+      "value": 26.0,
+      "unit": "customers",
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "unverified",
+        "reason": "The search found no public record of LabLoop or its customers. A customer count from a seed-stage startup can only be checked against the company's own contracts, invoices or references. No public source mentions a robotic sample-prep company called LabLoop or its customer count. The only LabLoop that turned up is an unrelated campus equipment-sharing project on GitHub, so the 26 paying customers can't be confirmed or refuted.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "GitHub – LabLoop (campus resource sharing)",
+            "url": "https://github.com/yogalakshmig07-code/LabLoop",
+            "quote": "LabLoop: Campus Resource-Sharing & Physical Equipment Lifecycle Platform",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": "customers",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.2192,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "40% month-on-month revenue growth since January",
+      "quote": "40% month-on-month revenue growth since January",
+      "slide": 3,
+      "category": "growth",
+      "value": 0.4,
+      "unit": "ratio_per_month",
+      "depends_on": [
+        "c3",
+        "c5"
+      ],
+      "load": 0.78,
+      "check": {
+        "verdict": "unverified",
+        "reason": "40% a month for 10 months is 28.9x growth, so MRR 10 months ago would have been about $1.3k. If 40% monthly growth held for 12 more months, MRR would reach $2.2M (57x). This is LabLoop's own private revenue figure. The search found no press coverage, filings or company pages that confirm or contradict it. The only 'LabLoop' hit is an unrelated campus equipment-sharing GitHub project.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "1.4^10 = 28.9; $38k / 28.9 = $1.3k",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$38k x 1.4^12 = $2.2M",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "GitHub – LabLoop (campus resource sharing)",
+            "url": "https://github.com/yogalakshmig07-code/LabLoop",
+            "quote": "LabLoop: Campus Resource-Sharing & Physical Equipment Lifecycle Platform",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "math"
+      },
+      "role": "growth_rate_monthly",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.5519,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "$38k monthly recurring revenue",
+      "quote": "$38k monthly recurring revenue",
+      "slide": 3,
+      "category": "traction",
+      "value": 38000.0,
+      "unit": "USD_per_month",
+      "depends_on": [
+        "c3"
+      ],
+      "load": 0.85,
+      "check": {
+        "verdict": "unverified",
+        "reason": "$38k / 26 customers = $1.5k per customer per month. Public web sources have nothing on LabLoop's revenue. MRR is private company data, and the search found no LabLoop-specific coverage that could confirm or contradict $38k. I found no public press, filings or company pages that confirm or conflict with LabLoop's $38k MRR. The only 'LabLoop' hit was an unrelated campus equipment-sharing GitHub project, and the other results were generic lab-automation pages.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$38k / 26 = $1.5k",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "GitHub – LabLoop (unrelated campus resource-sharing project)",
+            "url": "https://github.com/yogalakshmig07-code/LabLoop",
+            "quote": "LabLoop: Campus Resource-Sharing & Physical Equipment Lifecycle Platform",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "math"
+      },
+      "role": "mrr",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 3,
+          "x": 0.0516,
+          "y": 0.3431,
+          "w": 0.334,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "$4.1B US contract-lab automation TAM",
+      "quote": "US contract-lab automation market: $4.1B TAM",
+      "slide": 4,
+      "category": "market",
+      "value": 4100000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.71,
+      "check": {
+        "verdict": "unverified",
+        "reason": "I found no independent estimate for a US contract-lab automation market, and most estimates for the whole US lab automation market (about $2.2B to $3.1B in 2025) are below $4.1B, so the figure looks high for a contract-lab subsegment.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "US Laboratory Automation Market Size, Growth Report 2034 (IMARC Group)",
+            "url": "https://www.imarcgroup.com/united-states-laboratory-automation-market",
+            "quote": "The United States laboratory automation market size reached USD 3,081.0 Million in 2025.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Lab Automation Market Companies, Size & Trends 2026-2034 (Precedence Research)",
+            "url": "https://www.precedenceresearch.com/lab-automation-market",
+            "quote": "The U.S. lab automation market size is valued at USD 2.23 billion in 2025 and is expected to be worth around USD 3.97 billion by 2034, at a CAGR of 7% from 2025 to 2034.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Lab Automation (TTA AND TLA) Market Size Report, 2035 (Business Research Insights)",
+            "url": "https://www.businessresearchinsights.com/market-reports/lab-automation-tta-and-tla-market-103656",
+            "quote": "The United States Lab Automation (TTA AND TLA) Market size is projected at USD 4.45649 Billion in 2025, the Europe Lab Automation (TTA AND TLA) Market size is projected at",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": "tam",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 4,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.4991,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "Targets 2% market share by year 3",
+      "quote": "We target 2% market share by year 3",
+      "slide": 4,
+      "category": "market",
+      "value": 0.02,
+      "unit": "ratio",
+      "depends_on": [
+        "c6",
+        "c8",
+        "c9"
+      ],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "This is a forward-looking internal target, so public sources can't confirm or refute it. The only LabLoop I found is a hackathon demo repo for a fictional campus, with no market-size or share data.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "GitHub - Dhaksith-S/labloop-hackathon: LabLoop - trusted campus resource sharing and custody loop (hackathon build)",
+            "url": "https://github.com/Dhaksith-S/labloop-hackathon",
+            "quote": "LabLoop is a complete campus resource-sharing loop for a fictional institution, Northstar Institute of Applied Technology.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": "market_share_target",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 4,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.3934,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "No direct competitors",
+      "quote": "No direct competitors",
+      "slide": 5,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Assuming LabLoop is the campus lab and equipment-sharing platform, established products such as Agilent's iLab and Quartzy already sell equipment booking to universities and research labs, so \"no direct competitors\" does not hold. I could not find an official LabLoop site, only GitHub and hackathon projects with that name, so confirm which product the deck means.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Best Lab Equipment Scheduling Software (2026)",
+            "url": "https://genemod.net/blog/best-lab-equipment-scheduling-software",
+            "quote": "iLab is the incumbent in university core facility management.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "iLab Organizer (University of Melbourne)",
+            "url": "https://unimelb.ilab.agilent.com/",
+            "quote": "It enables users to search and book research equipment/services, and provides a platform for managers to administer services and analytical reporting.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Top 10 Best Lab Equipment Scheduling Software of 2026",
+            "url": "https://wifitalents.com/best/lab-equipment-scheduling-software/",
+            "quote": "Cloud-based core facility management platform specializing in lab equipment scheduling, reservations, and usage tracking.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 5,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.2244,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "Incumbent liquid handlers cost 10x more",
+      "quote": "Incumbent liquid handlers are 10x the price",
+      "slide": 5,
+      "category": "competition",
+      "value": 10.0,
+      "unit": "multiple",
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Independent sources put Hamilton and Tecan systems at roughly $100k to $500k+, but LabLoop's own price isn't public, so the 10x gap can't be checked. Opentrons already sells robots for about $16k to $25k, so a low-cost rival is not new.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "On Lab Automation: Liquid Handling Systems",
+            "url": "https://assay.dev/2023/10/27/on-lab-automation/",
+            "quote": "High-end liquid handling robots (such as Hamilton Vantage and Tecan Fluent) can cost $200,000 to $500,000 or more.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Best Automated Liquid Handling Systems for Laboratories in 2026",
+            "url": "https://www.labpress.net/best-automated-liquid-handling-systems/",
+            "quote": "Opentrons lists the base Flex robot from $24,950 and application workstations from $54,150 to $96,700 in the United States and selected markets as of Sept. 4, 2026.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "The Best Automated Liquid Handling Systems of 2026",
+            "url": "https://www.labx.com/resources/the-best-automated-liquid-handling-systems-of-2026/4816",
+            "quote": "Price Range: $100,000 – $200,000+ (Highly dependent on configuration)",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 5,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.4542,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "CEO has 8 years at Thermo Fisher",
+      "quote": "CEO: 8 years at Thermo Fisher",
+      "slide": 6,
+      "category": "team",
+      "value": 8.0,
+      "unit": "years",
+      "depends_on": [],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "The deck doesn't name the CEO, and my search found no public page or press coverage for LabLoop or its CEO, so I can't confirm or refute the 8 years at Thermo Fisher.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Thermo Fisher Scientific via Business Wire",
+            "url": "https://www.businesswire.com/news/home/20231211371267/en/Thermo-Fisher-Scientific-Introduces-New-Sample-Preparation-Solutions-to-Simplify-and-Automate-Respiratory-Diagnostic-Testing",
+            "quote": "Together these products provide laboratories with an in vitro diagnostic (IVD) and in vitro diagnostic regulation (IVD-R) approved automated sample preparation solutions for increased confidence in downstream results.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.33,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "CTO holds a robotics PhD from ETH Zurich",
+      "quote": "CTO: robotics PhD, ETH Zurich",
+      "slide": 6,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.61,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.3327,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "Team of 25 people",
+      "quote": "Team of 25 people",
+      "slide": 6,
+      "category": "team",
+      "value": 25.0,
+      "unit": "people",
+      "depends_on": [],
+      "load": 0.4,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Red flag: a $90k monthly burn with 25 people is only $3.6k per person per month, below typical fully-loaded salaries; either the team size or the burn is off (or most of the team is unpaid, part-time or offshore). The claim is a private headcount figure for a fictional, seed-stage company. I did not search, and I have no public source that confirms or conflicts with a team of 25.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$90k / 25 = $3.6k per person per month",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "team_size",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0516,
+          "y": 0.3431,
+          "w": 0.1981,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "$5M revenue forecast in year 3",
+      "quote": "Revenue forecast: $5M in year 3",
+      "slide": 7,
+      "category": "financials",
+      "value": 5000000.0,
+      "unit": "USD",
+      "depends_on": [
+        "c6",
+        "c7",
+        "c4",
+        "c10",
+        "c11"
+      ],
+      "load": 0.69,
+      "check": {
+        "verdict": "supported",
+        "reason": "TAM x target share = $82M, so a $5M forecast fits the deck's own market maths.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$4.1B x 2% = $82M >= $5M",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "revenue_forecast",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.3433,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Forecast horizon is year 3",
+      "quote": "Revenue forecast: $5M in year 3",
+      "slide": 7,
+      "category": "financials",
+      "value": 3.0,
+      "unit": "year",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "forecast_year",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0516,
+          "y": 0.2098,
+          "w": 0.3433,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "$90k monthly burn",
+      "quote": "Monthly burn: $90k",
+      "slide": 7,
+      "category": "financials",
+      "value": 90000.0,
+      "unit": "USD_per_month",
+      "depends_on": [
+        "c12"
+      ],
+      "load": 0.39,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Only $3.6k per team member per month. Monthly burn is a private internal financial figure for a fictional, newly pitched startup, and no public source confirms or conflicts with it. I ran no searches because none could verify this number.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$90k / 25 = $3.6k per person per month",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "monthly_burn",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0516,
+          "y": 0.2764,
+          "w": 0.202,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Raising $3M seed",
+      "quote": "Raising $3M seed",
+      "slide": 7,
+      "category": "ask",
+      "value": 3000000.0,
+      "unit": "USD",
+      "depends_on": [
+        "c13",
+        "c3",
+        "c4",
+        "c5",
+        "c15"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "At the current burn the raise lasts about 33 months.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$3M / $90k per month = 33 months",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "raise_amount",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0516,
+          "y": 0.3431,
+          "w": 0.1901,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "$15M pre-money valuation",
+      "quote": "$15M pre-money valuation",
+      "slide": 7,
+      "category": "ask",
+      "value": 15000000.0,
+      "unit": "USD",
+      "depends_on": [
+        "c13",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "The $15M pre-money is 33x current ARR ($456k) and 3.0x the forecast revenue ($5M).",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$15M / $456k = 33x; $15M / $5M = 3.0x",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "pre_money",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.2945,
+          "y": 0.3431,
+          "w": 0.2812,
+          "h": 0.0311
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "text": "Customer base mostly mid-sized labs",
+      "quote": "mostly mid-sized labs",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.58,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq1",
+      "text": "Deck shows 26 paying customers but you said 40 — which is current, and how many are paying versus on pilots?",
+      "claim_ids": [
+        "c3"
+      ],
+      "why": "Deck says 26 paying customers; founder said 40.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "q1",
+      "text": "The deck says \"no direct competitors,\" but Opentrons sells robots at roughly $16k to $25k, Hamilton and Tecan own the high end, and iLab and Quartzy are entrenched in equipment booking. Who do your 26 customers use or evaluate against you, and why did they pick you?",
+      "claim_ids": [
+        "c8",
+        "c9",
+        "c7"
+      ],
+      "why": "Tests the contradicted 'no direct competitors' claim and the 10x price gap, which underpin the 2% share target and the year 3 forecast.",
+      "evidence_to_request": "Win/loss notes or CRM records for the last 10 deals with the competitors considered, a price comparison against Opentrons, Hamilton and Tecan, and 3 customer reference calls.",
+      "priority": 2
+    },
+    {
+      "id": "q2",
+      "text": "You report 26 paying customers, $38k MRR and 40% month-on-month growth since January. That implies MRR of about $1.3k ten months ago and about $1.5k per customer per month today. Can you walk us through the monthly MRR and customer count by cohort?",
+      "claim_ids": [
+        "c3",
+        "c5",
+        "c4"
+      ],
+      "why": "Traction and growth are the base for the $15M pre-money and the $5M forecast, and the 28.9x implied growth is unverified.",
+      "evidence_to_request": "Stripe or bank export and invoice ledger from January to now, MRR by customer by month, and signed contracts with start dates and terms.",
+      "priority": 3
+    },
+    {
+      "id": "q3",
+      "text": "You are asking $15M pre-money, which is 33x your $456k ARR. What do you expect to hold true in 18 months to justify it, and how does 40% monthly growth translate into the $5M year 3 forecast?",
+      "claim_ids": [
+        "c17",
+        "c13",
+        "c4"
+      ],
+      "why": "The valuation is 33x ARR and the forecast is far below what 40% monthly compounding implies, so the growth and forecast numbers do not fit together.",
+      "evidence_to_request": "Financial model with monthly revenue assumptions, pipeline by stage, and the build-up of customers times ACV behind the $5M.",
+      "priority": 4
+    },
+    {
+      "id": "q4",
+      "text": "You show a $90k monthly burn with a team of 25, which is only $3.6k per head per month. Who is on payroll, full-time or part-time, and what does the $3M seed actually fund beyond 33 months of current burn?",
+      "claim_ids": [
+        "c12",
+        "c15",
+        "c16"
+      ],
+      "why": "The burn and headcount are inconsistent, and the raise size and runway depend on the burn figure.",
+      "evidence_to_request": "Payroll summary with roles and contract types, last 6 months of bank statements, and a use-of-funds plan with a hiring schedule.",
+      "priority": 5
+    },
+    {
+      "id": "q5",
+      "text": "Your $4.1B US contract-lab automation TAM is above most estimates for the entire US lab automation market, at about $2.2B to $3.1B. How did you build it, and who are the CEO and CTO behind the Thermo Fisher and ETH Zurich credentials?",
+      "claim_ids": [
+        "c6",
+        "c10",
+        "c11"
+      ],
+      "why": "The TAM drives the 2% share and $5M forecast, and the team credentials back up the ability to deliver it; both are unverified.",
+      "evidence_to_request": "Bottom-up TAM model with sources, founder LinkedIn profiles and references, and the ETH degree and Thermo Fisher employment details.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T03:23:56+00:00",
+  "mode": "deck+live",
+  "title": "LabLoop (deck + live demo)",
+  "slide_count": 7,
+  "transcript": [
+    {
+      "text": "So, where we are today, we have 40 paying customers, mostly mid-sized labs, and we're",
+      "t0": 0.0,
+      "t1": 5.58
+    },
+    {
+      "text": "growing about 40% every month.",
+      "t0": 5.58,
+      "t1": 7.58
+    },
+    {
+      "text": "The market for lab automation is huge, over 10 billion dollars, and honestly nobody else is doing what we do.",
+      "t0": 8.27,
+      "t1": 15.27
+    },
+    {
+      "text": "Our founding team came out of Thermo Fisher, and we plan to reach $5 million in revenue by year 3.",
+      "t0": 15.7,
+      "t1": 22.7
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the core traction numbers are unverified and the founder gave 40 customers live against 26 in the deck, so the $15M ask can't yet be underwritten.",
+    "summary": "LabLoop sells robotic sample-prep automation to contract labs. It is raising a $3M seed at $15M pre-money on a deck claiming 26 paying customers, $38k MRR and 40% month-on-month growth. The $5M year-3 forecast is consistent with the deck's own market maths, and the pitch is internally coherent. Nothing on traction, team or revenue could be verified; no public record of the company was found, and the only 'LabLoop' hit is an unrelated campus equipment-sharing project. The 'no direct competitors' claim is contradicted (Opentrons at about $16k-$25k, Hamilton and Tecan, plus iLab and Quartzy in booking), though that check is hedged on which product is meant. The valuation is 33x ARR, the growth rate implies about $1.3k MRR ten months ago, and $90k burn across 25 people is only $3.6k per head, so the numbers don't fit together.",
+    "strengths": [
+      "Clear wedge: manual sample prep and pipetting rework in contract labs, with a price pitch against $100k-$500k+ incumbent liquid handlers.",
+      "Stated traction of $38k MRR (about $456k ARR) from 26 customers (about $1.5k per customer per month) is plausible for a seed company if documented.",
+      "The $5M year-3 forecast fits the deck's own TAM-times-share maths (about $82M at the targeted share).",
+      "Team story is relevant (Thermo Fisher operator CEO, robotics PhD CTO), though unverified."
+    ],
+    "red_flags": [
+      {
+        "text": "Customer count changed between deck (26 paying) and live pitch (40 paying), and the live figure may include pilots. The ask, MRR and growth all rest on this number, and no public source confirms either one.",
+        "claim_ids": [
+          "c3",
+          "c5"
+        ]
+      },
+      {
+        "text": "The 40% monthly growth implies MRR of about $1.3k ten months ago (28.9x). If it continued for another 12 months, MRR would be about $2.2M. This is self-reported and unverified, and the cohort and customer-count history is needed to test it.",
+        "claim_ids": [
+          "c4",
+          "c5"
+        ]
+      },
+      {
+        "text": "The $15M pre-money is 33x current ARR and 3.0x year-3 forecast revenue, so the valuation relies on unverified traction and an aggressive growth path.",
+        "claim_ids": [
+          "c17",
+          "c16"
+        ]
+      },
+      {
+        "text": "'No direct competitors' is contradicted: Opentrons already sells robots at about $16k-$25k, Hamilton and Tecan own the high end, and iLab and Quartzy are entrenched in equipment booking. The founder repeated 'nobody else is doing what we do' live, and the 10x price advantage is unverified.",
+        "claim_ids": [
+          "c8",
+          "c9"
+        ]
+      },
+      {
+        "text": "The financials don't reconcile: $90k monthly burn across 25 people is $3.6k per head, below typical loaded salaries. Either headcount or burn is off, and the 33-month runway depends on the burn figure.",
+        "claim_ids": [
+          "c12",
+          "c15",
+          "c16"
+        ]
+      }
+    ],
+    "questions": [
+      "You said 40 paying customers live but the deck says 26. Which is current, how many are paying versus on pilots, and what is MRR per customer?",
+      "Walk us through monthly MRR and customer count by cohort since January. How does 40% monthly growth, from about $1.3k MRR ten months ago, get to $38k, and how does it get to $5M in year 3?",
+      "Who do customers evaluate you against (Opentrons, Hamilton, Tecan, others), and why did your last 10 wins choose you? What is your actual price versus theirs?",
+      "Your $90k burn across 25 people is $3.6k per head. Who is on payroll, full-time or part-time, and what does $3M fund beyond the 33 months of current burn?",
+      "How did you build the $4.1B TAM, and which of the founders actually worked at Thermo Fisher, in what roles and for how long?"
+    ],
+    "evidence_requests": [
+      "Stripe or bank export and invoice ledger from January to now, with MRR by customer by month",
+      "Customer list with contract status (paid versus pilot), signed contracts and start dates, plus 3 reference calls",
+      "Payroll summary with roles and contract types, and the last 6 months of bank statements",
+      "Financial model with monthly revenue assumptions, pipeline by stage, and customers times ACV build-up behind the $5M year-3 forecast",
+      "Founder LinkedIn profiles, and Thermo Fisher employment and ETH Zurich degree verification"
+    ],
+    "live_notes": [
+      "Customer count changed from 26 in the deck to 40 paying customers live, with no explanation of pilots versus paid.",
+      "Market framing widened from a $4.1B US contract-lab automation TAM to 'over 10 billion dollars' for lab automation.",
+      "The founding team claim widened from the CEO having 8 years at Thermo Fisher to the whole founding team coming out of Thermo Fisher.",
+      "New live-only claim: customers are mostly mid-sized labs (unverified).",
+      "Founder said 'nobody else is doing what we do', repeating the no-direct-competitors claim that checks contradicted.",
+      "The 40% monthly growth and $5M year-3 revenue target were repeated consistently with the deck."
+    ],
+    "generated_at": "2026-11-14T05:14:46+00:00"
+  },
+  "source_url": null,
+  "outcome": null,
+  "outcome_won": null,
+  "outcome_source": null,
+  "score": {
+    "total": 60.9,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 19.2,
+        "max_points": 40.0,
+        "detail": "1 supported and 1 contradicted of 18 claims; load-weighted 7% backed and 5% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 16.7,
+        "max_points": 20.0,
+        "detail": "15 of 18 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 5.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 3 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "5 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: verifiable core (20/20); weakest: consistency (5/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Deck says 26 paying customers; founder said 40. (said at 6s: \"we have 40 paying customers\"; vs claim c3)",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Deck says $4.1B US contract-lab automation TAM; founder says over $10B for lab automation, a wider scope. (said at 15s: \"The market for lab automation is huge, ",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Deck says only the CEO has 8 years at Thermo Fisher; founder now says the whole founding team came from there. (said at 23s: \"Our founding team came out of Ther",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "c8",
+        "text": "No direct competitors",
+        "part": "A",
+        "effect": -2.2,
+        "reason": "Assuming LabLoop is the campus lab and equipment-sharing platform, established products such as Agilent's iLab and Quartzy already sell equipment booking to universities and research labs, so \"no direct competitors\" does"
+      },
+      {
+        "claim_id": "c13",
+        "text": "$5M revenue forecast in year 3",
+        "part": "A",
+        "effect": 1.4,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "c11",
+        "text": "CTO holds a robotics PhD from ETH Zurich",
+        "part": "B",
+        "effect": -1.1,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c8",
+        "text": "No direct competitors",
+        "part": "B",
+        "effect": -1.1,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s2",
+        "text": "Customer base mostly mid-sized labs",
+        "part": "B",
+        "effect": -1.1,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Deck says 26 paying customers; founder said 40. (said at 6s: \"we have 40 paying customers\"; vs claim c3)",
+    "Deck says $4.1B US contract-lab automation TAM; founder says over $10B for lab automation, a wider scope. (said at 15s: \"The market for lab automation is huge, over 10 billion dollars\"; vs claim c6)",
+    "Deck says only the CEO has 8 years at Thermo Fisher; founder now says the whole founding team came from there. (said at 23s: \"Our founding team came out of Thermo Fisher\"; vs claim c10)"
+  ],
+  "capture": "recording"
+}

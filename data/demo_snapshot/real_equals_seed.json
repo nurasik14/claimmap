@@ -1,0 +1,575 @@
+{
+  "deck_id": "real_equals_seed",
+  "status": "done",
+  "progress": "Finalized in 84s: 9 claims, 1 contradicted, 4 questions (0 arithmetic findings; web: 1 verdicts)",
+  "error": null,
+  "company": "Equals",
+  "website": null,
+  "slides": [
+    "A modern spreadsheet for modern analysis",
+    "Two problems with spreadsheets\nNot connected to live data. No team workﬂows.",
+    "1. Not connected to live data\nToday’s spreadsheets live in a silo.\nTo get data into a spreadsheet is slow, frustrating,\nand error-prone. Analyses are immediately static\nand out-of-date.\nCSV\nCSV\nCSV\nCSV\nSteps for starting a simple SaaS revenue model, repeat whenever data changes.",
+    "2. No team workflows\nIn today’s spreadsheets there’s no record of how an\nanalysis comes together or how it evolves.\nI have hundreds of emails like the one on the right.",
+    "Why this matters: our mission\nTo empower businesses to make good decisions.",
+    "No one solves these problems\nExcel and Google Sheets\nToo horizontal, have to support long tail of use-cases.\nBusiness Intelligence tools\nDesigned for regular reporting, not analysis. Always used alongside Excel or Sheets.\nCoda / Notion / Airtable / Smartsheets\nNot for analysis.",
+    "Solution: Equals\nA new vertically integrated spreadsheet, built around two pillars:\n1. Data 2. Team workﬂows\nData sheets w/ SQL. Trace: get to source of a number.\nData sheets w/ Stripe, Netsuite, etc. “Git model” for changes.\nScheduled and versioned updates. Shared queries and formulas.\nModern spreadsheet\nCloud based. Sign up and get going in minutes. Targeted subset of excel functionality.",
+    "V1: Equals\nA new vertically integrated spreadsheet, built around two pillars:\n1. Data 2. Team workﬂows\nData sheets w/ SQL. Trace: get to source of a number.\nData sheets w/ Stripe, Netsuite, etc. “Git model” for changes.\nScheduled and versioned updates. Shared queries and formulas.\nModern spreadsheet\nCloud based. Sign up and get going in minutes. Targeted subset of excel functionality.",
+    "Founders\nBobby Pinero, Chief Executive Ofﬁcer\nAs a member of the Exec team, scaled Intercom from $1M ARR to $180M+ ARR. Over 7\nyears, built and led FP&A, Accounting, Business Operations, Business Analytics, Product\nAnalytics, Data Engineering, and Legal.\nBen McRedmond, Chief Product Ofﬁcer\nFirst employee at Intercom. As member of exec team, led Growth from $1M to $50M ARR.\nScaled Growth to 30+ engineers, designers, product managers. After Intercom founded\nConsider, an email startup (2017-2020).",
+    "Plan\nWe are raising a seed round of around $4M:\n•To fund an initial team for 24 months.\n•To build V1 and demonstrate product market ﬁt with a small number of paying users who deeply use the product.\nBeyond this, we will raise again to invest further into product development and marketing working towards a product\nthat every business can use.",
+    ""
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Raising a seed round of ~$4M",
+      "quote": "We are raising a seed round of around $4M",
+      "slide": 10,
+      "category": "ask",
+      "value": 4000000.0,
+      "unit": "USD",
+      "depends_on": [
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "raise_amount",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 10,
+          "x": 0.0521,
+          "y": 0.3347,
+          "w": 0.305,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "Seed funds an initial team for 24 months (runway)",
+      "quote": "To fund an initial team for 24 months.",
+      "slide": 10,
+      "category": "ask",
+      "value": 24.0,
+      "unit": "months",
+      "depends_on": [
+        "c1"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "runway_months",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 10,
+          "x": 0.0677,
+          "y": 0.4273,
+          "w": 0.2588,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "CEO scaled Intercom from $1M to $180M+ ARR as exec team member over 7 years",
+      "quote": "scaled Intercom from $1M ARR to $180M+ ARR",
+      "slide": 9,
+      "category": "team",
+      "value": 180000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Public sources agree Intercom grew from under $1M ARR to roughly $150M–$200M during the founder's roughly 7–8 years there, but none give the exact $180M+ figure. They describe a Senior Director of Finance who 'helped' scale the company, not an executive-team member who 'scaled' it.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Intercom (Fin) – Bobby Pinero board bio",
+            "url": "https://www.intercom.com/about/bobby-pinero",
+            "quote": "While at Intercom, they led the Finance organization as the company scaled from less than $1M ARR to $150M+, and from 20 employees to 600+ employees.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Sacra interview with Bobby Pinero",
+            "url": "https://sacra.com/research/bobby-pinero-equals-alternative-modern-data-stack/",
+            "quote": "I saw the company go from 20 employees when I joined and less than $1 million in ARR to when I left, it was 700 odd employees and almost $200 million in ARR.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "a16z – Investing in Equals",
+            "url": "https://a16z.com/announcement/investing-in-equals/",
+            "quote": "Both Bobby and Ben were early Intercom employees who ran Finance and Growth, respectively.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 9,
+          "x": 0.3803,
+          "y": 0.381,
+          "w": 0.3396,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "CPO was first Intercom employee and led Growth from $1M to $50M ARR, scaling to 30+ people",
+      "quote": "First employee at Intercom. As member of exec team, led Growth from $1M to $50M ARR.",
+      "slide": 9,
+      "category": "team",
+      "value": 50000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent sources, including a16z and a podcast interview with the co-founder, say Ben McRedmond was Intercom's first employee and ran Growth. Intercom itself confirms its $1M to $50M ARR run, and a profile mentions a growth org of 30+. The claim that he personally led Growth across that whole range is not directly confirmed.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "a16z – Investing in Equals",
+            "url": "https://a16z.com/announcement/investing-in-equals/",
+            "quote": "Both Bobby and Ben were early Intercom employees who ran Finance and Growth, respectively.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Personiv CFO Weekly (interview with Equals CEO Bobby Pinero)",
+            "url": "https://insights.personiv.com/cfo-weekly/financial-analysis-future/",
+            "quote": "But Ben, my Co-founder, he was Intercom's first employee.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Intercom Blog",
+            "url": "https://blog.intercom.com/vanity-metrics-the-future-and-100000-thank-yous/",
+            "quote": "And we grew from $1-50M in ARR in three years.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 9,
+          "x": 0.1562,
+          "y": 0.6124,
+          "w": 0.6295,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "Product pre-V1; goal is to demonstrate product-market fit with a small number of paying users (no current traction stated)",
+      "quote": "To build V1 and demonstrate product market ﬁt with a small number of paying users who deeply use the product.",
+      "slide": 10,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c6"
+      ],
+      "load": 0.68,
+      "check": {
+        "verdict": "unverified",
+        "reason": "No public source confirms the deck's pre-V1 status. Equals launched its product in mid-2022 and was reported to be on a freemium and tiered subscription model by late 2022, so the claim only fits if the deck dates from the 2021 seed stage.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "The Irish Times",
+            "url": "https://www.irishtimes.com/business/2022/11/17/equals-raises-16m-in-series-a-funding-round/",
+            "quote": "Equals launched its product five months ago, and has since registered thousands of start-ups and enterprises requesting access.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "The Irish Times",
+            "url": "https://www.irishtimes.com/business/2022/11/17/equals-raises-16m-in-series-a-funding-round/",
+            "quote": "The funding brings to $23 million the total raised by Equals to date, with a seed round raised last year.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Newswire (Equals press release)",
+            "url": "https://www.newswire.com/news/equals-launches-the-first-native-ai-assistant-for-spreadsheets-22045667",
+            "quote": "Equals offers free accounts for anyone that would like to see how its AI Assist tool works.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 10,
+          "x": 0.0677,
+          "y": 0.5199,
+          "w": 0.7887,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "Product: SQL and Stripe/Netsuite data sheets, scheduled and versioned updates, Trace to source, Git-style change model, shared queries/formulas",
+      "quote": "Data sheets w/ SQL. Trace: get to source of a number.",
+      "slide": 7,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c3",
+        "c4"
+      ],
+      "load": 0.73,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0638,
+          "y": 0.4933,
+          "w": 0.1438,
+          "h": 0.0324
+        },
+        {
+          "slide": 7,
+          "x": 0.5065,
+          "y": 0.4933,
+          "w": 0.2301,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "Cloud-based, sign up and start in minutes, with a targeted subset of Excel functionality",
+      "quote": "Cloud based. Sign up and get going in minutes. Targeted subset of excel functionality.",
+      "slide": 7,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.0638,
+          "y": 0.8424,
+          "w": 0.5995,
+          "h": 0.0324
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "No competitor solves live data connection and team workflows (Excel/Sheets, BI tools, Coda/Notion/Airtable/Smartsheets)",
+      "quote": "No one solves these problems",
+      "slide": 6,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c6"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Several products already sell live database connections inside a spreadsheet with team collaboration. These include Google's Connected Sheets for BigQuery, Sigma Computing (live spreadsheet UI on warehouse data) and Rows, so 'no one solves this' does not hold.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Using Connected Sheets to analyze BigQuery data",
+            "url": "https://cloud.google.com/blog/products/data-analytics/using-connected-sheets-to-analyze-bigquery-data",
+            "quote": "Connected Sheets solves this by letting you analyze your critical data via a secure, direct connection to billions of rows of live data, with no SQL required.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Best Excel Alternatives for Data Analysts in 2026 (Sigma)",
+            "url": "https://www.sigmacomputing.com/blog/excel-alternatives-for-data-analysts",
+            "quote": "Sigma runs warehouse-native on platforms such as Amazon Redshift, BigQuery, Databricks, and Snowflake, so the familiar grid sits on billions of rows of live data with no extract and no row ceiling.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Equals Review 2026 — Business Intelligence",
+            "url": "https://revops.tools/equals/",
+            "quote": "Rows — Both are spreadsheet tools with live data connections; Rows has stronger API and automation features; Equals focuses more on financial modeling",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0521,
+          "y": 0.2234,
+          "w": 0.3497,
+          "h": 0.0552
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "BI tools are built for regular reporting and always used alongside Excel or Sheets",
+      "quote": "Designed for regular reporting, not analysis. Always used alongside Excel or Sheets.",
+      "slide": 6,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Surveys and practitioner sources show many BI users export data to Excel or Sheets for last-mile analysis, which supports the spirit of the claim. But \"always\" and \"not for analysis\" are overstated, because Tableau and similar tools are widely marketed for ad-hoc exploration.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Despite $20B Business Intelligence Market, Users Still Prefer the Humble Spreadsheet",
+            "url": "https://www.globenewswire.com/en/news-release/2021/05/05/2223644/0/en/Despite-20B-Business-Intelligence-Market-Users-Still-Prefer-the-Humble-Spreadsheet.html",
+            "quote": "84% of professionals prefer the familiarity of spreadsheets like Google Sheets and Microsoft Excel for last-mile analysis—64% of whom have access to a BI tool but still opt for spreadsheets.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Best practices for using spreadsheets as BI tools (Forrester)",
+            "url": "https://www.forrester.com/blogs/10-07-07-best_practices_for_using_spreadsheets_as_bi_tools/",
+            "quote": "Rolling out a BI application often just means an easier way for someone to access and export data to a spreadsheet.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Looker vs Tableau (2026): Pricing, Features & Which to Pick",
+            "url": "https://www.domo.com/learn/article/looker-vs-tableau",
+            "quote": "Choose Tableau if your team values visual flexibility, rapid ad-hoc exploration, and self-service analytics without requiring SQL expertise.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 6,
+          "x": 0.0521,
+          "y": 0.5199,
+          "w": 0.5863,
+          "h": 0.0324
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The deck says no one solves live data connection plus team workflows, yet Google Connected Sheets, Sigma and Rows all sell live database connections inside a spreadsheet with collaboration. Why would a finance or ops team pick Equals over each of them, and which of those have you lost or won against?",
+      "claim_ids": [
+        "c8",
+        "c6"
+      ],
+      "why": "Tests the contradicted 'no one solves this' claim, which underpins the product differentiation and the case for the SQL/Stripe/Netsuite and Trace/Git-style feature set.",
+      "evidence_to_request": "Competitive teardown with feature comparison versus Connected Sheets, Sigma and Rows, plus notes from customer or user interviews on why they chose or rejected alternatives.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "The deck says you're pre-V1 and still need to prove PMF with a few paying users, but public reporting says Equals launched in mid-2022, has thousands of sign-ups and runs a freemium/tiered model. What is the actual product status today, and how many users are active and paying?",
+      "claim_ids": [
+        "c5",
+        "c6"
+      ],
+      "why": "Tests whether the pre-V1 / no-traction framing is current, since the $4M ask and its milestone (PMF with a few paying users) rest on it.",
+      "evidence_to_request": "Stripe export of paying customers and MRR by month, product analytics (WAU/MAU, retention cohorts), and the release history showing V1 launch date.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You describe the CEO as having scaled Intercom from $1M to $180M+ ARR as an exec team member over 7 years, but public sources describe a Senior Director of Finance who helped scale it, with ARR of roughly $150–200M. What was the CEO's exact title, reporting line and scope, and where does $180M+ come from?",
+      "claim_ids": [
+        "c3"
+      ],
+      "why": "Tests the CEO credential that nearly all of the investment case (team-driven bet on a seed round) leans on, where title and the exact ARR figure are not verified.",
+      "evidence_to_request": "LinkedIn title history with dates, an Intercom org chart or reference call with a former Intercom exec, and the source for the $180M+ ARR figure.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "You're raising ~$4M to fund an initial team for 24 months. What is the hiring plan and monthly burn behind that, and what milestones will you hit by month 12 and 18 to be ready for a Series A?",
+      "claim_ids": [
+        "c1",
+        "c2"
+      ],
+      "why": "The round size and 24-month runway are the full ask, yet no budget or plan is provided to check that $4M covers 24 months.",
+      "evidence_to_request": "Hiring plan with salaries by role, 24-month budget and burn model, and current cash and cap table.",
+      "priority": 4
+    }
+  ],
+  "created_at": "2026-11-14T04:23:39+00:00",
+  "mode": "deck",
+  "title": "Equals seed deck (2021)",
+  "slide_count": 11,
+  "transcript": [],
+  "brief": null,
+  "source_url": "https://equals-marketing-resources.s3.us-west-2.amazonaws.com/equals-seed.pdf",
+  "outcome": "Raised a $6.6M seed round with this deck (founders' post)",
+  "outcome_won": true,
+  "outcome_source": "https://wraptext.equals.com/equals-seed-deck/",
+  "score": {
+    "total": 65.8,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 22.7,
+        "max_points": 40.0,
+        "detail": "1 supported and 1 contradicted of 9 claims; load-weighted 17% backed and 2% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 11.1,
+        "max_points": 20.0,
+        "detail": "5 of 9 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 12.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 2 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: specificity (11.1/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "c6",
+        "text": "Product: SQL and Stripe/Netsuite data sheets, scheduled and versioned updates, Trace to source, Git-style change model, shared queries/formulas",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (73% load); it could not be checked."
+      },
+      {
+        "claim_id": "c4",
+        "text": "CPO was first Intercom employee and led Growth from $1M to $50M ARR, scaling to 30+ people",
+        "part": "A",
+        "effect": 3.4,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "c6",
+        "text": "Product: SQL and Stripe/Netsuite data sheets, scheduled and versioned updates, Trace to source, Git-style change model, shared queries/formulas",
+        "part": "B",
+        "effect": -2.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c7",
+        "text": "Cloud-based, sign up and start in minutes, with a targeted subset of Excel functionality",
+        "part": "B",
+        "effect": -2.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c8",
+        "text": "No competitor solves live data connection and team workflows (Excel/Sheets, BI tools, Coda/Notion/Airtable/Smartsheets)",
+        "part": "B",
+        "effect": -2.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c9",
+        "text": "BI tools are built for regular reporting and always used alongside Excel or Sheets",
+        "part": "B",
+        "effect": -2.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c1",
+        "text": "Raising a seed round of ~$4M",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "c2",
+        "text": "Seed funds an initial team for 24 months (runway)",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); concrete, but nobody has checked it yet."
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": null
+}

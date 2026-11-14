@@ -1,0 +1,737 @@
+{
+  "deck_id": "yt_oneva",
+  "status": "done",
+  "progress": "Finalized in 18s: 17 claims, 0 contradicted, 6 questions (0 arithmetic findings; web: 3 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "43% of professional women with children leave the workforce",
+      "quote": "43% of professional women with children leave the workforce.",
+      "slide": null,
+      "category": "market",
+      "value": 0.43,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "The 43% figure is a real, widely cited number from Hewlett & Luce's 2005 'Off-Ramps and On-Ramps' research on highly qualified women. It counts women who left their careers or took a temporary break, many of whom later returned, so 'leave the workforce' overstates it a little. The data is also about 20 years old.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "The hidden brain drain: off-ramps and on-ramps in women's careers",
+            "url": "https://www.researchgate.net/publication/228742336_The_hidden_brain_drain_off-ramps_and_on-ramps_in_women's_careers",
+            "quote": "a previous study of professional women found that 43% of women with children had left the workforce at some point in their careers",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "5 Tips for Women Ready to Return to the Workforce After Having Kids (TIME)",
+            "url": "https://time.com/4250867/women-return-workforce/",
+            "quote": "At the same time, 43% of highly educated, professional women with children leave their careers or temporarily off-ramp.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Founder was formerly CFO at Seagate",
+      "quote": "I quit my job as a CFO at Seagate because I had a child",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "About 40% of women who leave return to the workforce",
+      "quote": "one of those 40% who did return to the workforce",
+      "slide": null,
+      "category": "market",
+      "value": 0.4,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "No trusted care options available in the marketplace",
+      "quote": "I was unable to find trusted care anywhere in the marketplace.",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s5",
+      "text": "Platform lets users view, book, approve and pay for FBI-background-checked caregivers",
+      "quote": "The Oneva Construe care platform allows our users to conveniently view, book, approve, and pay for FBI background care givers.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.42,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Live with Microsoft employees as users/customers",
+      "quote": "We are currently in the market with Microsoft employees",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "TechCrunch (April 2017) and the Kiva business center both report that Oneva began a pilot with Microsoft in February 2017 and that about 3,000 Bay Area Microsoft employees were given access to the platform, which fits a September 2017 pitch.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Onēva wants to make it easier to access elder, infant and child care through employee benefits",
+            "url": "https://techcrunch.com/2017/04/25/oneva-wants-to-make-it-easier-to-access-elder-infant-and-child-care-through-employee-benefits",
+            "quote": "Onēva has been piloting its program with Microsoft since February of this year, and the results have been “staggering,”",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Oneva's journey to create quality in-home care and jobs",
+            "url": "https://www.kiva.org/businesscenter/beginning-small-thinking-big-oneva-brings-quality-in-home-care-and-jobs-to-san-franciscos-bay-area",
+            "quote": "on February 27 of 2017, three thousand Microsoft employees gained access to the Oneva platform.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Oneva on Wefunder - Kingscrowd",
+            "url": "https://kingscrowd.com/oneva-on-wefunder/",
+            "quote": "Throughout 2017, Oneva ran a test pilot with employees at Microsoft and had very positive results.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.42,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "Offers house cleaning, elder care, infant care, pet care, driving and other services",
+      "quote": "delivering house cleaning, elder care, infant care, pet care, driving, and other services",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.7,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.42,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "Husband Bob Gardine has 10 patents and three exits",
+      "quote": "my husband of 31 years, Bob Gardine, 10 patents, three exits",
+      "slide": null,
+      "category": "team",
+      "value": 10.0,
+      "unit": "patents",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 9.85,
+      "boxes": []
+    },
+    {
+      "id": "s11",
+      "text": "Algorithm matches caregivers to family needs",
+      "quote": "our algorithm has matched a number of caregivers who meet our needs",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 13.48,
+      "boxes": []
+    },
+    {
+      "id": "s14",
+      "text": "Platform designed for enterprise (employer-sponsored) distribution",
+      "quote": "we could impact more families and more markets by designing for the enterprise",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s6"
+      ],
+      "load": 0.4,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.49,
+      "boxes": []
+    },
+    {
+      "id": "s20",
+      "text": "Revenue model: markup on caregiver cost",
+      "quote": "We simply mark up the cost of the caregiver, and that's how we make our money.",
+      "slide": null,
+      "category": "financials",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s6"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 24.11,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Targets multiple multi-billion dollar markets",
+      "quote": "we're attacking multiple multi-billion dollar markets",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s7"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Oneva sells child care, elder care and in-home services as employer benefits. Independent analysts size the US child care market and the US home care market each at tens of billions of dollars or more, so 'multiple multi-billion dollar markets' is plausible. The sources size the broad markets, not Oneva's narrower employer-benefit niche, and Oneva appears to be no longer operating.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Onēva - TechCrunch Startup Battlefield",
+            "url": "https://techcrunch.com/startup-battlefield/company/oneva/",
+            "quote": "Onēva enables employers to offer elder, infant and child care, as well as housecleaning, and other in-home services, as employee benefits.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "U.S. Child Care Market Size, Share & 2031 Growth Trends Report (Mordor Intelligence)",
+            "url": "https://www.mordorintelligence.com/industry-reports/us-child-care-market",
+            "quote": "child care market size stands at USD 82.38 billion in 2026** and is forecast to reach USD 110.34 billion by 2031, growing at a CAGR of 6.02%.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Home Care Industry Statistics & Market Report (2026)",
+            "url": "https://www.aveecare.com/resources/home-care-industry-statistics-2026",
+            "quote": "home care market has grown steadily from $77 billion in 2020 to an estimated $113 billion in 2026.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 29.32,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "Company is a certified minority-owned provider",
+      "quote": "this certified minority-owned provider",
+      "slide": null,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 29.32,
+      "boxes": []
+    },
+    {
+      "id": "s23",
+      "text": "No competitors; only player in the market",
+      "quote": "the only player in this market and in this time",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 29.32,
+      "boxes": []
+    },
+    {
+      "id": "s25",
+      "text": "Oracle and others are interested in joining",
+      "quote": "we have others who are anxious to join our team, including Oracle",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s6",
+        "s14"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 29.32,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "Average pilot user was male 65% of the time",
+      "quote": "the average user was male, 65% of the time",
+      "slide": null,
+      "category": "traction",
+      "value": 0.65,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.03,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "Average user requested 2.2 services",
+      "quote": "requested on average 2.2 different services",
+      "slide": null,
+      "category": "traction",
+      "value": 2.2,
+      "unit": "services_per_user",
+      "depends_on": [
+        "s7"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.03,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq11",
+      "text": "Which direct-to-consumer care marketplaces compete with you, and why will yours win in the enterprise channel?",
+      "claim_ids": [
+        "s4"
+      ],
+      "why": "Earlier said no trusted care anywhere in the marketplace; now acknowledges existing care marketplaces.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "lq16",
+      "text": "Is Microsoft a signed paid pilot or employee-level usage, and what are its scope, duration, and conversion terms?",
+      "claim_ids": [
+        "s6"
+      ],
+      "why": "Earlier said 'in the market with Microsoft employees'; now described as a pilot, which is a narrower scope.",
+      "evidence_to_request": "",
+      "priority": 2
+    },
+    {
+      "id": "q1",
+      "text": "You say you're live with Microsoft employees, and press reports a Feb 2017 pilot with about 3,000 Bay Area employees. How many of those 3,000 actually registered, how many booked at least one service, and has Microsoft committed to a paid, contracted rollout beyond the pilot?",
+      "claim_ids": [
+        "s6",
+        "s14"
+      ],
+      "why": "Microsoft is the only proof point for the enterprise-distribution thesis, and access for 3,000 employees says nothing about activation, repeat use or willingness to pay.",
+      "evidence_to_request": "Pilot funnel data (eligible, registered, booked, repeat users) by month, the Microsoft pilot agreement or SOW, and any written terms or LOI for a paid follow-on.",
+      "priority": 3
+    },
+    {
+      "id": "q2",
+      "text": "Your pilot users averaged 2.2 services each and you list cleaning, elder care, infant care, pet care and driving. Which of those were actually fulfilled in the pilot, how many bookings were there in total, and what was the supply of caregivers in each category?",
+      "claim_ids": [
+        "s7",
+        "s28"
+      ],
+      "why": "The multi-market claim and the cross-sell metric depend on services actually delivered, and the 2.2 figure is meaningless without the user base and fulfilment behind it.",
+      "evidence_to_request": "Booking ledger by service category with requested vs. fulfilled counts, the number of active users behind the 2.2 average, and the caregiver roster by category.",
+      "priority": 4
+    },
+    {
+      "id": "q3",
+      "text": "You say you simply mark up the caregiver cost. What is the markup percentage, who pays it (employee or employer), and what were gross revenue and gross margin per booking in the Microsoft pilot after background checks and support costs?",
+      "claim_ids": [
+        "s20",
+        "s6"
+      ],
+      "why": "The revenue model rests entirely on the markup, and no revenue or unit economics from the pilot have been shown.",
+      "evidence_to_request": "Pilot P&L, per-booking revenue and cost breakdown, pricing sheet, and the payment flow showing who is charged.",
+      "priority": 5
+    },
+    {
+      "id": "q4",
+      "text": "You told the room Oracle and others are anxious to join. Are there any signed LOIs or active pilots, who is the economic buyer at each (HR, benefits, or procurement), and what is the sales cycle you expect?",
+      "claim_ids": [
+        "s25",
+        "s14"
+      ],
+      "why": "The enterprise-distribution strategy needs repeatable demand beyond Microsoft, and the Oracle interest is unverified.",
+      "evidence_to_request": "Pipeline list with stage and contact roles, any LOIs or emails from Oracle and others, and the pilot-to-contract timeline from Microsoft.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:33:35.673+00:00",
+  "mode": "live",
+  "title": "Oneva (Disrupt SF 2017 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "43% of professional women with children leave the workforce. 43%. That's a huge number, and I know because I'm one of them. I quit my job as a CFO at Seagate because I had a child, we had a home, and a husband. Too many of us are forced to choose between work and family every single day. When I chose to become one of those 40% who did return to the workforce, you can imagine my frustration when I was unable to find trusted care anywhere in the marketplace.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "And that's when Oneva was born. The Oneva Construe care platform allows our users to conveniently view, book, approve, and pay for FBI background care givers. We are currently in the market with Microsoft employees delivering house cleaning, elder care, infant care, pet care, driving, and other services that busy professionals all need as a wellness benefit. Rather than tell you how convenient and easy it is to use the Oneva platform, let's cut to a demo so you can see for yourselves.",
+      "t0": 5.42,
+      "t1": 5.42
+    },
+    {
+      "text": "Please, let's start the demo. So my husband of 31 years, Bob Gardine, 10 patents, three exits. We've been married 31 years, and we still have a minor child at home. Can you believe that? We've been working really hard to prepare for Disrupt, and we deserve a night out. We live in Oakland, and we love Scots out on the water. But we need care for our daughter. So let's go ahead and see what caregivers are available to come and provide care for our child.",
+      "t0": 9.85,
+      "t1": 9.85
+    },
+    {
+      "text": "And because we're so excited about this event, we're going to call it our celebratory night out. As you can see, our algorithm has matched a number of caregivers who meet our needs. Let's take a look at Belaine and see what she has to say. My name is Belaine, and I would love to be your caregiver. I care for children and elders, and I offer driving services to help my families get to school and appointments.",
+      "t0": 13.48,
+      "t1": 13.48
+    },
+    {
+      "text": "I love meeting new people, and I get great satisfaction, helping them however I can. Awesome. Now that we've heard from Belaine, let's see your credentials. With a simple click, I can see that FBI background check, that first aid certification and that degree from San Francisco State. Let's go and book her for this evening. Let's go ahead and cut back to the PowerPoint. As we design this platform, we realize that we could impact more families and more markets by designing for the enterprise.",
+      "t0": 16.49,
+      "t1": 16.49
+    },
+    {
+      "text": "And that's when Microsoft joined our team. Fred Till, General Manager Benefits at Microsoft, came to me and he said, I need the Oneva Konshir's care platform so that I can win in the talent wars. He said he needed one more innovative arrow in his quiver so he could go out and attract and retain the best and the brightest. And that's exactly what we do today. Moreover, we're able to attract and retain the best workers because we focus on worker safety, a job career, and living wages.",
+      "t0": 20.1,
+      "t1": 20.1
+    },
+    {
+      "text": "Yes, we know there are others in the market today providing care direct to consumer, and we know those marketplaces are filled with landmines for many, including their investors. You're wondering how we monetize this relationship with Microsoft. Well, here's what we do today. We simply mark up the cost of the caregiver, and that's how we make our money. Today in the San Francisco Bay Area, Microsoft employees are able to pay for these services using their credit card, their debit card, payroll reduction, and also employer provided stipend.",
+      "t0": 24.11,
+      "t1": 24.11
+    },
+    {
+      "text": "But we can produce that FSA reimbursement receipt needed so that Microsoft employees can get those pre-tax dollars back that they spent in our platform. Yes, we're attacking multiple multi-billion dollar markets, and I'm humbled to say that this certified minority-owned provider is the only player in this market and in this time. Microsoft absolutely is our first pilot, and we're excited to say that we have others who are anxious to join our team, including Oracle.",
+      "t0": 29.32,
+      "t1": 29.32
+    },
+    {
+      "text": "I'm Anita of Oneva. I solve real problems like elder care and extending women's careers. Oniva means trust and we care for yours like they're ours. Thank you. Judges. Can you talk a little bit about how long you've been working with Microsoft, how often employees use it, what the frequency looks like, and if there's a stack ranking of the services that they use most to least? Absolutely. We began our relationship with Microsoft in December 2014.",
+      "t0": 36.61,
+      "t1": 36.61
+    },
+    {
+      "text": "That's when I was approached by Fred Till, and we began that collaborative process. They've worked with us extensively while we operated in market in the consumer space, operating providing infant to elder and care and other services. When we launched our pilot here in the San Francisco Bay Area in February, to our surprise, the average user was male, 65% of the time, and requested on average 2.2 different services.",
+      "t0": 39.03,
+      "t1": 39.03
+    },
+    {
+      "text": "40% requested three different services. largest number of",
+      "t0": 45.06,
+      "t1": 45.06
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the Microsoft pilot is real, but it is only a pilot, the 'only player' claim is contradicted by the founder's own words, and the company appears to no longer be operating.",
+    "summary": "Oneva sells a platform for booking FBI-background-checked caregivers (child, elder, pet, cleaning, driving) as an employer-sponsored wellness benefit, and makes money by marking up caregiver cost. The Microsoft pilot held up: press reports a February 2017 pilot giving about 3,000 Bay Area employees access. The live framing drifted, though. 'In the market with Microsoft' became 'our first pilot', and 'no trusted care anywhere' plus 'only player' became an admission that direct-to-consumer competitors exist. Revenue, pilot traction (2.2 services per user, 65% male), the Oracle interest and the founder and husband credentials are all unverified. Our web check also found that Oneva appears to be no longer operating.",
+    "strengths": [
+      "Pilot with Microsoft is corroborated by TechCrunch and the Kiva business center: roughly 3,000 Bay Area employees given access starting February 2017.",
+      "Clear enterprise-benefit wedge, with a named Microsoft benefits sponsor and payment options including payroll deduction, employer stipend and FSA receipts.",
+      "Simple markup monetization and early usage data (2.2 services per user, 40% requesting three services) suggest breadth of demand, if verified.",
+      "Large addressable categories: child care and home care are each sized at tens of billions of dollars or more by independent analysts."
+    ],
+    "red_flags": [
+      {
+        "text": "Company appears to be no longer operating per our web check, which undermines everything resting on the pilot and the enterprise thesis. Status and reason for wind-down are unexplained.",
+        "claim_ids": [
+          "s21",
+          "s6"
+        ]
+      },
+      {
+        "text": "Microsoft traction is narrower than first framed. The opening said 'in the market with Microsoft employees', but later it was 'our first pilot'. There is no evidence of a signed paid contract or conversion beyond the pilot, and only access (about 3,000 employees) is documented, not usage.",
+        "claim_ids": [
+          "s6",
+          "s14"
+        ]
+      },
+      {
+        "text": "'Only player in this market' and 'no trusted care anywhere' are contradicted by the founder's own admission that direct-to-consumer care marketplaces exist. The enterprise-channel differentiation was not demonstrated.",
+        "claim_ids": [
+          "s23",
+          "s4"
+        ]
+      },
+      {
+        "text": "Unit economics and traction are unverified: markup percentage, who pays it, revenue and margin per booking are not disclosed. Whether all listed services (infant, elder, pet, driving) were actually fulfilled in the pilot is unknown, as are the booking counts behind the 2.2 services per user.",
+        "claim_ids": [
+          "s20",
+          "s28",
+          "s7",
+          "s27"
+        ]
+      },
+      {
+        "text": "Pipeline claim rests on 'anxious to join, including Oracle' with no LOI or pilot. Founder and husband credentials (Seagate CFO, 10 patents, three exits) are unverified. The headline 43% statistic is about 20 years old and overstates 'leave the workforce'.",
+        "claim_ids": [
+          "s25",
+          "s2",
+          "s8",
+          "s1"
+        ]
+      }
+    ],
+    "questions": [
+      "What is Oneva's current operating status, and if it stopped operating, why? Did the Microsoft pilot convert to a paid contract?",
+      "How many of the roughly 3,000 eligible Microsoft employees registered, booked at least once, and rebooked, and which services were actually fulfilled?",
+      "What is the markup percentage, who pays it, and what were revenue and gross margin per booking after background checks and support?",
+      "Which direct-to-consumer and enterprise care-benefit competitors do you face, and why does the enterprise channel give you a durable advantage?",
+      "Is there any signed LOI or active pilot with Oracle or others, and who is the economic buyer and expected sales cycle?"
+    ],
+    "evidence_requests": [
+      "Microsoft pilot agreement or SOW, plus any written terms or LOI for a paid follow-on",
+      "Pilot funnel data by month (eligible, registered, booked, repeat users) and a booking ledger by service category showing requested versus fulfilled",
+      "Pilot P&L with per-booking revenue, caregiver cost, markup and pricing sheet",
+      "Pipeline list with stage and contact roles, and any emails or LOIs from Oracle and others",
+      "Corporate status documents and cap table, and the minority-owned certification"
+    ],
+    "live_notes": [
+      "Opening said 'currently in the market with Microsoft employees'; later called Microsoft 'our first pilot', a narrower scope.",
+      "Opened with no trusted care anywhere in the marketplace and 'only player', then conceded others provide care direct to consumer.",
+      "In Q&A, said the Microsoft relationship began December 2014 and that Oneva ran a consumer business before the February pilot. This was not in the pitch and sits oddly with 'only player'.",
+      "New live-only data: pilot users were male 65% of the time, requested 2.2 services on average, and 40% requested three. The answer was cut off before the ranking of services.",
+      "Oracle was named as interested only in the closing, with no detail on stage."
+    ],
+    "generated_at": "2026-11-14T04:34:57+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=ZC3xl_UHhWY",
+  "outcome": "Finalist (runner-up), did not win TechCrunch Disrupt SF 2017 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2017/09/20/pi-wins-startup-battlefield-at-disrupt-sf-2017/",
+  "score": {
+    "total": 50.8,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 26.9,
+        "max_points": 40.0,
+        "detail": "3 supported and 0 contradicted of 17 claims; load-weighted 34% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 5.9,
+        "max_points": 20.0,
+        "detail": "5 of 17 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 10.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 2 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 8.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: evidence balance (26.9/40); weakest: specificity (5.9/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "s6",
+        "text": "Live with Microsoft employees as users/customers",
+        "part": "A",
+        "effect": 5.7,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier said no trusted care anywhere in the marketplace; now acknowledges existing care marketplaces. (said at 24s: \"we know there are others in the market tod",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier said 'in the market with Microsoft employees'; now described as a pilot, which is a narrower scope. (said at 29s: \"Microsoft absolutely is our first pil",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s11",
+        "text": "Algorithm matches caregivers to family needs",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s14",
+        "text": "Platform designed for enterprise (employer-sponsored) distribution",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (40% load); it could not be checked."
+      },
+      {
+        "claim_id": "s7",
+        "text": "Offers house cleaning, elder care, infant care, pet care, driving and other services",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (70% load); it could not be checked."
+      },
+      {
+        "claim_id": "s11",
+        "text": "Algorithm matches caregivers to family needs",
+        "part": "B",
+        "effect": -1.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s14",
+        "text": "Platform designed for enterprise (employer-sponsored) distribution",
+        "part": "B",
+        "effect": -1.2,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier said no trusted care anywhere in the marketplace; now acknowledges existing care marketplaces. (said at 24s: \"we know there are others in the market today providing care direct to consumer\"; vs claim s4)",
+    "Earlier said 'in the market with Microsoft employees'; now described as a pilot, which is a narrower scope. (said at 29s: \"Microsoft absolutely is our first pilot\"; vs claim s6)"
+  ],
+  "capture": "recording"
+}

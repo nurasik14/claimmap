@@ -1,0 +1,933 @@
+{
+  "deck_id": "yt_matic",
+  "status": "done",
+  "progress": "Finalized in 19s: 25 claims, 1 contradicted, 6 questions (0 arithmetic findings; web: 2 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s2",
+      "text": "Matic completes homeowners insurance purchase in 2-3 minutes",
+      "quote": "Two to three minutes, and you're done.",
+      "slide": null,
+      "category": "product",
+      "value": 3.0,
+      "unit": "minutes",
+      "depends_on": [
+        "s5",
+        "s13"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 1.8,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "Each carrier asks 40-50 home-specific questions",
+      "quote": "each carrier is going to ask you 40 to 50 home-specific questions",
+      "slide": null,
+      "category": "market",
+      "value": 50.0,
+      "unit": "questions",
+      "depends_on": [],
+      "load": 0.38,
+      "check": {
+        "verdict": "unverified",
+        "reason": "No independent source gives a figure of 40-50 home-specific questions per carrier. Public material only says carrier questionnaires are long and differ by carrier, and Matic's own site now says its form is short.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Home insurance questionnaire: How to nail it",
+            "url": "https://contentsnare.com/home-insurance-questionnaire/",
+            "quote": "We think it’s between 30-40 questions, which is exactly what we’ve opted for here.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "What Information Do You Need for a Homeowners Insurance Quote?",
+            "url": "https://www.oianow.com/post/what-information-homeowners-insurance-quote",
+            "quote": "Some carriers may only ask a handful of questions, while others may require additional information depending on the property's age, location, or characteristics.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Compare Insurance Quotes: Home, Auto, Pet & More",
+            "url": "https://matic.com/",
+            "quote": "Answer a few questions and get matched with initial quotes.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 1.8,
+      "boxes": []
+    },
+    {
+      "id": "s5",
+      "text": "Matic API integrates directly with mortgage lenders and insurance carriers",
+      "quote": "Matic's API integrates directly with mortgage lenders and insurance carriers",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.81,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Homeowners insurance offered during the mortgage process",
+      "quote": "to provide homeowners insurance during the mortgage process",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.81,
+      "boxes": []
+    },
+    {
+      "id": "s9",
+      "text": "Academy (Mortgage), a large national lender, uses Matic in its home buyer portal",
+      "quote": "Academy is one of the largest lenders in the nation, and they built this portal",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.22,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.62,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Customer data is prefilled; no personal details need to be entered",
+      "quote": "Vlad didn't have to put in his name, his date of birth, his marital status",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 13.23,
+      "boxes": []
+    },
+    {
+      "id": "s13",
+      "text": "Home-specific details (roof, electrical) are auto-populated, so the buyer doesn't answer carrier questions",
+      "quote": "He doesn't have to know what his roof was made out of or whether it was a circuit breaker or a fuse box",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s4",
+        "s5",
+        "s16"
+      ],
+      "load": 0.33,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 13.23,
+      "boxes": []
+    },
+    {
+      "id": "s16",
+      "text": "Matic normalizes lender data and enriches it with public record sources",
+      "quote": "Matic normalizes the data, adds new layers of data like public record sources",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.38,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 18.45,
+      "boxes": []
+    },
+    {
+      "id": "s17",
+      "text": "Matic automatically determines the best coverages for the buyer",
+      "quote": "Matic figured out what coverages are best for Vlad in his home",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s13"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 18.45,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "Matic normalizes carrier quotes and selects the best price for the coverage",
+      "quote": "normalized it against multiple carriers, and then picked the best price for that coverage",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 18.45,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Licensed Matic agents follow up by call, email or text to review coverages",
+      "quote": "Our very own Matic agent will call, email, or text Vlad to review his coverages",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 25.46,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "Most lenders do not build their own mortgage platforms",
+      "quote": "not all lenders build their own mortgage platforms. In fact, most don't.",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s9",
+        "s27"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 25.46,
+      "boxes": []
+    },
+    {
+      "id": "s23",
+      "text": "JPMorgan Chase uses the Rustify mortgage platform, described as one of the largest",
+      "quote": "JPMorgan Chase uses Rustify, one of the largest and most advanced mortgage platforms",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.22,
+      "check": {
+        "verdict": "supported",
+        "reason": "The platform is spelled \"Roostify\" (the deck's \"Rustify\" looks like a transcription error), and independent trade press confirms JPMorgan Chase uses it for its digital mortgage process. Roostify's own volume figures (about $50B a month, around 200 lenders) back the \"large\" part, but \"most advanced\" is subjective.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Roostify snags $32 million in Series C funding round",
+            "url": "https://www.housingwire.com/articles/roostify-snags-32-million-in-its-first-series-c-funding-round/",
+            "quote": "Roostify, which powers the digital mortgage platforms of JPMorgan Chase, TD Bank, Guild Mortgage, HSBC Bank USA and more",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "JPM teams with fintech to deliver digital mortgage platform",
+            "url": "https://www.americanbanker.com/news/jpm-teams-with-fintech-to-deliver-digital-mortgage-platform",
+            "quote": "JPMorgan Chase has partnered with the fintech firm Roostify to build a digital self-service mortgage platform that will allow consumers to upload and electronically sign mortgage documents.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 25.46,
+      "boxes": []
+    },
+    {
+      "id": "s24",
+      "text": "Matic's one-click experience is automatically available to all Rustify lenders",
+      "quote": "any lender who uses Rustify automatically has Matic's one-click HUI",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s23",
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 30.88,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "Digital mortgages did not exist two years ago",
+      "quote": "Two years ago, there was no such thing as a digital mortgage",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.68,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "60% of mortgages are done online",
+      "quote": "now 60% are being done online and growing every day",
+      "slide": null,
+      "category": "market",
+      "value": 0.6,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.22,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "J.D. Power data says about 43% of mortgage applicants applied online in 2017, well below 60%. Only looser survey definitions (partly or fully online, e.g. Fiserv's 56% for 2018) come close to the claim.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Should I Apply for an Online Mortgage? (citing J.D. Power 2018 Primary Mortgage Origination Satisfaction Study)",
+            "url": "https://credit.com/blog/should-i-apply-for-an-online-mortgage-188524",
+            "quote": "The study showed that 43% of mortgage applicants applied online in 2017—a 15% increase over 2016.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Fiserv: Two-Thirds Of Loans Originated Online In Last Two Years",
+            "url": "https://www.pymnts.com/loans/2019/fiserv-two-thirds-loans-online-last-two-years/",
+            "quote": "Almost two-thirds – 65 percent – of loan applicants since 2017 completed their applications partially or fully online, up from 56 percent in 2018.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.68,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "Carriers pay Matic for the service",
+      "quote": "carriers will pay us for this",
+      "slide": null,
+      "category": "financials",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.68,
+      "boxes": []
+    },
+    {
+      "id": "s29",
+      "text": "$150 average annual revenue per policy",
+      "quote": "Matic makes $150 per policy per year",
+      "slide": null,
+      "category": "financials",
+      "value": 150.0,
+      "unit": "USD_per_policy_per_year",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.5,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Recurring $150 annual renewal revenue per customer",
+      "quote": "every year a customer renews, Matic continues to make $150",
+      "slide": null,
+      "category": "financials",
+      "value": 150.0,
+      "unit": "USD_per_year",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.5,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Average customer lifetime of 5 years",
+      "quote": "average lifetime value of a customer is five years",
+      "slide": null,
+      "category": "customers",
+      "value": 5.0,
+      "unit": "years",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.5,
+      "boxes": []
+    },
+    {
+      "id": "s32",
+      "text": "$750 lifetime value per customer",
+      "quote": "we'll make $750 over the life of a customer",
+      "slide": null,
+      "category": "financials",
+      "value": 750.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.5,
+      "boxes": []
+    },
+    {
+      "id": "s33",
+      "text": "Auto bundling is upside not included in the unit economics",
+      "quote": "these numbers don't include bundling auto",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s34"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.5,
+      "boxes": []
+    },
+    {
+      "id": "s34",
+      "text": "30% of customers ask to bundle auto policy",
+      "quote": "Around 30% of our customers ask to bundle their auto policy",
+      "slide": null,
+      "category": "traction",
+      "value": 0.3,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.22,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 48.12,
+      "boxes": []
+    },
+    {
+      "id": "s38",
+      "text": "Mortgage Hippo is a new platform partner",
+      "quote": "Mortgage Hippo",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 53.33,
+      "boxes": []
+    },
+    {
+      "id": "s40",
+      "text": "Named partners account for $100B in mortgage originations",
+      "quote": "account for 100 billion with a B in a mortgage originations",
+      "slide": null,
+      "category": "market",
+      "value": 100000000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 53.33,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq7",
+      "text": "Does the buyer really enter nothing, such as coverage preferences, or is it only the lender-supplied fields?",
+      "claim_ids": [
+        "s12"
+      ],
+      "why": "Earlier: no name, DOB or marital status needed; now says no information at all.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "lq24",
+      "text": "What is the actual auto commission per policy, and is the 2-3x uplift per bundled customer or across the whole book?",
+      "claim_ids": [
+        "s32"
+      ],
+      "why": "Implies $300-450/yr per bundled customer vs the $150/yr and $750 LTV stated; unclear if this is per bundled customer or overall.",
+      "evidence_to_request": "",
+      "priority": 2
+    },
+    {
+      "id": "lq26",
+      "text": "Which of these lenders are live and selling Matic policies today versus just reachable via the platforms?",
+      "claim_ids": [
+        "s9"
+      ],
+      "why": "Earlier only Academy was named as using Matic; now three more lenders are named.",
+      "evidence_to_request": "",
+      "priority": 3
+    },
+    {
+      "id": "q1",
+      "text": "You say Matic's API integrates directly with lenders and carriers, and nearly everything rests on that: prefill, roof and electrical autopopulation, the 2-3 minute purchase, and carriers paying you. Which carriers are live and binding policies through the API today, which lender data feeds are in production, and how many policies have actually closed this way?",
+      "claim_ids": [
+        "s5",
+        "s2",
+        "s28",
+        "s24"
+      ],
+      "why": "The direct lender and carrier integration is the foundation of the product, the speed claim and the revenue model, and it is unverified.",
+      "evidence_to_request": "List of live carrier and lender integrations with go-live dates, API documentation or integration contracts, and a bound-policy count by carrier and by channel for the last 6 months.",
+      "priority": 4
+    },
+    {
+      "id": "q2",
+      "text": "You claim buyers skip 40-50 carrier questions because you auto-populate roof, electrical and other home details from lender data and public records. Our research finds no source for 40-50, and your own site now describes a short form of about 30-40 questions. What share of questions do you actually prefill, and what share of users still answer something by hand?",
+      "claim_ids": [
+        "s4",
+        "s13",
+        "s16",
+        "s2"
+      ],
+      "why": "The core user-experience differentiator (prefill and no carrier questions) rests on the data enrichment working, and the 40-50 question figure is unsupported.",
+      "evidence_to_request": "Field-level prefill rate by question and carrier, median completion time and drop-off funnel data, and the data sources used for roof and electrical details with accuracy or quote-rejection rates.",
+      "priority": 5
+    },
+    {
+      "id": "q3",
+      "text": "You said 60% of mortgages are now done online, but J.D. Power puts online applications at about 43% for 2017. Which source gives 60%, and since you argue most lenders don't build their own platforms, how many lenders actually sit on Roostify or similar platforms and could be reached through your integration?",
+      "claim_ids": [
+        "s27",
+        "s22",
+        "s24",
+        "s23"
+      ],
+      "why": "The market-size and distribution argument depends on a contradicted online-adoption figure and an unverified claim that most lenders rely on third-party platforms.",
+      "evidence_to_request": "Source for the 60% figure, Roostify partnership agreement showing how Matic is distributed to its lenders, and a list of lenders live versus contracted with application volumes.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:34:57.627+00:00",
+  "mode": "live",
+  "title": "Matic (Disrupt SF 2017 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "What is the biggest, most emotional purchase that you will likely ever make? It's your home. It's where you'll spend 30 years making memories, and you'll spend 30 years trying to pay it off. And you need to protect this significant purchase with homeowners insurance. But you're not an expert in homeowners insurance. You don't know what the difference is between the insurance carriers are, or what coverages you need, or what's a fair price for you to pay.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "And worse, the process is tedious, inefficient, and confusing. It needlessly takes days. I'm here to introduce Matic. Matic makes buying homeowners insurance a breeze. Two to three minutes, and you're done. And homeowners insurance is the requirement on your home loan. And there are two problems getting it. Number one, you have to go to insurance carrier after insurance carrier, filling out your information over and over again. And each carrier is going to ask you 40 to 50 home-specific questions like, what's your roof made out of?",
+      "t0": 1.8,
+      "t1": 1.8
+    },
+    {
+      "text": "Or do you have a circuit breaker or a fuse box? And how should you know you don't live in the house yet? And the second problem is, unless you're a licensed insurance agent, you don't know what the best policy is for you and your home. And that's why we created Matic. You think Amazon's one click buy it now button, but for homeowners insurance. Matic's API integrates directly with mortgage lenders and insurance carriers to provide homeowners insurance during the mortgage process.",
+      "t0": 5.81,
+      "t1": 5.81
+    },
+    {
+      "text": "Within 60 seconds or less, Matic will figure out what coverages you need, shop multiple insurance carriers, and give you a quote custom specific to you, and all you have to do is click one button. And let me show you how easy it is. The mortgage process is extremely complicated, and that's why lenders are moving to digital platforms like you see here. Academy is one of the largest lenders in the nation, and they built this portal to help their home buyers get into their house quicker.",
+      "t0": 8.62,
+      "t1": 8.62
+    },
+    {
+      "text": "And almost every part of this home buying process can be done online, except for homeowners insurance until Matic. Vlad is getting his loan from Academy and now it's time for him to get insurance. He opens his to-do task, simply clicks get quote and his process begins. Now notice that Vlad didn't have to put in his name, his date of birth, his marital status. He doesn't have to know what his roof was made out of or whether it was a circuit breaker or a fuse box.",
+      "t0": 13.23,
+      "t1": 13.23
+    },
+    {
+      "text": "Vlad didn't have to put in any information at all. Academy sends us his data, VAPI. Matic normalizes the data, adds new layers of data like public record sources, and then passes it to multiple insurance carriers. Now Vlad has to sit back, wait and get his quotes and already, boom, here it is. Matic figured out what coverages are best for Vlad in his home, normalized it against multiple carriers, and then picked the best price for that coverage.",
+      "t0": 18.45,
+      "t1": 18.45
+    },
+    {
+      "text": "We shop for Vlad in seconds and we explain what he needs and why. Have more questions? Our very own Matic agent will call, email, or text Vlad to review his coverages with him because after all, insurance can be complicated and Matic makes it simple. But not all lenders build their own mortgage platforms. In fact, most don't. For example, JPMorgan Chase uses Rustify, one of the largest and most advanced mortgage platforms out there.",
+      "t0": 25.46,
+      "t1": 25.46
+    },
+    {
+      "text": "Watch how easy it is for any lender who uses Rustify to use Matic. The lender simply flips a switch in their back end. And now any lender who uses Rustify automatically has Matic's one-click HUI to do. So again here, a simple click get quote, and then the process begins. So why hasn't this been done before? Well, there are many reasons for this, but only now are mortgages going digital.",
+      "t0": 30.88,
+      "t1": 30.88
+    },
+    {
+      "text": "Two years ago, there was no such thing as a digital mortgage, and now 60% are being done online and growing every day. And for the first time, lenders have the ability to pass as personal and property data via API. And for the first time, insurance carriers have the ability to quote based off this data. And you can't have a digital mortgage without digital insurance, and carriers will pay us for this.",
+      "t0": 34.68,
+      "t1": 34.68
+    },
+    {
+      "text": "On average, Matic makes $150 per policy per year. This means that every year a customer renews, Matic continues to make $150. The average lifetime value of a customer is five years, which means we'll make $750 over the life of a customer. And because we can't pay lenders due to mortgage regulations, our typical acquisition cost is zero. And better yet, these numbers don't include bundling auto as well.",
+      "t0": 40.5,
+      "t1": 40.5
+    },
+    {
+      "text": "Around 30% of our customers ask to bundle their auto policy, which doubles or triples our revenue, since we get a reoccurring commission on our auto premium as well. And so by integrating directly with mortgage lenders and piggybacking off the distribution of mortgage platforms like Roostify, Matic's vision is to help home buyers get a policy, a Matic policy, on every loan. And we're one step closer to that vision.",
+      "t0": 48.12,
+      "t1": 48.12
+    },
+    {
+      "text": "I'm so excited to announce here at Battlefield that we're partnered with Roostify and Mortgage Hippo to great mortgage platforms and lenders like Academy, Mr. Cooper, Freedom, and United Wholesale Mortgage. These are some of the largest names in lending that account for 100 billion with a B in a mortgage originations. If you're a mortgage lender or you wanna partner with us, go to mattachinsurance.com slash battlefield and we'll make home buying for, we'll make insurance, we'll make insurance for your customers, a breeze.",
+      "t0": 53.33,
+      "t1": 53.33
+    },
+    {
+      "text": "Thank you. Judges. All right, he's gonna. the cost of the you mentioned the",
+      "t0": 58.55,
+      "t1": 58.55
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the whole pitch rests on a direct lender and carrier API integration that is unverified, and the one claim we could check, that 60% of mortgages are online, was contradicted.",
+    "summary": "Matic says its API plugs into mortgage lenders and carriers so a homebuyer can get a homeowners policy in 2-3 minutes with no data entry, at about $150 per policy per year, $750 lifetime value, and zero acquisition cost. The $750 figure is consistent with $150 over 5 years, and Roostify's use by JPMorgan Chase checks out. The integration claim and the prefill claims that depend on it are still unverified. The 60% online-mortgage figure is contradicted, since J.D. Power puts it near 43% for 2017. The 40-50 carrier questions figure has no independent source, and Matic's own site now describes a short form. Live drift also leaves open which lenders are live (one named lender became four) and whether the auto-bundling uplift applies per customer or across the book.",
+    "strengths": [
+      "Clear wedge: insurance bought inside the digital mortgage flow, with distribution through platforms like Roostify (a platform used by JPMorgan Chase and reportedly about 200 lenders) rather than paid acquisition",
+      "Simple unit economics that add up: $150 per year x 5 years = $750, with carriers paying and, per the founder, zero acquisition cost",
+      "Possible upside from auto bundling: about 30% of customers reportedly ask for it, and it is excluded from the $750",
+      "Named lender and platform partners (Academy, Mr. Cooper, Freedom, United Wholesale Mortgage, Roostify, Mortgage Hippo) give specific things to verify"
+    ],
+    "red_flags": [
+      {
+        "text": "Everything rests on the claim that Matic's API integrates directly with lenders and carriers. Prefill, auto-populated roof and electrical data, the 2-3 minute purchase, and carriers paying are all downstream of it. None of it is verified, and no live carrier, bound-policy count or production data feed was given.",
+        "claim_ids": [
+          "s5",
+          "s2",
+          "s28",
+          "s13"
+        ]
+      },
+      {
+        "text": "The 60% online-mortgage market claim is contradicted: J.D. Power says about 43% applied online in 2017. Only looser survey definitions (56% for 2018) come close. This overstates the tailwind and weakens the 'only now possible' argument.",
+        "claim_ids": [
+          "s27"
+        ]
+      },
+      {
+        "text": "The problem sizing is unsupported: no source gives 40-50 home-specific questions per carrier, and Matic's own site now describes a short form. The share of questions actually prefilled is unknown. The founder first said no name, date of birth or marital status was needed, then said no information at all.",
+        "claim_ids": [
+          "s4",
+          "s13",
+          "s12"
+        ]
+      },
+      {
+        "text": "Traction and partner status are unclear. Only Academy was named as a customer in the demo, then three more lenders and two platforms were named at the end. It is unknown which are live and selling policies versus merely reachable. The claim that Roostify lenders get Matic automatically after one switch is unverified. The $100B in originations covers named partners, not Matic volume.",
+        "claim_ids": [
+          "s9",
+          "s24",
+          "s40",
+          "s38"
+        ]
+      },
+      {
+        "text": "The unit economics and bundling uplift are unverified and inconsistent. The $150 per policy, 5-year life and 30% auto attach rate are unsupported. 'Doubles or triples revenue' implies $300-450 per year per bundled customer, which conflicts with the $750 lifetime value unless it applies per bundled customer.",
+        "claim_ids": [
+          "s29",
+          "s31",
+          "s32",
+          "s34",
+          "s33"
+        ]
+      }
+    ],
+    "questions": [
+      "Which carriers are live and binding policies through the API today, which lender data feeds are in production, and how many policies have actually closed this way?",
+      "Which of the named lenders and platforms (Academy, Mr. Cooper, Freedom, United Wholesale Mortgage, Roostify, Mortgage Hippo) are live and selling Matic policies today versus signed or just reachable?",
+      "What share of carrier questions do you actually prefill, and what share of users still answer something by hand? Where does 40-50 come from, given your site now says a short form?",
+      "Where do $150 per policy per year, a 5-year customer life and a 30% auto attach rate come from, and is the 2-3x revenue uplift per bundled customer or across the whole book?",
+      "Which source gives 60% of mortgages online, and how many lenders sit on Roostify or similar platforms and could be reached through the integration?"
+    ],
+    "evidence_requests": [
+      "List of live carrier and lender integrations with go-live dates, plus API documentation or integration contracts",
+      "Bound-policy count by carrier and by channel for the last 6 months, with commission statements showing revenue per policy",
+      "Roostify and Mortgage Hippo partnership agreements showing how Matic is distributed, plus a list of lenders live versus contracted with application volumes",
+      "Field-level prefill rate by question and carrier, median completion time and drop-off funnel data",
+      "Renewal and retention data supporting the 5-year lifetime, and auto commission per policy with attach-rate data"
+    ],
+    "live_notes": [
+      "Speed claim shifted: first 'two to three minutes, and you're done', later 'within 60 seconds or less' for a quote. This is likely quote vs full purchase, but it should be confirmed.",
+      "Data-entry claim escalated from no name, date of birth or marital status to 'didn't have to put in any information at all'.",
+      "Customer list grew mid-pitch: Academy was the only lender named in the demo, then Mr. Cooper, Freedom and United Wholesale Mortgage were added at the end, with no live-versus-signed status.",
+      "New claims said only live: Mortgage Hippo partnership, $100B in originations across named partners, 30% auto-bundle attach rate, and zero acquisition cost because regulations bar paying lenders.",
+      "Auto bundling 'doubles or triples revenue' implies $300-450 per year per bundled customer, versus the stated $150 per year and $750 lifetime value.",
+      "The transcript ends mid-question from the judges, so Q&A answers are not captured."
+    ],
+    "generated_at": "2026-11-14T04:36:35+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=A-3u0hGZjmA",
+  "outcome": "Finalist, did not win TechCrunch Disrupt SF 2017 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2017/09/20/pi-wins-startup-battlefield-at-disrupt-sf-2017/",
+  "score": {
+    "total": 34.3,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 19.1,
+        "max_points": 40.0,
+        "detail": "1 supported and 1 contradicted of 25 claims; load-weighted 5% backed and 5% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 7.2,
+        "max_points": 20.0,
+        "detail": "9 of 25 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 0.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 4 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 8.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: evidence balance (19.1/40); weakest: consistency (0/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Earlier said purchase completes in 2-3 minutes; now quote in 60 seconds or less (quote vs. full purchase, not necessarily conflicting). (said at 9s: \"Within 60 ",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier: no name, DOB or marital status needed; now says no information at all. (said at 18s: \"Vlad didn't have to put in any information at all.\"; vs claim s12",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Implies $300-450/yr per bundled customer vs the $150/yr and $750 LTV stated; unclear if this is per bundled customer or overall. (said at 48s: \"doubles or tripl",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier only Academy was named as using Matic; now three more lenders are named. (said at 53s: \"lenders like Academy, Mr. Cooper, Freedom, and United Wholesale ",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s13",
+        "text": "Home-specific details (roof, electrical) are auto-populated, so the buyer doesn't answer carrier questions",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (33% load); it could not be checked."
+      },
+      {
+        "claim_id": "s16",
+        "text": "Matic normalizes lender data and enriches it with public record sources",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (38% load); it could not be checked."
+      },
+      {
+        "claim_id": "s5",
+        "text": "Matic API integrates directly with mortgage lenders and insurance carriers",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "s27",
+        "text": "60% of mortgages are done online",
+        "part": "A",
+        "effect": -1.9,
+        "reason": "J.D. Power data says about 43% of mortgage applicants applied online in 2017, well below 60%. Only looser survey definitions (partly or fully online, e.g. Fiserv's 56% for 2018) come close to the claim."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier said purchase completes in 2-3 minutes; now quote in 60 seconds or less (quote vs. full purchase, not necessarily conflicting). (said at 9s: \"Within 60 seconds or less, Matic will figure out what coverages you need, shop multiple insurance carriers, and give you a quote\"; vs claim s2)",
+    "Earlier: no name, DOB or marital status needed; now says no information at all. (said at 18s: \"Vlad didn't have to put in any information at all.\"; vs claim s12)",
+    "Implies $300-450/yr per bundled customer vs the $150/yr and $750 LTV stated; unclear if this is per bundled customer or overall. (said at 48s: \"doubles or triples our revenue, since we get a reoccurring commission on our auto premium\"; vs claim s32)",
+    "Earlier only Academy was named as using Matic; now three more lenders are named. (said at 53s: \"lenders like Academy, Mr. Cooper, Freedom, and United Wholesale Mortgage\"; vs claim s9)"
+  ],
+  "capture": "recording"
+}

@@ -1,0 +1,482 @@
+{
+  "deck_id": "labloop_live",
+  "status": "done",
+  "progress": "Finalized in 20s: 7 claims, 2 contradicted, 6 questions (0 arithmetic findings; web: 1 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "40 paying customers",
+      "quote": "we have 40 paying customers",
+      "slide": null,
+      "category": "traction",
+      "value": 40.0,
+      "unit": "customers",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "I found no public information about LabLoop's customers, and the 'LabLoop' results (two unrelated GitHub projects) don't match this company, so the claim of 40 paying customers can't be confirmed or refuted. I found no press coverage, filings or company pages that confirm or conflict with LabLoop having 40 paying customers. The only 'LabLoop' hits were unrelated GitHub projects, so this private metric can't be checked from public sources.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "GitHub – pranavvetal/LabLoop",
+            "url": "https://github.com/pranavvetal/LabLoop",
+            "quote": "Unlocking Underused Equipment & Spaces — A trusted platform for academic makerspaces, shared labs, and fabrication facilities.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": "customers",
+      "source": "spoken",
+      "t": 7.68,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Customer base is mostly mid-sized labs",
+      "quote": "mostly mid-sized labs",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "I found no public information about LabLoop's customers, so the claim that most are mid-sized labs rests on the founders' own statement; the only LabLoop results were unrelated GitHub projects.",
+        "sources": [],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.68,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "40% monthly growth",
+      "quote": "growing about 40% every month",
+      "slide": null,
+      "category": "growth",
+      "value": 0.4,
+      "unit": "ratio_per_month",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet. I found no public source on LabLoop's customers, revenue or growth rate, so the 40% monthly figure is the company's own private number. For scale, 40% a month compounds to about 57x a year, and the lab automation market is forecast to grow only about 6–10% a year.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Meticulous Research – Lab Automation Market",
+            "url": "https://www.meticulousresearch.com/product/lab-automation-market-1221",
+            "quote": "~1.9× expansion 2026–2036 at 6.8% CAGR",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": "growth_rate_monthly",
+      "source": "spoken",
+      "t": 7.68,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "$10B+ lab automation market",
+      "quote": "over 10 billion dollars",
+      "slide": null,
+      "category": "market",
+      "value": 10000000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Most independent analysts put the global lab automation market at about $6–9B in 2026, so it is below $10B today. It only passes $10B in forecasts for around 2030 or later. Said live, not yet checked",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Lab Automation Market Report 2026-2031 - MarketsandMarkets",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/lab-automation-market-1158.html",
+            "quote": "Global market to reach USD 8.62B by 2031 from USD 6.60B in 2026 at 6.6% CAGR.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Lab Automation Market Report 2026 - Research and Markets",
+            "url": "https://www.researchandmarkets.com/reports/5980579/lab-automation-market-report",
+            "quote": "The Lab Automation Market, valued at USD 8.83B in 2026, is projected to reach USD 12.2B by 2030, growing at a 8.4% CAGR.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "40+ Lab Automation Statistics (2026): Market Size & ROI",
+            "url": "https://bestlabtech.com/statistics/lab-automation-statistics/",
+            "quote": "Most research firms put the laboratory automation market between USD 6.6 billion and USD 10 billion in 2026",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": "tam",
+      "source": "spoken",
+      "t": 15.24,
+      "boxes": []
+    },
+    {
+      "id": "s5",
+      "text": "No direct competitors",
+      "quote": "nobody else is doing what we do",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Many vendors already sell lab workflow and automation software to mid-sized labs, including Labguru/Cenevo, Scispot, Benchling and well-funded Automata. That conflicts with 'nobody else is doing what we do', and the deck doesn't describe LabLoop's product narrowly enough to show it is unique. Said live; no arithmetic or web evidence found yet.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Onymos – 7 Best Lab Software in 2026",
+            "url": "https://onymos.com/blog/lab-software/",
+            "quote": "Scispot offers fast time-to-value and is designed for modern automation-first environments from the ground up.",
+            "date": null,
+            "stance": "refutes"
+          },
+          {
+            "kind": "web",
+            "title": "Gitnux – Best Laboratory Workflow Management Software (2026)",
+            "url": "https://gitnux.org/best/laboratory-workflow-management-software/",
+            "quote": "Best for: Fits when mid-size labs need governed experiment workflows with structured templates and traceable records.",
+            "date": null,
+            "stance": "refutes"
+          },
+          {
+            "kind": "web",
+            "title": "Analytica World – Munich-based lab automation startup raised €2.77M",
+            "url": "https://www.analytica-world.com/en/news/1185965/munich-based-lab-automation-startup-raised-2-77m.html",
+            "quote": "Automata raises $45 million for AI-enabled laboratory automation",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 15.24,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Founding team has Thermo Fisher background",
+      "quote": "Our founding team came out of Thermo Fisher",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 22.7,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "$5M revenue by year 3",
+      "quote": "we plan to reach $5 million in revenue by year 3",
+      "slide": null,
+      "category": "financials",
+      "value": 5000000.0,
+      "unit": "USD",
+      "depends_on": [
+        "s1",
+        "s3",
+        "s4"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "The forecast is 0.1% of the TAM.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$5M / $10B = 0.1%",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "revenue_forecast",
+      "source": "spoken",
+      "t": 22.7,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "You say the lab automation market is over $10 billion, but most analysts put it at about $6.6–8.8B in 2026 and only past $10B around 2030. What's your source, and what's the serviceable market for your product with mid-sized labs, bottom-up?",
+      "claim_ids": [
+        "s4",
+        "s7"
+      ],
+      "why": "Tests the contradicted $10B+ market claim, on which the $5M year-3 revenue case rests, and the TAM share implied by that forecast.",
+      "evidence_to_request": "The market report cited for the $10B figure, plus a bottom-up SAM model (number of target mid-sized labs x ACV) with assumptions.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "You say you have 40 paying customers, and I can't find any public trace of them. Can you walk me through the list: how many are paying today versus on pilots or free trials, what each pays, and when each started?",
+      "claim_ids": [
+        "s1",
+        "s2"
+      ],
+      "why": "Tests the 40-paying-customers claim, which the $5M year-3 revenue plan is built on, and the mid-sized-lab mix.",
+      "evidence_to_request": "Customer list with contract/invoice dates, ACV and segment (anonymized if needed), plus a Stripe or bank export of the last 6 months of receipts.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You say you're growing 40% a month, which compounds to roughly 57x a year, while this market grows around 7-8% a year. What are your monthly revenue and customer counts for the last 6-12 months, and is that growth sustained or from a small base or a one-off?",
+      "claim_ids": [
+        "s3"
+      ],
+      "why": "Tests the 40% monthly growth claim, which drives the $5M year-3 revenue forecast and is unverified and implausible if sustained.",
+      "evidence_to_request": "Monthly MRR/revenue and customer-count history since launch, from billing system exports, with new, expansion and churned revenue split out.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "You told us nobody else is doing what you do, yet Scispot, Labguru/Cenevo, Benchling and Automata (which just raised $45M) all sell into mid-sized labs. How exactly are you different, and why do customers choose you over them?",
+      "claim_ids": [
+        "s5"
+      ],
+      "why": "Tests the no-competitors claim, which is contradicted and bears on how credible the share of market assumed in the revenue plan is.",
+      "evidence_to_request": "Competitive comparison, win/loss notes from recent deals, and customer references who evaluated alternatives.",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "text": "Your team came out of Thermo Fisher. What roles did you hold there, and how does that experience give you distribution or product insight that a competitor wouldn't have?",
+      "claim_ids": [
+        "s6"
+      ],
+      "why": "Tests the unverified team-background claim, which would be the main credibility basis if traction numbers prove soft.",
+      "evidence_to_request": "Founder LinkedIn profiles or CVs with dates and roles, and two reference contacts from Thermo Fisher or from customers.",
+      "priority": 5
+    },
+    {
+      "id": "lq1",
+      "text": "How many of the 40 are on paid contracts versus pilots, and what is the average contract value?",
+      "claim_ids": [
+        "s1"
+      ],
+      "why": "",
+      "evidence_to_request": "",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T03:49:42.143+00:00",
+  "mode": "live",
+  "title": "LabLoop pitch (live only)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "So, where we are today, we have 40 paying customers, mostly mid-sized labs, and we're",
+      "t0": 0.0,
+      "t1": 5.58
+    },
+    {
+      "text": "growing about 40% every month.",
+      "t0": 5.58,
+      "t1": 7.68
+    },
+    {
+      "text": "The market for lab automation is huge, over 10 billion dollars, and honestly nobody else is doing what we do.",
+      "t0": 8.24,
+      "t1": 15.24
+    },
+    {
+      "text": "Our founding team came out of Thermo Fisher, and we plan to reach $5 million in revenue by year 3.",
+      "t0": 15.7,
+      "t1": 22.7
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the traction claims (40 paying customers, 40% monthly growth) carry the deal and are entirely unverified, while the market size and 'no competitors' claims were contradicted.",
+    "summary": "LabLoop says it has 40 paying customers, mostly mid-sized labs, growing about 40% a month, and plans $5M revenue by year 3 in a lab automation market it calls over $10B. The traction numbers are private and no public trace of the company was found, so they are neither supported nor refuted. The market size is overstated: independent analysts put it at roughly $6-9B today and above $10B only around 2030. The $5M target is about 0.1% of even the stated market, so the TAM error does not undermine it. The 'nobody else is doing what we do' claim is contradicted by Labguru/Cenevo, Scispot, Benchling and Automata. The founder's 40% monthly pace (about 57x a year) also sits oddly with a modest $5M year-3 target.",
+    "strengths": [
+      "If true, 40 paying customers is real early traction in a defined segment (mid-sized labs).",
+      "The founding team reportedly comes from Thermo Fisher, which would be relevant domain experience.",
+      "The $5M year-3 target is small relative to the market, even at the lower $6-9B estimate, so it does not depend on the inflated TAM."
+    ],
+    "red_flags": [
+      {
+        "text": "Customer count and growth rate are founder-stated only, with no public trace of the company. 40% monthly compounds to about 57x a year versus 6-10% market growth, so the base could be tiny or the number a one-off. Paying versus pilot customers is not distinguished.",
+        "claim_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "text": "The market is overstated: the claim of 'over $10B' conflicts with analyst estimates of about $6-9B in 2026, with $10B reached only around 2030 or later. The founder offered no source and no bottom-up serviceable market.",
+        "claim_ids": [
+          "s4"
+        ]
+      },
+      {
+        "text": "The 'no direct competitors' claim is contradicted by vendors already selling workflow and automation software to mid-sized labs (Labguru/Cenevo, Scispot, Benchling, Automata). It shows weak competitive awareness or no clear differentiation.",
+        "claim_ids": [
+          "s5"
+        ]
+      },
+      {
+        "text": "The $5M year-3 forecast rests on unverified traction and the overstated market. It is hard to square with 40% monthly growth, which would far exceed $5M over 36 months unless the base is tiny or growth slows sharply.",
+        "claim_ids": [
+          "s7",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "text": "The Thermo Fisher background is unchecked, and the roles, seniority and relevance are unknown.",
+        "claim_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "questions": [
+      "Walk us through the 40 customers: how many are on paid contracts versus pilots or free trials, what does each pay, and when did each start?",
+      "What were your monthly revenue and customer counts for the last 6-12 months, and is 40% monthly growth sustained or from a small base or a one-off?",
+      "What is your source for the $10B+ market, and what is your bottom-up serviceable market (target mid-sized labs x ACV)?",
+      "How are you different from Scispot, Labguru/Cenevo, Benchling and Automata, and why do customers pick you over them?",
+      "What roles did the founders hold at Thermo Fisher, and what distribution or product insight does that give you?"
+    ],
+    "evidence_requests": [
+      "Billing or Stripe/bank export of the last 6-12 months of receipts, with monthly MRR and customer counts split into new, expansion and churn",
+      "Customer list with segment, ACV, contract start dates and paid-versus-pilot status (anonymized if needed)",
+      "Market report behind the $10B figure and a bottom-up SAM model with assumptions",
+      "Competitive comparison and win/loss notes, plus two customer references who evaluated alternatives",
+      "Founder CVs or LinkedIn profiles with roles and dates, and a bottom-up model behind the $5M year-3 forecast"
+    ],
+    "live_notes": [
+      "There was a live pitch only and no deck, so every claim was first made live and nothing could be compared against a deck.",
+      "No drift was recorded between the founder's statements.",
+      "The pitch was a short, single-pass statement of headline numbers with no supporting detail, sources or customer names."
+    ],
+    "generated_at": "2026-11-14T05:15:01+00:00"
+  },
+  "source_url": null,
+  "outcome": null,
+  "outcome_won": null,
+  "outcome_source": null,
+  "score": {
+    "total": 50.5,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 7.1,
+        "max_points": 40.0,
+        "detail": "0 supported and 2 contradicted of 7 claims; load-weighted 0% backed and 32% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 11.4,
+        "max_points": 20.0,
+        "detail": "4 of 7 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 12.0,
+        "max_points": 20.0,
+        "detail": "3 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: evidence balance (7.1/40).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "s4",
+        "text": "$10B+ lab automation market",
+        "part": "A",
+        "effect": -11.8,
+        "reason": "Most independent analysts put the global lab automation market at about $6–9B in 2026, so it is below $10B today. It only passes $10B in forecasts for around 2030 or later. Said live, not yet checked"
+      },
+      {
+        "claim_id": "s4",
+        "text": "$10B+ lab automation market",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "s5",
+        "text": "No direct competitors",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s2",
+        "text": "Customer base is mostly mid-sized labs",
+        "part": "B",
+        "effect": -2.9,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s5",
+        "text": "No direct competitors",
+        "part": "B",
+        "effect": -2.9,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s6",
+        "text": "Founding team has Thermo Fisher background",
+        "part": "B",
+        "effect": -2.9,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s5",
+        "text": "No direct competitors",
+        "part": "A",
+        "effect": -1.2,
+        "reason": "Many vendors already sell lab workflow and automation software to mid-sized labs, including Labguru/Cenevo, Scispot, Benchling and well-funded Automata. That conflicts with 'nobody else is doing what we do', and the deck"
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": "recording"
+}

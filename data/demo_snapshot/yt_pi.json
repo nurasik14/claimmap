@@ -1,0 +1,933 @@
+{
+  "deck_id": "yt_pi",
+  "status": "done",
+  "progress": "Finalized in 18s: 26 claims, 1 contradicted, 6 questions (0 arithmetic findings; web: 3 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "Unveiled the world's first contactless wireless charger two days ago",
+      "quote": "We unveiled the world's first contactless wireless charger on this stage",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s3",
+        "s12"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Charging pad technology introduced by Palm in 2009",
+      "quote": "The year was 2009 and the company was Palm.",
+      "slide": null,
+      "category": "competition",
+      "value": 2009.0,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Palm announced the Touchstone inductive charging pad for the Palm Pre at CES in January 2009. It shipped with the Pre in mid-2009. Palm was not the first company to sell wireless chargers, since Powermat already did. But it was the first major phone maker to integrate one, which fits the deck's framing.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Palm punts wireless Pré charger",
+            "url": "https://www.theregister.com/on-prem/2009/01/09/palm-punts-wireless-pre-charger/331730",
+            "quote": "Palm has gone head-to-head with wireless gadget charger Powermat, by unveiling a dedicated wireless charger for the recently unveiled Pré phone.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "New Palm Pre phone comes with wireless charger",
+            "url": "https://www.sfgate.com/business/article/New-Palm-Pre-phone-comes-with-wireless-charger-3242444.php",
+            "quote": "Palm will be the first major phonemaker to integrate wireless charging into its products with the release of the Touchstone, an accessory charging pad for the Palm Pre.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Review: Palm Pre: Touchstone (Phone Scoop)",
+            "url": "https://www.phonescoop.com/articles/article.php?a=274&p=2063",
+            "quote": "The Touchstone is a little stand that the Pre can rest on and be charged wirelessly.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 3.41,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "Existing charging pads charge only one device per section",
+      "quote": "each section of pad can only charge one device at a time",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "The claim holds for traditional single-coil pads, but free-positioning pads such as Aira's FreePower and Belkin's TrueFreedom charge several devices anywhere on one surface, so it overstates the limit.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Aira",
+            "url": "https://aira.rbln7.com/",
+            "quote": "Place multiple devices anywhere on the surface and they will all charge simultaneously, no alignment needed.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Belkin TrueFreedom Pro Wireless Charging Pad",
+            "url": "https://www.amazon.com/Belkin-TrueFreedom-Wireless-Charging-Multiple/dp/B08NTSFZ5M",
+            "quote": "The convenient full-surface charging mat allows you to wirelessly charge multiple Qi-enabled devices, like a smartphone and airpods, from anywhere on the charger pad",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Multiple Device Wireless Charger Pad - WirelessChargingCoil",
+            "url": "https://www.wirelesschargingcoil.com/multiple-device-wireless-charger/",
+            "quote": "In contrast to other charging stations with usually only one induction coil per charging area, the 16 overlapping coils of the ZENS Liberty allow an absolutely free placement of your devices",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 3.41,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "Founder is a doctor who worked at the MIT Media Lab on powering medical devices",
+      "quote": "I was a doctor working at the MIT Media Lab looking for a new way to to power medical devices",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.23,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "Co-founder Li Xin is a gold medalist from Tsinghua University",
+      "quote": "I met Li Xin, a gold medalist at China's famous Tsinghua University",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.23,
+      "boxes": []
+    },
+    {
+      "id": "s9",
+      "text": "Li Xin was a PhD student at MIT CSAIL",
+      "quote": "a PhD student in MIT's computer science and AI lab",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.23,
+      "boxes": []
+    },
+    {
+      "id": "s10",
+      "text": "Li Xin produced a historic mathematical proof enabling wireless power via bending magnetic fields",
+      "quote": "An historic mathematical proof that unlocked the solution to wireless power by the bending of magnetic fields",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.47,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Pi charges devices at a distance without contact",
+      "quote": "simply take a device, bring it nearby, and look, it's charging",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.47,
+      "boxes": []
+    },
+    {
+      "id": "s13",
+      "text": "Device can be used and moved in different directions while charging",
+      "quote": "can even continue to use the device and move it around in different directions",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.47,
+      "boxes": []
+    },
+    {
+      "id": "s14",
+      "text": "Pi charges five devices simultaneously at different angles",
+      "quote": "We've got five devices now charging simultaneously at different angles from just one pi.",
+      "slide": null,
+      "category": "product",
+      "value": 5.0,
+      "unit": "devices",
+      "depends_on": [
+        "s12",
+        "s13"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 17.68,
+      "boxes": []
+    },
+    {
+      "id": "s15",
+      "text": "Pi works with both iPhone and Android devices",
+      "quote": "it's not just for iPhone either. We're going to have an Android device out here.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 17.68,
+      "boxes": []
+    },
+    {
+      "id": "s16",
+      "text": "Pi can charge higher-power devices such as an iPad",
+      "quote": "How about an iPad? And look, there, it's charging too.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 17.68,
+      "boxes": []
+    },
+    {
+      "id": "s17",
+      "text": "Upcoming iPhone 8 and X will work with Pi without a case",
+      "quote": "when the iPhone 8 and X start arriving you will not need a case to use Pi",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 22.49,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "Upcoming Qi-standard Android phones will work with Pi without a case",
+      "quote": "Similar for upcoming Android phones supporting the Qi standard.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 22.49,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Competitors have tried microwave, ultrasound and laser wireless power",
+      "quote": "a number of other companies have promised wireless power. They've tried microwaves, ultrasound, lasers.",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent sources show other companies have pursued wireless power using microwave/RF (Energous, Ossia), ultrasound (uBeam) and laser or infrared light (Wi-Charge).",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "is real wireless phone charging nearly here (IEEE Spectrum)",
+            "url": "https://spectrum.ieee.org/is-real-wireless-phone-charging-nearly-here",
+            "quote": "Israeli startup Wi-Charge uses beams of infrared light, and Santa Monica, Calif.–based uBeam relies on ultrasound.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Wireless Power, the Next Big Thing for IoT? (Ossia blog)",
+            "url": "https://blog.ossia.com/wireless-power-the-next-big-thing-for-iot",
+            "quote": "Wireless power is a far-field technology employing RF, ultrasound and even lasers, largely to provide trickle charging/wireless power at a distance.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Wireless Charging Ready to Spark Mobile Revolution - Nanalyze",
+            "url": "https://www.nanalyze.com/2017/01/wireless-charging-mobile-revolution/",
+            "quote": "Another company out of Israel, Wi-Charge uses lasers to recharge mobile devices.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.31,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "Microwave, ultrasound and laser charging are unsafe at phone-charging power levels",
+      "quote": "None of these technologies are safe at power levels needed to charge a phone.",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.31,
+      "boxes": []
+    },
+    {
+      "id": "s23",
+      "text": "FCC has blocked microwave, ultrasound and laser wireless charging",
+      "quote": "the FCC agrees and has blocked them",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.31,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "Product is FCC compliant, safe and affordable",
+      "quote": "It's safe, it's affordable, and it's FCC compliant.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 33.75,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "Business model part one: direct-to-consumer sales of Pi",
+      "quote": "First, we will sell Pi directly to consumers.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 33.75,
+      "boxes": []
+    },
+    {
+      "id": "s29",
+      "text": "Over 50% gross margins",
+      "quote": "We have over 50% gross margins",
+      "slide": null,
+      "category": "financials",
+      "value": 0.5,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 33.75,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Second business model: licensing Pi platform to consumer electronics OEMs",
+      "quote": "we are opening the pie platform for use by existing consumer electronics OEMs",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 41.25,
+      "boxes": []
+    },
+    {
+      "id": "s32",
+      "text": "In discussions with several OEMs",
+      "quote": "We're already in discussions with several of them.",
+      "slide": null,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 41.25,
+      "boxes": []
+    },
+    {
+      "id": "s33",
+      "text": "Backed by Jeff Clavier of SoftTech",
+      "quote": "Jeff Clavier from Soft Tech",
+      "slide": null,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 41.25,
+      "boxes": []
+    },
+    {
+      "id": "s34",
+      "text": "Backed by Hadley Harris of ENIAC",
+      "quote": "Hadley Harris from ENIAC",
+      "slide": null,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 41.25,
+      "boxes": []
+    },
+    {
+      "id": "s35",
+      "text": "Backed by Lee Hauer of NextView Ventures",
+      "quote": "Next View Ventures, Lee Hauer",
+      "slide": null,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 41.25,
+      "boxes": []
+    },
+    {
+      "id": "s38",
+      "text": "Over 8,500 Pi reservations",
+      "quote": "over 8,500 of you have reserved your pies",
+      "slide": null,
+      "category": "traction",
+      "value": 8500.0,
+      "unit": "reservations",
+      "depends_on": [
+        "s28"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "customers",
+      "source": "spoken",
+      "t": 46.27,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq16",
+      "text": "Was the iPad in the demo charging through a case, and what is the charging speed for tablets?",
+      "claim_ids": [
+        "s16"
+      ],
+      "why": "iPad charging in demo relied on a case; tablets have no built-in receivers.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "lq20",
+      "text": "Is Leishan the same person as Li Xin, your co-founder?",
+      "claim_ids": [
+        "s10"
+      ],
+      "why": "Earlier the co-founder was named Li Xin; now Leishan (could be a transcription error).",
+      "evidence_to_request": "",
+      "priority": 2
+    },
+    {
+      "id": "lq28",
+      "text": "How many of the 10 brands are in active negotiations, and have any signed an NDA, pilot or LOI?",
+      "claim_ids": [
+        "s32"
+      ],
+      "why": "Earlier said 'discussions with several' OEMs; now 'outreach from 10', which is inbound interest rather than active talks.",
+      "evidence_to_request": "",
+      "priority": 3
+    },
+    {
+      "id": "q1",
+      "text": "You say Pi charges devices at a distance with no contact, and five devices at different angles at once. Can we see it run on our own devices, and what are the actual charging distance, delivered watts per device, and efficiency when all five are charging?",
+      "claim_ids": [
+        "s12",
+        "s13",
+        "s14",
+        "s16"
+      ],
+      "why": "The whole investment case rests on the contactless, multi-device charging claim (load 1.00), which was only shown live and has no independent verification.",
+      "evidence_to_request": "Unscripted hands-on demo with our devices, third-party lab test report (power delivered vs. distance and angle, efficiency, thermal data), and engineering documentation of the technology.",
+      "priority": 4
+    },
+    {
+      "id": "q2",
+      "text": "You say each section of a pad charges one device. But Aira's FreePower, Belkin's TrueFreedom and ZENS Liberty already charge several devices anywhere on one surface. What can Pi do that those can't, and how do you defend that?",
+      "claim_ids": [
+        "s3",
+        "s12"
+      ],
+      "why": "The competitive framing is contradicted by web evidence, and the 'world's first' differentiation depends on Pi being meaningfully different from free-positioning pads.",
+      "evidence_to_request": "Head-to-head comparison with free-positioning pads (range, power, number of devices, cost), patent filings and freedom-to-operate analysis, and a technical explanation of the 'bending magnetic fields' approach.",
+      "priority": 5
+    },
+    {
+      "id": "q3",
+      "text": "You say Pi is FCC compliant and safe, and that the FCC has blocked microwave, ultrasound and laser charging. What FCC authorization do you hold today, and what exposure (SAR/MPE) testing covers charging at a distance with several devices?",
+      "claim_ids": [
+        "s27",
+        "s22",
+        "s23"
+      ],
+      "why": "Regulatory approval and safety gate whether the product can ship and be licensed, and the claims are unverified.",
+      "evidence_to_request": "FCC grant of equipment authorization or test lab reports with the FCC ID, RF exposure and safety test results, and any correspondence with the FCC.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:33:35.673+00:00",
+  "mode": "live",
+  "title": "Pi (Disrupt SF 2017 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "Please take it away. All right. Thanks Anthony Two days ago. We unveiled the world's first contactless wireless charger on this stage And we can't wait to show it to all of you live This is how we charge right now We live in a tangled nest of wires We're constantly replacing ones that break or get lost and worst of all if we forget to plug in our phones Die at the worst possible moment Charging is a terrible experience.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "Thankfully, last Tuesday, a famous smartphone maker came with the solution, a new charging technology, the charging pad. I think we've all seen this before. The year was 2009 and the company was Palm. After all these years, it's still a pad. You can't use your phone while it's charging, it's kind of ugly and worst of all each section of pad can only charge one device at a time.",
+      "t0": 3.41,
+      "t1": 3.41
+    },
+    {
+      "text": "So if you've got a lot of devices you're gonna need a ton of pads everywhere or a ginormous one to do them all. Pads are not the solution. So how do we get truly wireless charging? Well three years ago I asked the same question. I was a doctor working at the MIT Media Lab looking for a new way to to power medical devices. And that's when I met Li Xin, a gold medalist at China's famous Tsinghua University and a PhD student in MIT's computer science and AI lab.",
+      "t0": 7.23,
+      "t1": 7.23
+    },
+    {
+      "text": "And he had a breakthrough. An historic mathematical proof that unlocked the solution to wireless power by the bending of magnetic fields. Introducing Pi, the world's first contactless wireless charging device. Let's go to the demo, please. Could we have the camera onto the demo table, please? Wonderful. Thank you. So this is Pi. To use it, simply take a device, bring it nearby, and look, it's charging. And Leishan can even continue to use the device and move it around in different directions.",
+      "t0": 12.47,
+      "t1": 12.47
+    },
+    {
+      "text": "And then we can add a second device. And there we go. It's charging, too. can add a third and a fourth and it's not just for iPhone either. We're going to have an Android device out here. There it is. It's charging. Now let's try something even harder, something that needs more power. How about an iPad? And look, there, it's charging too. We've got five devices now charging simultaneously at different angles from just one pi.",
+      "t0": 17.68,
+      "t1": 17.68
+    },
+    {
+      "text": "Back to the PowerPoint, please. Thank you. Now in the demo that you just saw, you'll notice that the cases have, the phones have cases on them and to be clear, when the iPhone 8 and X start arriving you will not need a case to use Pi. Similar for upcoming Android phones supporting the Qi standard. We built these cases to enable people with popular legacy devices to be able to charge as well as to charge your tablets which don't have magnetic receivers.",
+      "t0": 22.49,
+      "t1": 22.49
+    },
+    {
+      "text": "Now over the years, a number of other companies have promised wireless power. They've tried microwaves, ultrasound, lasers. None of these technologies are safe at power levels needed to charge a phone. You wouldn't be willing to live inside a microwave just to charge your iPhone, would you? Well, the FCC agrees and has blocked them. Instead, we built Pi around a safe magnetic charging standard. But until today, magnetic charging was very limited.",
+      "t0": 28.31,
+      "t1": 28.31
+    },
+    {
+      "text": "You had to put a device down perfectly parallel to the receiver to get any power. But thanks to our incredible team and Leishan's breakthrough, our patented platform can power multiple devices at any angle. It's safe, it's affordable, and it's FCC compliant. Our business model has two parts. First, we will sell Pi directly to consumers. We have over 50% gross margins and anticipate a very high lifetime value per customer.",
+      "t0": 33.75,
+      "t1": 33.75
+    },
+    {
+      "text": "If you like pie in your kitchen, you're going to want one in the living room, the bedroom, and in the office and enterprise. Second, we are opening the pie platform for use by existing consumer electronics OEMs. We're already in discussions with several of them. More on that in a second. We are backed by some incredible investors, Jeff Clavier from Soft Tech, Hadley Harris from ENIAC, and Next View Ventures, Lee Hauer.",
+      "t0": 41.25,
+      "t1": 41.25
+    },
+    {
+      "text": "We're so thankful for all their mentorship through this process. We want to thank this TechCrunch audience because we've had some incredible results since we launched. We have had outreach from 10 of the world's top consumer electronics brands, over 50 publications worldwide have written about pie and over 8,500 of you have reserved your pies. So as a special thank you we are offering anyone who reserves a pie in the next hour a $31.41 discount when pie starts shipping.",
+      "t0": 46.27,
+      "t1": 46.27
+    },
+    {
+      "text": "To reserve go to piecharging.com now and soon you'll experience how pie makes everyday magic. Thank you. Wait, did you bring any extra cases? Because I'm at 7%. Pardon me? I'm at 7%. Do you have any extra cases?",
+      "t0": 51.09,
+      "t1": 51.09
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the core 'contactless charging at a distance' claim is unverified and live drift shows current devices need special cases, while the competitive framing is contradicted by existing multi-device pads.",
+    "summary": "Pi claims to be the first contactless wireless charger. It says it charges five devices (iPhone, Android, iPad) at different angles from one unit while they move. It plans to sell direct to consumers at over 50% gross margin and to license the platform to OEMs, and it cites over 8,500 reservations. Palm's 2009 charging pad and the competitors' microwave, ultrasound and laser attempts check out. The claim that each pad section charges only one device is contradicted: free-positioning pads from Aira and Belkin charge several devices on one surface. The central product claim is unverified, and drift weakens it: the demo relied on cases, tablets have no magnetic receivers, and 'discussions with several OEMs' became 'outreach from 10'. FCC compliance, safety and margin claims were stated without any support.",
+    "strengths": [
+      "Live multi-device demo (five devices, including an Android phone and an iPad) is a concrete, testable product claim",
+      "Competitor landscape is accurate: Palm's 2009 pad and the microwave, ultrasound and laser attempts were confirmed",
+      "Two revenue paths (direct sale and OEM licensing), with a claimed 50%+ gross margin and 8,500+ reservations as early demand signal",
+      "Named seed investors (SoftTech, ENIAC, NextView) and a technical team with MIT ties, though none of this is checked yet"
+    ],
+    "red_flags": [
+      {
+        "text": "Core claim of charging at a distance with no contact is unverified. The founder later admitted the demo devices were in cases, built for legacy phones and tablets without magnetic receivers. This suggests a case or receiver accessory is needed today, which undercuts 'contactless' and the 'just bring it nearby' framing, and the iPad result in particular.",
+        "claim_ids": [
+          "s12",
+          "s16",
+          "s14"
+        ]
+      },
+      {
+        "text": "Differentiation is overstated. The claim that each pad section charges one device is contradicted by free-positioning pads (Aira FreePower, Belkin TrueFreedom) that charge several devices anywhere on a surface. The pitch never says what Pi does that those can't.",
+        "claim_ids": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Regulatory and safety claims are asserted without evidence. Pi is called FCC compliant and safe, and the FCC is said to have 'blocked' microwave, ultrasound and laser charging. None of this is checked, and no authorization or test data was offered.",
+        "claim_ids": [
+          "s27",
+          "s22",
+          "s23"
+        ]
+      },
+      {
+        "text": "OEM traction is softer than first stated. 'Already in discussions with several' became 'outreach from 10', which is inbound interest. The licensing model, and the reservations (unverified, reservations rather than paid orders), rest on this.",
+        "claim_ids": [
+          "s32",
+          "s31",
+          "s38"
+        ]
+      },
+      {
+        "text": "Unverified claims about the technology and team: a 'patented' platform, the mathematical proof behind it, and an inconsistent co-founder name (Li Xin vs Leishan, possibly a transcription error). The 50%+ gross margin is stated before the product ships.",
+        "claim_ids": [
+          "s10",
+          "s29",
+          "s7"
+        ]
+      }
+    ],
+    "questions": [
+      "Can we run Pi on our own devices, with no cases, and what are the real charging distance, watts delivered per device and efficiency with five devices charging?",
+      "Which devices charge today without a case, and what do the cases contain (receiver coil, magnets)? How does that differ from existing Qi pads?",
+      "What can Pi do that Aira FreePower, Belkin TrueFreedom or ZENS Liberty can't, and what patents protect it?",
+      "What FCC authorization do you hold today (FCC ID), and what exposure testing covers multi-device charging?",
+      "Of the 10 OEM contacts, how many are in active talks, and has any signed an NDA, pilot or LOI? Are the 8,500 reservations paid or refundable, and what is the unit cost behind the 50%+ margin?"
+    ],
+    "evidence_requests": [
+      "FCC equipment authorization grant or test lab reports with the FCC ID, plus RF exposure and safety results",
+      "Third-party lab report on power vs. distance and angle, efficiency and thermals with five devices",
+      "Patent filings and freedom-to-operate analysis",
+      "Head-to-head comparison against free-positioning pads, plus a bill of materials and unit cost sheet backing the 50%+ gross margin",
+      "Reservation data (paid vs. unpaid, deposits) and evidence of OEM contacts (emails, NDAs, LOIs)"
+    ],
+    "live_notes": [
+      "Earlier the demo implied devices charge simply by being brought near; later the founder said the phones had cases, built for legacy devices, and that the iPad needed one because tablets lack magnetic receivers.",
+      "Co-founder was first named Li Xin, then Leishan (possibly a transcription error).",
+      "'Discussions with several' OEMs was later described as 'outreach from 10' top brands, which is inbound interest.",
+      "Claims made only live include 50%+ gross margin, 8,500+ reservations, FCC compliance, a patented platform, the claim that the FCC has blocked competing technologies, and case-free use with the iPhone 8/X and Qi Android phones.",
+      "The pitch ended with someone saying their phone was at 7% and asking for an extra case, which fits the point that cases are needed today."
+    ],
+    "generated_at": "2026-11-14T04:35:05+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=UFvbygXm1Hc",
+  "outcome": "Won TechCrunch Disrupt SF 2017 Startup Battlefield",
+  "outcome_won": true,
+  "outcome_source": "https://techcrunch.com/2017/09/20/pi-wins-startup-battlefield-at-disrupt-sf-2017/",
+  "score": {
+    "total": 19.4,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 16.3,
+        "max_points": 40.0,
+        "detail": "2 supported and 1 contradicted of 26 claims; load-weighted 4% backed and 11% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 3.1,
+        "max_points": 20.0,
+        "detail": "4 of 26 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 0.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 4 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 0.0,
+        "max_points": 20.0,
+        "detail": "0 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: evidence balance (16.3/40); weakest: consistency (0/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Earlier demo implied devices charge by simply bringing them near; now cases are required for current devices. (said at 22s: \"We built these cases to enable peop",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "iPad charging in demo relied on a case; tablets have no built-in receivers. (said at 22s: \"to charge your tablets which don't have magnetic receivers\"; vs claim",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier the co-founder was named Li Xin; now Leishan (could be a transcription error). (said at 34s: \"Leishan's breakthrough\"; vs claim s10)",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier said 'discussions with several' OEMs; now 'outreach from 10', which is inbound interest rather than active talks. (said at 46s: \"outreach from 10 of the",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s3",
+        "text": "Existing charging pads charge only one device per section",
+        "part": "A",
+        "effect": -4.5,
+        "reason": "The claim holds for traditional single-coil pads, but free-positioning pads such as Aira's FreePower and Belkin's TrueFreedom charge several devices anywhere on one surface, so it overstates the limit."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Unveiled the world's first contactless wireless charger two days ago",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s12",
+        "text": "Pi charges devices at a distance without contact",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "s13",
+        "text": "Device can be used and moved in different directions while charging",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (55% load); it could not be checked."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier demo implied devices charge by simply bringing them near; now cases are required for current devices. (said at 22s: \"We built these cases to enable people with popular legacy devices to be able to charge\"; vs claim s12)",
+    "iPad charging in demo relied on a case; tablets have no built-in receivers. (said at 22s: \"to charge your tablets which don't have magnetic receivers\"; vs claim s16)",
+    "Earlier the co-founder was named Li Xin; now Leishan (could be a transcription error). (said at 34s: \"Leishan's breakthrough\"; vs claim s10)",
+    "Earlier said 'discussions with several' OEMs; now 'outreach from 10', which is inbound interest rather than active talks. (said at 46s: \"outreach from 10 of the world's top consumer electronics brands\"; vs claim s32)"
+  ],
+  "capture": "recording"
+}

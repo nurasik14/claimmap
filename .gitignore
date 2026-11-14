@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+data/decks/
+.agents/
+.pytest_cache/
+*.tmp
+.claude/
+data/real_audio/
+data/real_decks/
+data/archive/
+
+# tool droppings
+.playwright-mcp/
+*.log

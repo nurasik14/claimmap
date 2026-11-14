@@ -1,0 +1,35 @@
+[project]
+name = "claimmap"
+version = "0.1.0"
+description = "Live pitch analyzer: deck claim map + live drift detection"
+authors = [
+    { name = "nurasik14", email = "nserikov2-c@my.cityu.edu.hk" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=2.8.0",
+    "fastapi>=0.162.7",
+    "faster-whisper>=1.2.1",
+    "httpx>=0.28.1",
+    "numpy>=2.5.4",
+    "nvidia-cublas-cu12>=12.9.3.13",
+    "nvidia-cudnn-cu12>=9,<10",
+    "pydantic>=2.14.3",
+    "pypdf>=7.1.0",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.33",
+    "uvicorn[standard]>=0.54.0",
+]
+
+
+
+[dependency-groups]
+dev = [
+    "fpdf2>=2.9.0",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+markers = ["live_llm: calls the real LLM (skipped unless CLAIMMAP_LIVE_LLM=1)", "gpu: needs the GPU whisper model"]

@@ -1,0 +1,1020 @@
+{
+  "deck_id": "real_crowdsec_preseed",
+  "status": "done",
+  "progress": "Finalized in 85s: 18 claims, 3 contradicted, 5 questions (0 arithmetic findings; web: 2 verdicts, web search skipped for c6 (ValueError); web search skipped for c4 (ValueError))",
+  "error": null,
+  "company": "CrowdSec",
+  "website": "crowdsec.net",
+  "slides": [
+    "Rev : 28/11/2019\nSafer\nTogether.\nVC deck v3.1\nOpen Source Collaborative Security engine\nDynamic\nCrowdSec\nSmart Money Round\ndeck v1\n18/06/2020",
+    "Why\n“Cyber defense collaboration is the space race of\nour generation.”\nWilliams David\nBy 2021, the estimated cost of Cyber criminality\nis $6 trillion (Cybersecurity ventures)\nHackers attack occur every 39\nseconds. (University of Maryland)\nIn 2018 hackers stole half a billion personal\nrecords (Cybersecurity ventures)\nThe average cost of a data\nbreach is $150 M. (Juniper)",
+    "Cybersecurity: not (only) a problem of means\n3\n(800 K records, 57 000 users)\n($117 million settlement)\n(7.5 million accounts stolen) (2.2 bn records)\n(117 million of email/pass)\n(83 million of accounts) (57 million of accounts) ($162 million cost)\n($171 million global cost)\n($500 million robbed)\n($252 million cost)\nThese companies had amongst the largest security budgets on\nearth, yet this did not prevent cyber criminals to succeed.\nWe need another approach\nThe others",
+    "Not solved, for a reason\nTime between intrusion and detection,\n0day and patch, safe and … sorry.\nApps require ports opened to\neveryone on the ﬁrewall, which just\nlet everything … pass.\nHackers use stolen servers, free open\nsource tools and their time. They don’t even\nneed 1% of your budget to attack you.\nTime\nUnfiltered\nports\nMoney\nShadow IT (Cloud / SaaS) & Covid19’s\n“Work at home” policy created an uneven\nsecurity level across the perimeter. CTOs\nhave no idea where are their assets and\nhow they are cared for.\n4\nPerimeter",
+    "The next generation solution\n5\nReal Time\nBehavior\nassessment\nReputation\nassessment\nDecoupled\ndetection &\nremediation\nCrowd intel\nsharing",
+    "We use this, because it’s free, real time,\nfed by community and gives trafﬁc\ninsights.\nOur parents used this.\nThe Waze of ﬁrewalls\n6",
+    "The team\n“Best ideas can fail, best teams don’t”\nLow ﬁxed cost, IT spendings scale as we grow,\nmost of computing power used client-side\nOpen Source allow community\nto partake in the effort\nNo sales, only marketing and\ndurable communication\nAn experimented team\n6 persons, 5 on unemployment money, few\npermanent positions on long term",
+    "8\nPhilippe\nHumeau\nCEO\nLeadership\nStrategy\nNetworks\nExperience\nMarketing\nVision\nMeans\nBusiness\nAccountable for\nLaurent\nSoubrevilla\nCOO\nForecast\nTactician\nExperience\nPolyvalent\nCash efﬁcient\nAccountable for\nDelivery\nPlanning\nExecution\nThibault\nKoechlin\nCTO\nDefensive Security\nOpen source savvy\nMentoring\nLead Dev\nOffensive security\nSecurity\nArchitecture\nStability\nAccountable for\nA seasoned founders triumvirate\n25 years 12 years\n(The team will introduce\nitself)",
+    "Behavior & Reputation\nbased security network\nLike Waze, more users means better precision\nOpen Source will help enlarge our crowd\nPrevious IP reputation systems (partially) failed\nbecause they were not crowd based",
+    "CrowdSec analyses behavior, not IP:port\n10\nLegitimate trafﬁc\nBruteforce\nPort scan\nWeb crawlers\nExploits\nXSS/SQLi\n...\nInternet\n10.0.0.0/24\n12.33.42.155\n80/TCP\n53/UDP\n22/TCP\n123.42.56.218\n21/TCP\nFirewall CrowdSec",
+    "11\nCrowdSec automates your security\nLogs\nBAD IP\nCommunity\nSIEM\nParty\nCollect data\nwhere you\nwant...\nOurs Yours\nCommunity\nBehavior scenarii\ndetect hack\nattempts\nReact the way\nyou want, where\nyou want\nBlock Captcha\nLimit rights\nor speed 2FA/MFA\nShare your\nsightings and get\ninformed\nBAD IP\n1 2 3 4",
+    "12\nDetect & enforce\nLogs Logs Logs\nInternet\nCloudified, SaaS & Hosted\nOn Premise\nInformation System\nBAD IP\nBAD IP",
+    "One stone, ten birds\n13\n?\nAggressive traffic\nis qualified,\ndiscarded &\nnotified to our\ndatabase",
+    "Security made simple: just click\n14\nOur Hub: one place to find all you\nneed\nOne click to\nenable a scenario",
+    "Filtering the noise: the Consensus\n15\nPredictive.AlgHoneypot\nCrowd\nSec\nTR1 TR1 TR1 TR1 TR2 TR2 TR2\nCanaries\nCrowd\nSec\nCrowd\nSec",
+    "Monetization\n”If it’s free, you are the product”\nAndrew Lewis\nOpen Source + Free + useful = Crowd\nWith thousands of machines reporting the aggressions they face in\nreal time ...\n… our IP reputation database is the most\naccurate and real time ever made.",
+    "17\n1st packet sent by a new IP, is\nscreened by our API (on or offline)\nAPI replies “Pass” or “Act”\nUnknown IPs\nmake queries1|\n2|\n3|\n?\n?\nIP\nAPI: Monetizing the Network effect",
+    "Our API can be leveraged anywhere\n18\nDaemons\nAppliances\nHTTP\nservers\nApps,\ncodelets, tools\nLanguages &\nframeworks\nAnd let you choose response to enforce",
+    "But we offer way more to premiums\n19\nOpen Source Component (autoban bad behavior)\nyes\noptional\noptional\nSharing signals with community\nyes\noptional\noptional\nDashboard\nLocal & Online\nCustomizable\nincludes compliance\nExtended Consensus including 3rd party blacklists\nCommunity\nCrowdsec\nCrowdsec\nExtended remediations (Captcha / 2FA / MFA / Throttle)\nActivity Typology Filtering (AS, bot, threat type/level, …)\nSupport\n1 day best effort\n24x5, chat/mail\n24x7 phone\nFeatures\nBlacklists received\n[Phase 2] Artiﬁcial Intelligence based ﬁltering\nyes\nno\nLocal\nCommunity\nCommunity\nCentralized mgmt (Group policies & ﬁltering proﬁles)\nSelf monitoring of your IPs & am I under attack\nPrivate consensus (with/between your machine)\nCold log online analyzes / forensic as a service\nno\nno\nOnline\nCrowdsec\n24x7 chat/mail\nAPI Access\n200 K queries included\nFree Watcher Premium Enterprise API access\n(Customizable) (Customizable) (Customizable)",
+    "The Market\n“Sound strategy starts with having the right goal”\nMichael Porter\nJeremy King,\n(President - Benchmark Executive Search)\n“From our optics, if you deﬁne cyber as data\ncollection, storage, security, analysis, threat\nintelligence, operations and dissemination, then\nthe $1 trillion market forecast from Cybersecurity\nVentures barely scratches the surface”",
+    "Why now?\n21\nSize matters\nFree\nAccuracy comes from the\nnumber. A small, self\nﬁnanced network cannot\nmatch the efﬁciency of\nlarge scale distributed\neffort, Open source is the\nanswer here.\nVersatility Community\nMost of previous\nattempts focused on\nEmail, domains &\ngeolocation, mainly to\nﬁght spam. API 1st is a\ngame changer, let the\nuser decides where,\nwhen, what.\nAPI-First Open Source\nAttempts: Symantec, Talos (Cisco), Gossip, Repuscore, IP group\nREP\nFail2ban paved the way.\nIn order to get known\nbeyond just mail admins\nand reach a larger crowd,\nlet the community know\nyou are free, reputable\nand easy to use.\nAka: What previous IP reputation systems missed ?\nAka: Why it doesn’t exist already ?",
+    "There is no “Waze of Security”\n22\nHIPS/EDR/ToolsBot mitigationIP Reputation Threat intel CDN/SeCDN\nNone is crowd\nbased\nNone is Open\nsource\nNone is free\nClients Data SRC Competitors Partners Clients",
+    "IT engineers on\nan infrastructure\nSysadmins\non servers\nDevOPS in their\ndeployment\nenvironment\nDevelopers\nthrough a\nLibrary or\ndirect API call\nLocal admins\non LAN server\n& workstation\nAnyone can set it up",
+    "24\nNext 6 months: go-to Community\nPersonas\nTechs\nSREDevOPS Developers CISOSecOPS/MSSP\nVectors\n37%80% 37%96% 30%Millions70%",
+    "How to reach 3.5% conversion rate\n25\nGet known from targets\n(with the OS tool, eye candy radar &\ncontent marketing)\nEasy conversion\n(WW PSP, VAT & taxes handling,\nsupport, mail reminders)\nSmart retention\n(Constantly offer more\nfeatures for the price)\nEasy deployment for all\nCommunication\nIgnite the need\nFrictionless premium\nAlways offer more\nOnboard easily\n(with assisted setup, Hub, premade\nconﬁgs, support)\nStrong premium incentive\n(Offer premium trial, show beneﬁts\nwith smart marketing automation)",
+    "Open source: a way to become viral\n26\nOpen Source1| Free (to use, copy, modify)2| Free of charge3|\n4| Can be embedded No use case limit5| Must name author 6|\nCore\nMIT licence. As free as it\ncan be. Core contributors\nabandon rights\nConﬁgurations\nstays their authors\nproperties\nConnectors stay\ntheir authors\nproperties",
+    "Open Source is a symbiotic Ecosystem\n27\nKind & benevolent feedbacks\nViral spreading visibility\nPotential coders reinforcement\nCommunity Scenarii\nCommunity Connectors\nAnd mainly SIGNALS\nA free, supported product\nExpertise (through scenarii)\nMarketplace (to monetize yours)\nAuditability, means trust\nSafe from potential corp issues\nSafe from model/licence change\n(we) Give (we) Receive",
+    "Equity story\n“Money is usually attracted, not pursued.”\nJim Rohn\nOur previous cyber security corp\nwas sold in 2016 for tens of millions\nWe created several\nOpen source products before\nDecentralized as of day 1, not\naffected by Covid crisis.\nCloud born & based, no dependency on soft or\nhardware supply chain nor managed services",
+    "29\nSmart & Seeders money will be used to:\nBuild our\ncommunity\nStrengthen\nthe SaaS\nPreparing the SaaS and start to\nmonetize is key for A serie.\nAdoption rate is our sole KPI during\nthis phase. We need a community.\nRamp up the signal\ncollection\nThe larger the collection network, the\nlarger the network value & effect\nA\nWe look for ~300 000 € in this Smart Money round",
+    "May\n2020\n12 months agenda\n30\nJune\n2020\nDecember\n2020\nJune\n2022\n1st Open\nsource release\nSmart Money\nround\nAPI MVP +\nSeeding Round Predictive consensus\nJanuary\n2020\nIncorporation\nMarch\n2021\nA serie +\nPremium\noffers sales",
+    "Successes that leveraged similar pillars\n31\nCrowd based\nOpen source\nFreemium SAAS\nNginx, Openstack, Elastic Search\nZappier, Dropbox, Algolia\nWaze, Airbnb, Duolingo",
+    "BORN TO BE The leader\nof dynamic firewalling\nAt a glance\n32\nCrowd\nPowered\nSecurity\nOpen\nSource\nSaaS\nInvestment\nShares or\nWarrants\nWe look\nfor\n0.3 M€\nTeam invested\n200 K€\n● Open Source editor\n● Security, Deep Tech\n● SaaS, Low Touch\n● Collaborative, NG Firewall\n● A global security network",
+    "Thank\nyou\nCEO - philippe@crowdsec.net\nCOO - laurent@crowdsec.net\nCTO - thibault@crowdsec.net\nInvestor relations -\nnicolas@reﬂexion.capital\nOnly the crowd can\ndefeat\nmass scale hacking...",
+    "SIDE SLIDES\n“In any case of emergency, refer to the side slide.”\nSomeone @IBM",
+    "Adoption strategy\n35\nPackagers\nGamiﬁcation\nSupport\nCommunity\nMulti OS\nOSS Sec tools\nContent mkt\nConferences",
+    "SaaS, by the rule\n36\nHighly scalable, marginal human per client ratio\nLow costs, scaling with client ﬂow\nLowest adoption barrier, fully recurring revenues\nArchitected to be sold with no engineering debt\nPower of 1: No dispersion of means or time",
+    "37\nWhat will AI provide?\n● Find IP activity correlations\n● IP V.X.Y.Z is a real negative\n● See when an IP range purpose\nchanged (ie NAT range)\n● Detect Oday related scans\n● Reinforce IP behaviour qualiﬁcations\n● See when a scenario triggers FP\n● Detect “hack by vertical” activities\n● Discover trending targets\nDetection enables prevention.",
+    "38\nWhat if Google does it?\n“They always move slower, Waze is a great example of a\ncommunity effect, where speed was of the essence. If a GAFAM try\nto achieve a similar system on their IPs, they will have a truncated\nview (tech used, attack launched, etc.) GAFA’s are not really\ncommunity builders and even their own initiatives like, K8S, were\ngiven back to Cloud Native Foundation due to lack of skills to\ndevelop those models.\nThibault Koechlin, CTO.",
+    "We broadcast “canaries”, IP whitelists of trustable actors (ie so\nthat you won’t ruin your SEO by banning Google by mistake)\n39\nYou will generate False Positives\nIf a scenario (community or Crowdsec one) kicks a whitelisted IP,\nit is marked as potentially triggering FP.\nThose IP addresses are crowdsourced as well, on our Github\nproject, and curated by our staff, to diversify sources\nIf a previously trusted actor changes behavior, we’ll notice it by\nhaving reliable scenarii being triggered by those, now evil,\ncanaries",
+    "40\nHow do you deal with NAT / CGNAT / Tor / VPN\nSoon and with 3rd party Database, we’ll be able to qualify all\nranges of AS, and assess which one are of these types.\nGradual response. Ban is not the only way. Captcha is one,\nlowering rights, sending a 2FA, MFA, etc.\nYou can also grade what you want or not as a premium client.\nLet’s say you’re in e-commerce, VPN Ok, Tor Ko.\nWe will most likely not Ban large NAT points but rather scale the\nanswer. IPV6 is coming to and more V4 to V6 come by the day.",
+    "41\nPoisoning & DDoS will skin you alive\nDDOS(*) Poisoning\n1/3\nPoisoning\n2/3\nPoisoning\n3/3\nWe will defeat this by\nusing public Cloud,\ncontainers and\nstream processing\nMore challenging in\nnature.\n1/ New users will have\na low trust rank\n(quarantine)\n2/ Correlation\nengine and our own\nhoneypots will work\na consensus\n3/ Canaries injection\n& AI analysis will help\nus curate the signals",
+    "GDPR will be your doom\n42\nGDPR & Data privacy\n● IP is a personal data that can\nindirectly identify a person\n● People can remove their IP\n● We are helping compromised\npeople to curate their problem\nThere is legal work on its way,\nbut we walk a known path.\nTimestamp\nOffending IP\nAttack launched\nTargeted technology\nWe collect the fewest\npossible datas",
+    "“Bad IP” is time & context dependant\n43\nBut not in a dangerous\nway for you\nIE: a cryptominer infected\ngranny shouldn’t be\nprevented to shop\nIE: an IP doing phishing 2\nweeks ago has most likely\nbeen cleaned since\nMalicious IP was\nonce a clean IP\nAnd overtime, will\nbe clean again\nAn IP can be exploited\nwithout user knowing it\nOr be a NAT point,\ncovering 1000 users",
+    "44\nYet another secure CDN\nCDN only serve\nWeb\nCDN IPs only see\npartial trafﬁc\nCDN “Attack\nmode” is very\ncostly\nCDN only allow\npass/block\nTo avoid FP, CDN\nuse soft & generic\nrules\nCDN creates a\nspof, no\ndecoupling"
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Cybercrime cost est. $6 trillion by 2021",
+      "quote": "By 2021, the estimated cost of Cyber criminality is $6 trillion",
+      "slide": 2,
+      "category": "market",
+      "value": 6000000000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "The deck's figure matches a widely cited Cybersecurity Ventures prediction, first published in 2016, of $6 trillion in annual cybercrime damages by 2021. It is a forecast from one research firm, and Ponemon's founder called it possibly too high.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Cybersecurity Ventures",
+            "url": "https://cybersecurityventures.com/annual-cybercrime-report-2019-to-2020/",
+            "quote": "Cybersecurity Ventures predicts cybercrime damages will cost the world $6 trillion annually by 2021, up from $3 trillion in 2015.",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Dark Reading",
+            "url": "https://www.darkreading.com/cyberattacks-data-breaches/global-cost-of-cybercrime-predicted-to-hit-6-trillion-annually-by-2021-study-says",
+            "quote": "While a $6 trillion estimate might be a little high, “a trillion dollars plus is a real possibility,” says Larry Ponemon, chairman and founder of the Ponemon Institute.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Business Insurance",
+            "url": "https://www.businessinsurance.com/Cybercrime-to-cost-world-$6-trillion-per-year-by-2021/",
+            "quote": "A report by U.S.-based cyber research firm Cybersecurity Ventures said that cybercrime will cost the world $6 trillion per year by 2021, up from $3 trillion in 2015, Cisomag reports.",
+            "date": null,
+            "stance": "supports"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.4654,
+          "y": 0.1384,
+          "w": 0.4737,
+          "h": 0.0421
+        },
+        {
+          "slide": 2,
+          "x": 0.4654,
+          "y": 0.1791,
+          "w": 0.1105,
+          "h": 0.0421
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "text": "A hacker attack occurs every 39 seconds",
+      "quote": "Hackers attack occur every 39 seconds.",
+      "slide": 2,
+      "category": "market",
+      "value": 39.0,
+      "unit": "seconds",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "The 39-second figure is real, but it comes from a 2007 University of Maryland experiment on four deliberately weak Linux machines, so it is not a measured current global attack rate and the deck's wording overstates it.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "University of Maryland Clark School",
+            "url": "https://eng.umd.edu/news/story/study-hackers-attack-every-39-seconds",
+            "quote": "The computers in our study were attacked, on average, 2,244 times a day.",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "DeepStrike",
+            "url": "https://deepstrike.io/blog/how-many-cyberattacks-happen-every-day",
+            "quote": "At internet scale, malicious activity is effectively continuous, but there is no single defensible global \"one attack every X seconds\" rate for 2026.",
+            "date": null,
+            "stance": "refutes"
+          },
+          {
+            "kind": "web",
+            "title": "Dark Reading",
+            "url": "https://www.darkreading.com/perimeter/study-two-hacks-a-minute",
+            "quote": "A new University of Maryland study reports that the average computer on the Internet is attacked every 39 seconds.",
+            "date": null,
+            "stance": "supports"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.6198,
+          "y": 0.5575,
+          "w": 0.2886,
+          "h": 0.0421
+        },
+        {
+          "slide": 2,
+          "x": 0.6283,
+          "y": 0.5982,
+          "w": 0.0842,
+          "h": 0.0421
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "text": "Average data breach costs $150M",
+      "quote": "The average cost of a data breach is $150 M.",
+      "slide": 2,
+      "category": "market",
+      "value": 150000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "IBM's annual Cost of a Data Breach study puts the global average at about $4–5M, and even the US average is about $10–11.5M. That is far below the deck's $150M. The only figures near $150M are for mega-breaches of 50M+ records, which are not the average.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "IBM Think – What Is a Data Breach? (Cost of a Data Breach 2026)",
+            "url": "https://www.ibm.com/think/topics/data-breach",
+            "quote": "According to IBM's Cost of a Data Breach 2026 report, the global average cost of a data breach is USD 4.99 million.",
+            "date": null,
+            "stance": "refutes"
+          },
+          {
+            "kind": "web",
+            "title": "IBM Think – 2025 Cost of a Data Breach Report",
+            "url": "https://www.ibm.com/think/x-force/2025-cost-of-a-data-breach-navigating-ai",
+            "quote": "IBM's newly released 2025 Cost of a Data Breach Report found that average global costs dropped to USD 4.44 million—down from USD 4.88 million, or 9%, in the year prior.",
+            "date": null,
+            "stance": "refutes"
+          },
+          {
+            "kind": "web",
+            "title": "IBM Think – Cost of a data breach 2024: Financial industry",
+            "url": "https://www.ibm.com/think/insights/cost-of-a-data-breach-2024-financial-industry",
+            "quote": "Both healthcare and finance saw the same costs for large-scale breaches: When 50 million records or more were compromised, average costs skyrocketed to USD 375 million.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 2,
+          "x": 0.6684,
+          "y": 0.767,
+          "w": 0.2526,
+          "h": 0.0421
+        },
+        {
+          "slide": 2,
+          "x": 0.6767,
+          "y": 0.8078,
+          "w": 0.163,
+          "h": 0.0421
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "text": "Team of 6, 5 of them on unemployment benefits, few permanent positions",
+      "quote": "6 persons, 5 on unemployment money, few permanent positions on long term",
+      "slide": 7,
+      "category": "team",
+      "value": 6.0,
+      "unit": "persons",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "team_size",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.55,
+          "y": 0.1296,
+          "w": 0.3595,
+          "h": 0.0361
+        },
+        {
+          "slide": 7,
+          "x": 0.623,
+          "y": 0.1647,
+          "w": 0.2877,
+          "h": 0.0361
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "text": "No sales force; marketing and communication only",
+      "quote": "No sales, only marketing and durable communication",
+      "slide": 7,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 7,
+          "x": 0.6844,
+          "y": 0.5503,
+          "w": 0.2409,
+          "h": 0.0361
+        },
+        {
+          "slide": 7,
+          "x": 0.7219,
+          "y": 0.5868,
+          "w": 0.2028,
+          "h": 0.0361
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "text": "Seasoned founder trio (25 and 12 years of experience cited)",
+      "quote": "A seasoned founders triumvirate",
+      "slide": 8,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.59,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 8,
+          "x": 0.2884,
+          "y": 0.0174,
+          "w": 0.4969,
+          "h": 0.0662
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "text": "Thousands of machines report attacks in real time",
+      "quote": "With thousands of machines reporting the aggressions they face in real time",
+      "slide": 16,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 16,
+          "x": 0.4493,
+          "y": 0.0793,
+          "w": 0.5223,
+          "h": 0.0331
+        },
+        {
+          "slide": 16,
+          "x": 0.6686,
+          "y": 0.1127,
+          "w": 0.0688,
+          "h": 0.0331
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "text": "Claims most accurate real-time IP reputation database ever made",
+      "quote": "our IP reputation database is the most accurate and real time ever made.",
+      "slide": 16,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c7"
+      ],
+      "load": 0.6,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 16,
+          "x": 0.666,
+          "y": 0.8447,
+          "w": 0.2978,
+          "h": 0.0331
+        },
+        {
+          "slide": 16,
+          "x": 0.6756,
+          "y": 0.878,
+          "w": 0.2638,
+          "h": 0.0331
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "text": "API access with 200K queries included in the free tier",
+      "quote": "200 K queries included",
+      "slide": 19,
+      "category": "product",
+      "value": 200000.0,
+      "unit": "queries",
+      "depends_on": [],
+      "load": 0.6,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 19,
+          "x": 0.7218,
+          "y": 0.8292,
+          "w": 0.0982,
+          "h": 0.0173
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "text": "$1T cybersecurity market forecast (Cybersecurity Ventures), cited as understating the market",
+      "quote": "the $1 trillion market forecast from Cybersecurity Ventures barely scratches the surface",
+      "slide": 20,
+      "category": "market",
+      "value": 1000000000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.6,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Cybersecurity Ventures did publish the $1T forecast, but it is cumulative spending over 2017–2021 rather than an annual market size, and the Gartner figures it cites (about $124B for 2019) are far lower, so I found no independent source showing the market is larger than $1T.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Global Cybersecurity Spending Predicted To Exceed $1 Trillion From 2017-2021",
+            "url": "https://cybersecurityventures.com/cybersecurity-market-report/",
+            "quote": "Cybersecurity Ventures predicts global spending on cybersecurity products and services will exceed $1 trillion cumulatively over the five-year period from 2017 to 2021.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "Cybersecurity Ventures projects $1 trillion will be spent globally on cybersecurity from 2017 to 2021. - Cyber Defense Magazine",
+            "url": "https://www.cyberdefensemagazine.com/cybersecurity-ventures-projects-1-trillion-will-be-spent-globally-on-cybersecurity-from-2017-to-2021/",
+            "quote": "The $1 trillion forecast is total spending for the five-year period, not an annual projection by year five.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": "tam",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 20,
+          "x": 0.5318,
+          "y": 0.3926,
+          "w": 0.4236,
+          "h": 0.0361
+        },
+        {
+          "slide": 20,
+          "x": 0.5318,
+          "y": 0.4278,
+          "w": 0.3219,
+          "h": 0.0361
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "text": "Prior IP reputation attempts (Symantec, Talos, etc.) missed the open, crowd-based approach",
+      "quote": "Attempts: Symantec, Talos (Cisco), Gossip, Repuscore, IP group",
+      "slide": 21,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.59,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "Open, crowd-sourced IP reputation services were already on the market before CrowdSec's 2020 deck. AlienVault OTX launched in 2012 and AbuseIPDB is a community-reported IP database, so earlier attempts did not all miss the crowd-based approach.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "AlienVault Releases New Version of Open Threat Exchange",
+            "url": "https://cybersecurity.att.com/who-we-are/press-releases/alienvault-releases-new-version-of-open-threat-exchange",
+            "quote": "The diversity, analysis and quality of OTX make it the industry's most robust, open crowd-sourced threat intelligence sharing system",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "AlienVault Launches Free IP and Domain Reputation Monitoring Service - SecurityWeek",
+            "url": "https://www.securityweek.com/alienvault-launches-free-ip-and-domain-reputation-monitoring-service/",
+            "quote": "The new service is an extension of the AlienVault Open Threat Exchange (OTX), an open and collaborative threat intelligence system launched in February 2012",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "GitHub - api-evangelist/abuseipdb",
+            "url": "https://github.com/api-evangelist/abuseipdb",
+            "quote": "AbuseIPDB is a community-driven project to help system administrators, webmasters, and security analysts check the reputation of IP addresses and report malicious activity.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 21,
+          "x": 0.3395,
+          "y": 0.9192,
+          "w": 0.3954,
+          "h": 0.0318
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "text": "No competitor is crowd-based, open source or free",
+      "quote": "None is crowd based",
+      "slide": 22,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c11"
+      ],
+      "load": 0.6,
+      "check": {
+        "verdict": "contradicted",
+        "reason": "The claim is too broad. Fail2ban is a free, open-source tool for the same job, and AbuseIPDB runs a free, community-driven IP reputation and blocklist service. Several other crowd-based or free alternatives also exist.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "CrowdSec vs fail2ban: Key Differences and Which to Use",
+            "url": "https://nxtfireguard.de/fail2ban-alternative",
+            "quote": "fail2ban is free and open source.",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "GitHub - api-evangelist/abuseipdb (AbuseIPDB profile)",
+            "url": "https://github.com/api-evangelist/abuseipdb",
+            "quote": "AbuseIPDB is a community-driven project to help system administrators, webmasters, and security analysts check the reputation of IP addresses",
+            "date": null,
+            "stance": null
+          },
+          {
+            "kind": "web",
+            "title": "ReportedIP - Open IP Threat Intelligence Platform",
+            "url": "https://reportedip.de/",
+            "quote": "Community-driven blacklist, automatically scored from real-time reports.",
+            "date": null,
+            "stance": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 22,
+          "x": 0.4858,
+          "y": 0.8309,
+          "w": 0.0938,
+          "h": 0.0318
+        },
+        {
+          "slide": 22,
+          "x": 0.5147,
+          "y": 0.8643,
+          "w": 0.0389,
+          "h": 0.0318
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "text": "Target 3.5% free-to-premium conversion rate",
+      "quote": "How to reach 3.5% conversion rate",
+      "slide": 25,
+      "category": "growth",
+      "value": 0.035,
+      "unit": "ratio",
+      "depends_on": [
+        "c8",
+        "c9",
+        "c10",
+        "c12"
+      ],
+      "load": 0.63,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "market_share_target",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 25,
+          "x": 0.2776,
+          "y": 0.0174,
+          "w": 0.5185,
+          "h": 0.0662
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "text": "Founders' previous cybersecurity company sold in 2016 for tens of millions",
+      "quote": "was sold in 2016 for tens of millions",
+      "slide": 28,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.59,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Public sources confirm the founders' earlier company NBS System was acquired by Oceanet Technology in early 2016, but none of them disclose the price, so \"tens of millions\" can't be checked (NBS had about €6.7M revenue).",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Usine Digitale",
+            "url": "https://www.usine-digitale.fr/article/le-nantais-oceanet-technology-reprend-le-parisien-nbs-system.N375929",
+            "quote": "La société (47 salariés, 6,7 millions d'euros de chiffre d'affaires) est aussi un spécialiste de la sécurité informatique avec sa solution CerberHost",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Opensource.com (Philippe Humeau bio)",
+            "url": "https://opensource.com/users/philippe-humeau",
+            "quote": "The company (NBS) was sold in 2016 and Philippe founded CrowdSec in 2019",
+            "date": null,
+            "stance": "supports"
+          },
+          {
+            "kind": "web",
+            "title": "Ouest-France",
+            "url": "https://agence-api.ouest-france.fr/article/informatique-oceanet-technology-reprend-le-parisien-nbs-system",
+            "quote": "Le groupe nantais OT ( Oceanet technology) annonce l'acquisition de la société parisienne NBS System.",
+            "date": null,
+            "stance": "supports"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 28,
+          "x": 0.6072,
+          "y": 0.3754,
+          "w": 0.3139,
+          "h": 0.0391
+        }
+      ]
+    },
+    {
+      "id": "c15",
+      "text": "Adoption rate is the sole KPI at this stage",
+      "quote": "Adoption rate is our sole KPI during this phase.",
+      "slide": 29,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c7"
+      ],
+      "load": 0.59,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 29,
+          "x": 0.5261,
+          "y": 0.2768,
+          "w": 0.2954,
+          "h": 0.0361
+        },
+        {
+          "slide": 29,
+          "x": 0.5304,
+          "y": 0.312,
+          "w": 0.0892,
+          "h": 0.0361
+        }
+      ]
+    },
+    {
+      "id": "c16",
+      "text": "Raising ~€300K Smart Money round",
+      "quote": "We look for ~300 000 € in this Smart Money round",
+      "slide": 29,
+      "category": "ask",
+      "value": 300000.0,
+      "unit": "EUR",
+      "depends_on": [
+        "c13",
+        "c7",
+        "c15",
+        "c6",
+        "c14"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "raise_amount",
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 29,
+          "x": 0.3192,
+          "y": 0.7913,
+          "w": 0.4601,
+          "h": 0.0391
+        }
+      ]
+    },
+    {
+      "id": "c17",
+      "text": "Series A and premium offer sales planned for March 2021",
+      "quote": "A serie + Premium offers sales",
+      "slide": 30,
+      "category": "other",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "c16",
+        "c13"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": [
+        {
+          "slide": 30,
+          "x": 0.6899,
+          "y": 0.8303,
+          "w": 0.0557,
+          "h": 0.0271
+        },
+        {
+          "slide": 30,
+          "x": 0.6874,
+          "y": 0.8562,
+          "w": 0.0608,
+          "h": 0.0271
+        },
+        {
+          "slide": 30,
+          "x": 0.6808,
+          "y": 0.8821,
+          "w": 0.074,
+          "h": 0.0271
+        }
+      ]
+    },
+    {
+      "id": "c18",
+      "text": "Team has invested €200K",
+      "quote": "Team invested 200 K€",
+      "slide": 32,
+      "category": "financials",
+      "value": 200000.0,
+      "unit": "EUR",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "No public source states how much the CrowdSec team put in themselves. Press coverage only says the first round came from friends and family, and the 2020 round from Reflexion Capital was about €1.5M, so the €200K figure can't be confirmed or refuted.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "CrowdSec blog",
+            "url": "https://www.crowdsec.net/blog/rising-up-together-from-3-to-thousands",
+            "quote": "The first round of funding was raised from friends and family and provided us with the capital needed to implement the first version of the software",
+            "date": null,
+            "stance": "context"
+          },
+          {
+            "kind": "web",
+            "title": "Nordic9",
+            "url": "https://nordic9.com/news/crowdsec-announced-a-5-million-funding-round-backed-by-breega/",
+            "quote": "CrowdSec previously raised €1.5M from Reflexion Capital in 2020.",
+            "date": null,
+            "stance": "context"
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "deck",
+      "t": null,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The deck says no competitor is crowd-based, open source or free, and that earlier attempts like Symantec and Talos missed the crowd approach. But fail2ban is free and open source, and AbuseIPDB and AlienVault OTX (since 2012) are crowd-sourced IP reputation services. Why are they not direct competitors, and what is your real differentiation and defensibility against them?",
+      "claim_ids": [
+        "c12",
+        "c11"
+      ],
+      "why": "Tests the contradicted 'no crowd-based/open/free competitor' claim, which underpins the 3.5% free-to-premium conversion target and the premium thesis.",
+      "evidence_to_request": "Competitive comparison against fail2ban, AbuseIPDB and AlienVault OTX (data coverage, report volume, API limits, pricing), plus any user migration or overlap data from beta users.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "You say thousands of machines already report attacks in real time, and that your database is the most accurate ever made. How many unique machines and reports per day are live today, and how have you measured accuracy or false positives against other reputation feeds?",
+      "claim_ids": [
+        "c7",
+        "c8",
+        "c15"
+      ],
+      "why": "Tests the load-bearing traction and product claim (thousands of reporting machines, 'most accurate'), which supports adoption as the sole KPI and the €300K raise.",
+      "evidence_to_request": "Dashboard export of active agents and daily signals over time, a list of agent installs by geography, and any benchmark of false-positive/detection rates against other blocklists.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You target a 3.5% free-to-premium conversion and plan premium sales and a Series A in March 2021. What benchmarks and funnel assumptions support 3.5%, and does 200K free API queries leave enough reason to upgrade?",
+      "claim_ids": [
+        "c13",
+        "c9",
+        "c17"
+      ],
+      "why": "Tests the conversion assumption and free-tier design that drive the premium revenue case and the Series A timeline.",
+      "evidence_to_request": "Conversion model with assumptions (adoption, free-to-paid, ARPU), comparable open-core or freemium benchmarks, and free-tier usage data showing how many users approach the 200K query limit.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "You are raising about €300K with a team of 6, five of them on unemployment benefits, and a Series A planned for March 2021. What is the runway, what milestones does the round fund, and what adoption level must you hit to be Series A-ready?",
+      "claim_ids": [
+        "c16",
+        "c4",
+        "c18",
+        "c15"
+      ],
+      "why": "Tests the raise itself, which has no stated use of funds or runway, against a team largely on unemployment benefits and a single adoption KPI.",
+      "evidence_to_request": "Use-of-funds breakdown, 18-month budget and runway model, cap table with the team's €200K investment, and the adoption milestones targeted for the Series A.",
+      "priority": 4
+    },
+    {
+      "id": "q5",
+      "text": "The deck says your previous company was sold in 2016 for 'tens of millions'. Public sources only confirm the NBS System sale to Oceanet, with about €6.7M in revenue. What was the actual price and what did each founder take home? Who among the trio has the 25 and 12 years of relevant security experience?",
+      "claim_ids": [
+        "c14",
+        "c6"
+      ],
+      "why": "Tests the team's credibility claim, which supports investor confidence in the €300K round and cannot be verified from public sources.",
+      "evidence_to_request": "Sale agreement summary or a founder proceeds statement, plus LinkedIn profiles or CVs for the three founders.",
+      "priority": 5
+    }
+  ],
+  "created_at": "2026-11-14T04:23:39+00:00",
+  "mode": "deck",
+  "title": "CrowdSec pre-seed deck (2020)",
+  "slide_count": 44,
+  "transcript": [],
+  "brief": null,
+  "source_url": "https://docs.google.com/presentation/d/1H-Gwa8K4UIHeqcLsPaAGNbKHD04k8GHI1ffB5NImNZU",
+  "outcome": "Raised a 680 K EUR smart-money round from 18 business angels (2020)",
+  "outcome_won": true,
+  "outcome_source": "https://github.com/crowdsecurity/fundraising-decks",
+  "score": {
+    "total": 51.8,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 13.8,
+        "max_points": 40.0,
+        "detail": "1 supported and 3 contradicted of 18 claims; load-weighted 1% backed and 16% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 10.0,
+        "max_points": 20.0,
+        "detail": "9 of 18 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 8.0,
+        "max_points": 20.0,
+        "detail": "1 of the 5 most load-bearing claims are backed or independently checked; 2 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: evidence balance (13.8/40).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "c12",
+        "text": "No competitor is crowd-based, open source or free",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (60% load); it could not be checked."
+      },
+      {
+        "claim_id": "c7",
+        "text": "Thousands of machines report attacks in real time",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (95% load); it could not be checked."
+      },
+      {
+        "claim_id": "c12",
+        "text": "No competitor is crowd-based, open source or free",
+        "part": "A",
+        "effect": -3.0,
+        "reason": "The claim is too broad. Fail2ban is a free, open-source tool for the same job, and AbuseIPDB runs a free, community-driven IP reputation and blocklist service. Several other crowd-based or free alternatives also exist."
+      },
+      {
+        "claim_id": "c11",
+        "text": "Prior IP reputation attempts (Symantec, Talos, etc.) missed the open, crowd-based approach",
+        "part": "A",
+        "effect": -2.9,
+        "reason": "Open, crowd-sourced IP reputation services were already on the market before CrowdSec's 2020 deck. AlienVault OTX launched in 2012 and AbuseIPDB is a community-reported IP database, so earlier attempts did not all miss t"
+      },
+      {
+        "claim_id": "c13",
+        "text": "Target 3.5% free-to-premium conversion rate",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (63% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "c16",
+        "text": "Raising ~€300K Smart Money round",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "c11",
+        "text": "Prior IP reputation attempts (Symantec, Talos, etc.) missed the open, crowd-based approach",
+        "part": "B",
+        "effect": -1.1,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "c12",
+        "text": "No competitor is crowd-based, open source or free",
+        "part": "B",
+        "effect": -1.1,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": null
+}

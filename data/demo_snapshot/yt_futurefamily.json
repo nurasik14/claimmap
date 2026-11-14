@@ -1,0 +1,881 @@
+{
+  "deck_id": "yt_futurefamily",
+  "status": "done",
+  "progress": "Finalized in 16s: 24 claims, 0 contradicted, 6 questions (0 arithmetic findings; web: 3 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s3",
+      "text": "1 in 8 US couples struggle with fertility challenges",
+      "quote": "one in eight couples are struggling with fertility challenges",
+      "slide": null,
+      "category": "market",
+      "value": 0.125,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "RESOLVE, citing the CDC's National Survey of Family Growth (2006-2010), reports that 1 in 8 US couples have trouble getting pregnant or sustaining a pregnancy, which matches the deck's wording. Other estimates run higher, such as 1 in 6 from an NIH study.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "How Many People Have Infertility? (RESOLVE)",
+            "url": "https://resolve.org/how-many-people-have-infertility/",
+            "quote": "1 in 8 couples have trouble getting pregnant or sustaining a pregnancy.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "National Public Health Action Plan for the Detection, Prevention, and Management of Infertility (CDC)",
+            "url": "https://www.cdc.gov/reproductive-health/media/pdfs/infertility/DRH-NAP-Final-508.pdf",
+            "quote": "12%–18% of couples do not achieve pregnancy within 12 months or cycles of trying.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Male sperm counts down over 50% in several decades",
+      "quote": "male sperm counts have actually decreased over 50% in the last several decades",
+      "slide": null,
+      "category": "market",
+      "value": 0.5,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 3.61,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "Starting a family could be the biggest out-of-pocket healthcare expense for many people",
+      "quote": "starting a family could be the biggest out-of-pocket healthcare expense that you face",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s24",
+        "s26"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 3.61,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "Current fertility solutions serve only 1% of people",
+      "quote": "today's solutions are only serving the 1%",
+      "slide": null,
+      "category": "market",
+      "value": 0.01,
+      "unit": "ratio",
+      "depends_on": [
+        "s3"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.62,
+      "boxes": []
+    },
+    {
+      "id": "s11",
+      "text": "No patient support exists outside the clinic environment",
+      "quote": "there's no patient support outside of the clinic environment",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.62,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Positions as a FinTech company making fertility care affordable",
+      "quote": "We're a FinTech company and we make fertility care affordable and accessible",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s25",
+        "s27"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 7.62,
+      "boxes": []
+    },
+    {
+      "id": "s14",
+      "text": "Company launched in June",
+      "quote": "We launched the company back in June",
+      "slide": null,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.84,
+      "boxes": []
+    },
+    {
+      "id": "s15",
+      "text": "Thousands of women and couples served nationwide",
+      "quote": "we're helping thousands of women and couples across the country",
+      "slide": null,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "customers",
+      "source": "spoken",
+      "t": 12.84,
+      "boxes": []
+    },
+    {
+      "id": "s17",
+      "text": "Proprietary online fertility age test (AMH, FSH, E2 hormone assay), claimed a first",
+      "quote": "our proprietary fertility age test, which allows women for the first time to order a simple hormone assay online",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.84,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "Launched first male fertility test (sperm activity test) on Monday",
+      "quote": "on Monday we were excited to announce our first test for men, the sperm activity test",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 18.65,
+      "boxes": []
+    },
+    {
+      "id": "s20",
+      "text": "Kit includes introduction to a nurse concierge",
+      "quote": "an introduction to your nurse concierge",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 21.86,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Sample is collected at participating third-party labs with many locations",
+      "quote": "take with you to the nearest participating lab, of which there are many options",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 21.86,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "Test results delivered by email in 3-5 days",
+      "quote": "Three to five days later, your results will be emailed to you.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 25.47,
+      "boxes": []
+    },
+    {
+      "id": "s24",
+      "text": "Egg freezing costs $12,000-$15,000 out of pocket",
+      "quote": "Egg freezing today is as expensive as $12,000 to $15,000 out of pocket",
+      "slide": null,
+      "category": "market",
+      "value": 15000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent clinic and industry sources put a single out-of-pocket egg-freezing cycle at roughly $8,000–$20,000. The deck's $12,000–$15,000 falls inside that range, and the deck says 'as expensive as', which fits the claim.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "How Much Does Egg Freezing Cost? Your Pricing Breakdown (Illume Fertility)",
+            "url": "https://www.illumefertility.com/fertility-blog/how-much-does-egg-freezing-cost",
+            "quote": "Egg freezing can cost up to $30,000+, but the average cost is around $11,000, with the typical range being $8,000 to $15,000 per cycle (if paid out-of-pocket).",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "About Freeze (CB Insights, quoting 60 Minutes)",
+            "url": "https://www.cbinsights.com/company/freeze/",
+            "quote": "\"The average all-in cost for a single cycle of egg freezing is around $12,000 to $13,000 that a woman is paying on average,\" she told Stahl.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Egg freezing process, timeline & cost: What to expect (Carrot Fertility)",
+            "url": "https://www.get-carrot.com/blog/what-to-expect-before-during-and-after-egg-freezing",
+            "quote": "A single egg-freezing cycle typically costs $10,000 to $20,000, covering the consultation, medications, monitoring, retrieval, and the first year of storage.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.48,
+      "boxes": []
+    },
+    {
+      "id": "s25",
+      "text": "Fertility preservation plan from $150/month",
+      "quote": "you could start a fertility preservation plan for $150 a month",
+      "slide": null,
+      "category": "product",
+      "value": 150.0,
+      "unit": "USD_per_month",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.48,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "IVF costs from $20,000",
+      "quote": "IVF, even more expensive starting at $20,000",
+      "slide": null,
+      "category": "market",
+      "value": 20000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent estimates put the all-in cost of one US IVF cycle (with medications and add-ons) at roughly $20,000 or more, though the base clinic fee alone is often lower, at about $12,000 to $15,000.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "How Much Does It Cost to Get Pregnant From IVF? - GoodRx",
+            "url": "https://www.goodrx.com/conditions/fertility/ivf-costs",
+            "quote": "Fertility IQ reports that the average cost exceeds $20,000.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "How Much Does IVF Cost in 2026? A Complete US Pricing Breakdown - Coastal Fertility",
+            "url": "https://coastalfertility.com/blog/ivf-cost/",
+            "quote": "Once medications and common add-ons are included, most patients spend between $20,000 and $30,000 per complete cycle.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "IVF Cost Breakdown 2026: Every Fee Explained",
+            "url": "https://www.makeamom.com/blog/ivf-cost-breakdown.html",
+            "quote": "The base cost of one IVF cycle in the United States typically ranges from $12,000 to $17,000.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.48,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "IVF plan at $250/month",
+      "quote": "is affordable on our platform at $250 a month",
+      "slide": null,
+      "category": "product",
+      "value": 250.0,
+      "unit": "USD_per_month",
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.48,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "Sperm freezing offering coming soon",
+      "quote": "sperm freezing is coming soon",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.48,
+      "boxes": []
+    },
+    {
+      "id": "s29",
+      "text": "Matches patients to top clinics/doctors using proprietary in-house data set",
+      "quote": "we'll help you match with a top clinic or doctor based on our in-house data set",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.69,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Fertility preservation treatment takes about 2.5 weeks of active time",
+      "quote": "fertility preservation is about two and a half weeks of active time",
+      "slide": null,
+      "category": "product",
+      "value": 2.5,
+      "unit": "weeks",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.69,
+      "boxes": []
+    },
+    {
+      "id": "s32",
+      "text": "Membership continues after treatment is completed",
+      "quote": "continue your membership on the platform",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 34.69,
+      "boxes": []
+    },
+    {
+      "id": "s33",
+      "text": "Three revenue streams: financing, concierge health, testing",
+      "quote": "we have three revenue streams for the company, financing, concierge health, and testing",
+      "slide": null,
+      "category": "financials",
+      "value": 3.0,
+      "unit": "count",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.7,
+      "boxes": []
+    },
+    {
+      "id": "s34",
+      "text": "Pathway to 60% gross margin in financing product",
+      "quote": "we have a pathway to 60% gross margins in our financing product",
+      "slide": null,
+      "category": "financials",
+      "value": 0.6,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.7,
+      "boxes": []
+    },
+    {
+      "id": "s36",
+      "text": "Competitors specialize in employer/B2B programs, owned clinics, or testing only",
+      "quote": "Some of our competitors have taken a more specialized approach focusing on employer programs and working with B2B partners, owning and operating clinics directly, or simply specializing in testing",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.7,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq22",
+      "text": "Are you a fintech lender or a healthcare services company, and who bears credit risk?",
+      "claim_ids": [
+        "s12"
+      ],
+      "why": "Earlier framed as 'a FinTech company'; now a broader three-way positioning.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "q1",
+      "text": "You say egg freezing is $12-15K and you can start a preservation plan for $150 a month. What is the term, APR, and total cost to the patient at that payment, and is the $150 covering the full cycle, medications and storage, or only a slice of it?",
+      "claim_ids": [
+        "s25",
+        "s24"
+      ],
+      "why": "The $150/month plan is the core of the FinTech affordability pitch and is unverified, so the whole value proposition rests on whether the monthly price actually covers the $12-15K cost.",
+      "evidence_to_request": "Loan/financing term sheet and pricing schedule showing term, APR, fees and total repayment for the $150/month plan, plus an example patient contract.",
+      "priority": 2
+    },
+    {
+      "id": "q2",
+      "text": "Your IVF plan is $250 a month against a cost that starts at $20,000 and often reaches $30,000 with medications. What term and interest rate make that math work, and what happens to the patient if the cycle fails and they need a second one?",
+      "claim_ids": [
+        "s27",
+        "s26"
+      ],
+      "why": "The $250/month IVF price underpins the affordability claim, and it only works with a long term or subsidy; the deck is silent on how it is built.",
+      "evidence_to_request": "Unit-economics model for the IVF plan: term, APR, default assumptions, repeat-cycle handling, and any clinic discount or subsidy agreements.",
+      "priority": 3
+    },
+    {
+      "id": "q3",
+      "text": "You say you launched in June and are helping thousands of women and couples. How many people have actually paid for a test, how many have taken a financing plan, and how much of your volume is the testing product versus financed treatment?",
+      "claim_ids": [
+        "s14",
+        "s15",
+        "s33"
+      ],
+      "why": "The traction claim is unverified, and the financing and testing revenue split determines whether this is really a FinTech business.",
+      "evidence_to_request": "Order and revenue export since launch, split by test, concierge and financing, with counts of unique paying customers and funded loans.",
+      "priority": 4
+    },
+    {
+      "id": "q4",
+      "text": "You claim a pathway to 60% gross margin on financing. Who funds the loans, at what cost of capital, and what default rate are you assuming on a population making a large, one-off medical purchase?",
+      "claim_ids": [
+        "s34",
+        "s12"
+      ],
+      "why": "A FinTech positioning only holds if financing margins work, and the 60% gross margin claim is unsupported.",
+      "evidence_to_request": "Financing P&L and model showing capital source, cost of funds, loss and default assumptions, and the bridge to 60% gross margin; any warehouse or lender agreements.",
+      "priority": 5
+    },
+    {
+      "id": "q5",
+      "text": "You call the fertility age test proprietary and a first. Who runs the assay, who owns the lab relationships, and what stops a competitor from selling the same AMH/FSH/E2 panel?",
+      "claim_ids": [
+        "s17",
+        "s21",
+        "s36"
+      ],
+      "why": "The differentiation and moat of the testing funnel rests on the claim of a proprietary first, which has not been checked.",
+      "evidence_to_request": "Lab partnership agreements, any IP or patent filings, regulatory status of the test, and a competitor comparison of price and features.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:34:53.002+00:00",
+  "mode": "live",
+  "title": "Future Family (Disrupt SF 2017 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "Great. Thanks, Anthony. This is a picture of my daughter, Natalie. She's two and a half. It cost me over $100,000 to conceive my daughter. Not only was it extremely expensive, it was a really difficult process. Two and a half years, six rounds of IVF, three miscarriages. At any one time in the US, one in eight couples are struggling with fertility challenges, And many of them can't afford or know how to get treatment and care.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "Fertility is already a big challenge and it's getting worse. Women are choosing to delay childbirth into their 30s, which has a number of advantages. Opportunity to focus on your career, your relationships, your financial readiness. But biology is not on your side. Meanwhile, male sperm counts have actually decreased over 50% in the last several decades. For those of you sitting out there in your 20s, 30s, maybe even early 40s, you may not yet realize it, but starting a family could be the biggest out-of-pocket healthcare expense that you face.",
+      "t0": 3.61,
+      "t1": 3.61
+    },
+    {
+      "text": "Despite this large and growing market, today's solutions are only serving the 1%. IVF costs start around $20,000. There's limited insurance in the market. is complex and there's no patient support outside of the clinic environment leading to a really isolating and intimidating journey. I founded Future Family to bring fertility care to the 99%. We're a FinTech company and we make fertility care affordable and accessible to all women, men and couples seeking to start a family.",
+      "t0": 7.62,
+      "t1": 7.62
+    },
+    {
+      "text": "We uniquely bring together on our platform testing and planning resources to get started, financial plans so that you can move forward with IVF or fertility preservation, concierge healthcare services, and access to our medical experts through an on-demand system. We launched the company back in June, and I'm excited to say that we're helping thousands of women and couples across the country with affordable egg freezing monthly plans, affordable IVF monthly plans, and our proprietary fertility age test, which allows women for the first time to order a simple hormone assay online and find out their fertility profile, their AMH, FSH, and E2, and get information that can help them figure out what are their next steps.",
+      "t0": 12.84,
+      "t1": 12.84
+    },
+    {
+      "text": "But fertility is not just a women's issue. So on Monday we were excited to announce our first test for men, the sperm activity test. We were even more excited when Anthony agreed to do the live demo. But really, let's go to our website so we can see just how easy it is to order the test online. You visit futurefamily.com and you have a choice testing for women or for men.",
+      "t0": 18.65,
+      "t1": 18.65
+    },
+    {
+      "text": "You can order the test right online and we'll collect some identifying information, your name, date of birth, telephone number for your lab slip. Then as you can see here, we'll ship you the kit in the mail and it has all the information that you need to take your test, including instructions, an introduction to your nurse concierge, and a lab slip, which you'll simply take with you to the nearest participating lab, of which there are many options.",
+      "t0": 21.86,
+      "t1": 21.86
+    },
+    {
+      "text": "Once you get to the lab, check in, complete the test. Three to five days later, your results will be emailed to you. And then you can follow up on our platform with one of our nurse concierge staff members. Let's go back to the presentation. So for those men in the audience, a few questions to see if you might want to consider getting tested. Do you ever, and no judgment implied, binge drink, indulge in marijuana, maybe carry a cell phone in your front pocket, or use a hot tub regularly?",
+      "t0": 25.47,
+      "t1": 25.47
+    },
+    {
+      "text": "These are all reasons to consider getting tested right away. Future Family doesn't stop there. We do fertility preservation and IVF affordable plants on the platform, as we mentioned. Egg freezing today is as expensive as $12,000 to $15,000 out of pocket. yet with future family you could start a fertility preservation plan for $150 a month. IVF, even more expensive starting at $20,000, is affordable on our platform at $250 a month and sperm freezing is coming soon.",
+      "t0": 28.48,
+      "t1": 28.48
+    },
+    {
+      "text": "A little more detail on how it really works. So you can sign up for a monthly plan that fits your budget. Then we'll help you match with a top clinic or doctor based on our in-house data set. You can meet your nurse concierge, who is a trained fertility expert with typically eight to ten years of fertility or clinical expertise, who will help you through the entire journey, complete treatment, which for fertility preservation is about two and a half weeks of active time, and then continue your membership on the platform.",
+      "t0": 34.69,
+      "t1": 34.69
+    },
+    {
+      "text": "Bringing together FinTech and state-of-the-art digital health, we have three revenue streams for the company, financing, concierge health, and testing. Although we are focused today on acquiring customers and building volume on the platform, we have a pathway to 60% gross margins in our financing product. We really sit at the intersection of fintech, telemedicine and concierge medicine. Some of our competitors have taken a more specialized approach focusing on employer programs and working with B2B partners, owning and operating clinics directly, or simply specializing in testing and informational services.",
+      "t0": 39.7,
+      "t1": 39.7
+    },
+    {
+      "text": "We uniquely bring together this platform approach to make sure we can help you from the very beginning of your journey.",
+      "t0": 44.91,
+      "t1": 44.91
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the market pain is real and the cost figures check out, but the $150 and $250 monthly plans, the core of the offer, are unverified and the traction claim is unsupported.",
+    "summary": "Future Family pitches itself as a fertility platform that makes IVF and egg freezing affordable through monthly financing, plus online hormone and sperm testing and nurse concierge support. The market framing held up: the 1-in-8 couples figure matches RESOLVE/CDC, the $12-15K egg freezing cost is within the $8-20K range, and IVF at $20K or more is supported. The product and unit economics that the deal rests on are unchecked: $150/month for egg freezing and $250/month for IVF come with no term, APR or total cost. Traction is vague ('thousands' served since a June launch, with no paying-customer counts), and the 60% gross margin pathway on financing has no stated capital source or loss assumptions. Positioning also drifted from 'a FinTech company' to a mix of fintech, telemedicine and concierge medicine, leaving unclear who bears credit risk.",
+    "strengths": [
+      "The founder has lived the problem (over $100,000, six IVF rounds, three miscarriages), which lends credibility and insight into the customer.",
+      "Market cost anchors are accurate: egg freezing at $12-15K and IVF from $20K both held up against independent sources, and 1 in 8 couples matches CDC-sourced data.",
+      "Broad product surface: online female and male testing, financing, nurse concierge, clinic matching and three revenue streams, with sperm freezing next.",
+      "The live demo walked through the test ordering flow (ship kit, lab visit, results in 3-5 days)."
+    ],
+    "red_flags": [
+      {
+        "text": "The $150/month egg freezing plan and $250/month IVF plan are unverified. Without term, APR, fees or total repayment, we can't tell whether they cover the full cycle, medications and storage, or whether they only look cheap over a long term. The whole value proposition rests on them.",
+        "claim_ids": [
+          "s25",
+          "s27"
+        ]
+      },
+      {
+        "text": "Traction is unquantified: 'thousands of women and couples' helped since a June launch, with no split of paying test buyers versus financed patients. The male test only launched on Monday.",
+        "claim_ids": [
+          "s15",
+          "s14",
+          "s18"
+        ]
+      },
+      {
+        "text": "The 60% gross margin 'pathway' on financing has no stated funding source, cost of capital or default assumptions. Lending for a large one-off medical purchase carries credit risk, and the founder never says who bears it.",
+        "claim_ids": [
+          "s34",
+          "s12",
+          "s33"
+        ]
+      },
+      {
+        "text": "Positioning drift: described as 'a FinTech company', then as the intersection of fintech, telemedicine and concierge medicine. The business model, regulatory exposure (lending, telehealth, lab testing) and comparables differ across these.",
+        "claim_ids": [
+          "s12"
+        ]
+      },
+      {
+        "text": "The defensibility claims are unverified: a 'proprietary' first-of-its-kind AMH/FSH/E2 online test that uses third-party labs, and an 'in-house data set' for clinic matching. Both look easy to replicate, and the 1% market-served figure and the 50% sperm count decline are unsourced.",
+        "claim_ids": [
+          "s17",
+          "s21",
+          "s29",
+          "s8",
+          "s6"
+        ]
+      }
+    ],
+    "questions": [
+      "What are the term, APR, fees and total patient cost behind the $150/month egg freezing plan, and does it cover the full cycle, medications and storage?",
+      "What term and rate make $250/month work for a $20K+ IVF cycle, and what happens to the patient and to you if the cycle fails and a second one is needed?",
+      "How many customers have paid for a test, how many have taken a financing plan, and how many loans have been funded since June?",
+      "Who funds the loans, at what cost of capital, and what default rate underlies the 60% gross margin pathway?",
+      "Are you a lender or a healthcare services company, and who bears the credit risk? What is proprietary about the fertility age test, and what stops a competitor from selling the same panel?"
+    ],
+    "evidence_requests": [
+      "Financing term sheet and pricing schedule for the $150 and $250 plans (term, APR, fees, total repayment) and a sample patient contract",
+      "Order and revenue export since the June launch, split by testing, concierge and financing, with unique paying customers and funded loans",
+      "Financing P&L and model showing capital source, cost of funds, default and loss assumptions, and the bridge to 60% gross margin, plus any lender or warehouse agreements",
+      "Lab partnership agreements, regulatory status of the tests and any IP filings for the fertility age test",
+      "Clinic partnership or discount agreements and the methodology behind the in-house matching data set"
+    ],
+    "live_notes": [
+      "Positioning shifted at the end of the pitch from 'a FinTech company' to 'the intersection of fintech, telemedicine and concierge medicine'.",
+      "Claims said only live (no deck): the $150/month egg freezing and $250/month IVF plans, 'thousands' served since a June launch, the male sperm activity test launched on Monday, a pathway to 60% gross margin on financing, and sperm freezing coming soon.",
+      "The live demo showed the test ordering flow on the website; no financing flow or customer metrics were shown."
+    ],
+    "generated_at": "2026-11-14T04:36:09+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=FVHxe7vKlR8",
+  "outcome": "Finalist, did not win TechCrunch Disrupt SF 2017 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2017/09/20/pi-wins-startup-battlefield-at-disrupt-sf-2017/",
+  "score": {
+    "total": 68.0,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 28.7,
+        "max_points": 40.0,
+        "detail": "3 supported and 0 contradicted of 24 claims; load-weighted 43% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 8.3,
+        "max_points": 20.0,
+        "detail": "10 of 24 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 15.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 1 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 16.0,
+        "max_points": 20.0,
+        "detail": "3 of the 5 most load-bearing claims are backed or independently checked; 2 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: verifiable core (16/20); weakest: specificity (8.3/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Earlier framed as 'a FinTech company'; now a broader three-way positioning. (said at 40s: \"We really sit at the intersection of fintech, telemedicine and concie",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s24",
+        "text": "Egg freezing costs $12,000-$15,000 out of pocket",
+        "part": "A",
+        "effect": 2.9,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s26",
+        "text": "IVF costs from $20,000",
+        "part": "A",
+        "effect": 2.9,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s3",
+        "text": "1 in 8 US couples struggle with fertility challenges",
+        "part": "A",
+        "effect": 2.9,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s25",
+        "text": "Fertility preservation plan from $150/month",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "s27",
+        "text": "IVF plan at $250/month",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "s11",
+        "text": "No patient support exists outside the clinic environment",
+        "part": "B",
+        "effect": -0.8,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s12",
+        "text": "Positions as a FinTech company making fertility care affordable",
+        "part": "B",
+        "effect": -0.8,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier framed as 'a FinTech company'; now a broader three-way positioning. (said at 40s: \"We really sit at the intersection of fintech, telemedicine and concierge medicine.\"; vs claim s12)"
+  ],
+  "capture": "recording"
+}

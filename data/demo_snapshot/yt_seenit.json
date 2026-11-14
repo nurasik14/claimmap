@@ -1,0 +1,912 @@
+{
+  "deck_id": "yt_seenit",
+  "status": "done",
+  "progress": "Finalized in 17s: 25 claims, 0 contradicted, 6 questions (0 arithmetic findings; web: 2 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "Founder/CEO Emily Forbes is a film producer",
+      "quote": "I'm a film producer",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "500M+ people watch video on Facebook",
+      "quote": "over 500 million people tuning into Facebook alone to watch video",
+      "slide": null,
+      "category": "market",
+      "value": 500000000.0,
+      "unit": "people",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.4,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "Video is the fastest growing content format",
+      "quote": "Today video is the fastest growing format",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.95,
+      "check": {
+        "verdict": "supported",
+        "reason": "Several independent sources say video is growing faster than other content formats, such as LinkedIn's data showing 1.6x the growth rate. The evidence is mostly from the 2020s and platform-specific, so it doesn't directly confirm the 2016 pitch's wording.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Social Media Video Statistics 2026",
+            "url": "https://www.yumyumvideos.com/blog/social-media-video-statistics/",
+            "quote": "LinkedIn Video Statistics: **Video is growing 1.6 times faster than other content formats globally**.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Content Marketing Statistics (2026)",
+            "url": "https://resources.review42.com/content-marketing-statistics/",
+            "quote": "Video is the fastest-growing content format, led by short-form",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "60 Video Marketing Statistics for 2026",
+            "url": "https://www.elitecontentmarketer.com/video-marketing-statistics/",
+            "quote": "Video is the second-fastest-growing line in US digital advertising.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.4,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "Product is a toolset for clients to produce video with their own communities (not a consumer community)",
+      "quote": "building the tools to enable our clients to engage and create with their own communities",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.41,
+      "boxes": []
+    },
+    {
+      "id": "s5",
+      "text": "Platform enables companies to produce high-impact video at scale via crowd-sourced fans, customers and employees",
+      "quote": "enabling companies to produce high-impact video at scale",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s3"
+      ],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.41,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Dave is CTO",
+      "quote": "Dave's our CTO",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.82,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "CTO Dave was previously chief architect at Pixel",
+      "quote": "Dave was the chief architect at Pixel",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.82,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "BBC is a subscription client",
+      "quote": "the BBC are one of our subscription clients",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent press coverage says BBC Earth was Seenit's first subscription client, and a 2016 Startups.co.uk profile lists The BBC among its 13 yearly subscription clients.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Seenit has revolutionised the crowdsourcing of video content - Elite Business Magazine",
+            "url": "https://elitebusinessmagazine.co.uk/interviews/item/seenit-has-revolutionised-how-companies-crowdsource-video-content",
+            "quote": "Not only did Seenit's relationship with the broadcaster lead to a place in the BBC Worldwide Labs programme but it ultimately led to BBC Earth coming on board as the startup's first subscription client, something that has definitely stood it in good stead as it has grown.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "64. Seenit - Startups.co.uk (Startups 100 2016)",
+            "url": "https://startups.co.uk/startups-100/2016/64-seenit/",
+            "quote": "To date, the company has worked with more than 100 clients, with 13 yearly subscription clients including stellar names such as Benefit, The Body Shop, Morrisons, Red Bull Racing, The BBC, Crystal Palace Football, Camelot and Accenture.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.82,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "App has a community feed of captured content, plus shot selection, filming and upload",
+      "quote": "They could check out a feed to see what other people in the community had captured, select a shot, film and upload.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 12.63,
+      "boxes": []
+    },
+    {
+      "id": "s13",
+      "text": "Uploaded video is automatically tagged, analysed and processed",
+      "quote": "All of the video is then automatically tagged, analysed and processed on upload",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.84,
+      "boxes": []
+    },
+    {
+      "id": "s14",
+      "text": "Three editing options in the platform",
+      "quote": "there's three ways to edit",
+      "slide": null,
+      "category": "product",
+      "value": 3.0,
+      "unit": "count",
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.84,
+      "boxes": []
+    },
+    {
+      "id": "s15",
+      "text": "Online drag-and-drop editing tools",
+      "quote": "we have our online edit tools so you can drag and drop your favourite videos",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.84,
+      "boxes": []
+    },
+    {
+      "id": "s16",
+      "text": "Export selected videos to external editing software",
+      "quote": "you can select your favorite videos and put them into your own editing programs",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.84,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "BBC received 240 videos from 39 contributors in 36 countries within days",
+      "quote": "the BBC had received 240 videos from 39 different people from 36 countries",
+      "slide": null,
+      "category": "traction",
+      "value": 240.0,
+      "unit": "videos",
+      "depends_on": [
+        "s8"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "I found independent evidence that the BBC used Seenit in 2016, including a trial in factual TV and BBC Earth as its first subscription client. I found no source for the specific figures of 240 videos, 39 contributors and 36 countries.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Here's A Little Story About Crowdsourced Video (Adobe blog)",
+            "url": "https://blog.adobe.com/en/publish/2016/07/03/how-crowdsourced-video-is-changing-brand-storytelling",
+            "quote": "It is a sentiment that is echoed by Solomon Wilkinson, researcher, digital storytelling at the BBC, which is currently trialling the Seenit app within factual television.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Seenit has revolutionised the crowdsourcing of video content - Elite Business Magazine",
+            "url": "https://elitebusinessmagazine.co.uk/interviews/item/seenit-has-revolutionised-how-companies-crowdsource-video-content",
+            "quote": "Not only did Seenit's relationship with the broadcaster lead to a place in the BBC Worldwide Labs programme but it ultimately led to BBC Earth coming on board as the startup's first subscription client",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 21.85,
+      "boxes": []
+    },
+    {
+      "id": "s20",
+      "text": "BBC replaced six minutes of broadcast with platform-sourced content",
+      "quote": "they actually replaced six minutes of the broadcast with content from the scene at platform",
+      "slide": null,
+      "category": "traction",
+      "value": 6.0,
+      "unit": "minutes",
+      "depends_on": [
+        "s8"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 21.85,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "BT Sport and NBC Universal are clients, pulling fans into broadcast shows",
+      "quote": "we're also working with BT Sport and NBC Universal",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 30.67,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "Retail clients: Body Shop, Benefit, Look Fantastic",
+      "quote": "working with retailers around the world, Body Shop, Benefit, Look Fantastic",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 30.67,
+      "boxes": []
+    },
+    {
+      "id": "s23",
+      "text": "Body Shop content is the best performing video online",
+      "quote": "the content we're doing at the Body Shop is the best performing video online",
+      "slide": null,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 30.67,
+      "boxes": []
+    },
+    {
+      "id": "s25",
+      "text": "Video uploads more than doubled in the last year",
+      "quote": "we've received over double the amount of video into the platform",
+      "slide": null,
+      "category": "growth",
+      "value": 2.0,
+      "unit": "ratio_yoy_multiple",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 35.29,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "Footage downloads up 5.5x",
+      "quote": "we've seen a five and a half times increase in footage download",
+      "slide": null,
+      "category": "traction",
+      "value": 5.5,
+      "unit": "ratio_multiple",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 35.29,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "Company founded in 2014",
+      "quote": "founding the company in 2014",
+      "slide": null,
+      "category": "other",
+      "value": 2014.0,
+      "unit": "year",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.1,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "100+ clients to date",
+      "quote": "we've worked with over a hundred clients today",
+      "slide": null,
+      "category": "customers",
+      "value": 100.0,
+      "unit": "clients",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "customers",
+      "source": "spoken",
+      "t": 39.1,
+      "boxes": []
+    },
+    {
+      "id": "s29",
+      "text": "Revenue this year projected at $1M+ (seven figures)",
+      "quote": "Our revenue this year will be seven figures",
+      "slide": null,
+      "category": "financials",
+      "value": 1000000.0,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "revenue_annual",
+      "source": "spoken",
+      "t": 39.1,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Six-figure MRR ($100K-$999K)",
+      "quote": "on a six-figure MRR",
+      "slide": null,
+      "category": "financials",
+      "value": null,
+      "unit": "USD",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "mrr",
+      "source": "spoken",
+      "t": 39.1,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Investing in machine learning using platform content and data",
+      "quote": "we're now leveraging all of the content and the data that we're collecting to invest in machine learning",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 44.51,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Your core claim is that clients can produce high-impact video at scale from crowd-sourced fans, customers and employees. What share of client projects reach a published, edited video, how many contributors does a typical project have, and how much of the output is actually used?",
+      "claim_ids": [
+        "s5",
+        "s13",
+        "s14"
+      ],
+      "why": "Tests the most load-bearing, unverified product claim, on which the whole automated tagging and editing workflow and the investment case rest.",
+      "evidence_to_request": "Platform analytics by client project over the last 12 months: contributors invited, contributors who uploaded, videos uploaded, videos downloaded or exported, videos published. Plus a live product demo on a real client project.",
+      "priority": 1
+    },
+    {
+      "id": "q2",
+      "text": "You say revenue will be seven figures this year on a six-figure MRR. Which of those is the real number today, and how much of it is recurring subscription versus one-off project work? Six-figure MRR means $100K to $999K a month, a wide range.",
+      "claim_ids": [
+        "s29",
+        "s30",
+        "s28"
+      ],
+      "why": "Tests the unverified revenue and MRR claims, which anchor valuation and the subscription-model thesis; the 100+ client figure against about 13 yearly subscribers suggests much revenue may be project-based.",
+      "evidence_to_request": "Monthly revenue and MRR for the last 12-18 months split by subscription and project work, an invoice or Stripe/accounting export, and a client list with contract values and renewal dates.",
+      "priority": 2
+    },
+    {
+      "id": "q3",
+      "text": "You cite 100+ clients, but press profiles count about 13 yearly subscription clients. How many of the 100+ are paying subscribers today, what is the retention and renewal rate, and what did BT Sport, NBC Universal, Body Shop and Benefit sign up for?",
+      "claim_ids": [
+        "s28",
+        "s21",
+        "s22",
+        "s8"
+      ],
+      "why": "Tests customer breadth and quality: the BBC subscription is supported, but the named logos and the 100+ figure are unverified, and the subscription share drives the recurring-revenue case.",
+      "evidence_to_request": "Customer list with contract type (subscription vs project), start dates, ACV and renewal status; signed contracts or order forms for the named clients.",
+      "priority": 3
+    },
+    {
+      "id": "q4",
+      "text": "You said video uploads more than doubled and footage downloads rose 5.5x, and that the BBC received 240 videos from 39 contributors in 36 countries. What are the absolute numbers and the period behind the growth, and does that growth come from many clients or a few big campaigns?",
+      "claim_ids": [
+        "s25",
+        "s26",
+        "s18",
+        "s20"
+      ],
+      "why": "Tests unverified traction and growth claims, where relative multiples hide the base and a few flagship campaigns could drive the figures.",
+      "evidence_to_request": "Monthly uploads and downloads by client for the last 24 months, and the BBC campaign report showing contributors, countries and the six minutes of broadcast content.",
+      "priority": 4
+    },
+    {
+      "id": "lq1",
+      "text": "What films have you produced, and what is your experience building a software product or company?",
+      "claim_ids": [
+        "s1"
+      ],
+      "why": "Founder background; relevance to product unverified.",
+      "evidence_to_request": "",
+      "priority": 5
+    },
+    {
+      "id": "lq2",
+      "text": "What is the source and timeframe for the 500 million Facebook video viewers figure (daily, monthly)?",
+      "claim_ids": [
+        "s2"
+      ],
+      "why": "",
+      "evidence_to_request": "",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:35:05.632+00:00",
+  "mode": "live",
+  "title": "Seenit (Disrupt London 2016 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "All right, it's time to bring out our fourth company. That company is Scene It. Presenting for Scene It is CEO Emily Forbes. Oh, hi. I'm a film producer, and I went to go and film a documentary, and I went to go and film a huge protest that was happening. But as soon as I got to the crowd, everyone was already capturing on cameras, phones. Their footage was so real.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "It was so personal. It was kind of a bit gritty. So why was I trying to compete? Why is I spending any time filming people filming so I put my cameras away I ran around the crowd and I asked for the video Thanks Today video is the fastest growing format with over 500 million people tuning into Facebook alone to watch video So video consumption is going through the roof, but also people are getting savvier to create their own video The video landscape is divided on one side we have a tightly controlled industry driven by studios and agencies and on the other side there's this explosion of user generator content online that's kind of crazy and wild and uncurated.",
+      "t0": 2.4,
+      "t1": 2.4
+    },
+    {
+      "text": "What we want to do is bring these two worlds together. We want to create an entirely new process for production by enabling companies to produce high-impact video at scale by engaging their own communities of fans, customers and employees to become the filmers. This This is a really important point. We're not building a scenic community. Instead, we're building the tools to enable our clients to engage and create with their own communities.",
+      "t0": 5.41,
+      "t1": 5.41
+    },
+    {
+      "text": "So meet Dave. Dave's our CTO. Before joining us, Dave was the chief architect at Pixel. He's going to help run us through the demo. So the BBC are one of our subscription clients. They logged into their studio because they wanted to create more content around the Great North Run. So they set up a project. They set a project ID, and then they loaded filming instruction that they wanted their community to capture.",
+      "t0": 8.82,
+      "t1": 8.82
+    },
+    {
+      "text": "They then invited a select number of people to join the project who were running in the race. Now, from the user's side, they downloaded the app, joined the project, and then they could see the filming instructions that the BBC had already loaded in. The script means that the BBC actually received the content they need. They could check out a feed to see what other people in the community had captured, select a shot, film and upload.",
+      "t0": 12.63,
+      "t1": 12.63
+    },
+    {
+      "text": "Because of the terms and conditions in the app, all the video that's uploaded can then be used by the BBC whether it's online or even in the broadcast shows. All of the video is then automatically tagged, analysed and processed on upload as well. Then there's three ways to edit. Either we have our online edit tools so you can drag and drop your favourite videos. Or you can select your favorite videos and put them into your own editing programs.",
+      "t0": 16.84,
+      "t1": 16.84
+    },
+    {
+      "text": "Or we have a network of freelance editors who can log into your studio remotely and help you create the video you need. Within a few days, the BBC had received 240 videos from 39 different people from 36 countries around the world. Originally they were only going to put 60 seconds into the broadcast show, but the quality and the engagement of the content was so high they actually replaced six minutes of the broadcast with content from the scene at platform.",
+      "t0": 21.85,
+      "t1": 21.85
+    },
+    {
+      "text": "Here's a quick 30 seconds so you can get a feel of what it was like on air. Oh, is that sound? Any sound? No sound. I actually know it so well I could probably just speak it. Yeah, should I do the minikit? Dave, we're able to pause the time or should I just keep going? Okay, thank you. Sorry guys, it's the demo effect. It's probably drum roll now, isn't it?",
+      "t0": 26.67,
+      "t1": 26.67
+    },
+    {
+      "text": "Like what's the video going to be cool. Thank you. It really is the world's favorite run and you'll hear plenty of voices throughout the morning from those countries so here's a little taste of what's to come. I've always wanted to do the great North run from when it was small. I used to watch show on TV with my dad. On a summer's evening like this who wouldn't want to be running?",
+      "t0": 28.47,
+      "t1": 28.47
+    },
+    {
+      "text": "It's lovely, free and get clear your mind of the hard days work. I love the feeling of being free when I'm So we're also working with BT Sport and NBC Universal, pulling in fans into their broadcast shows and changing what they create. We're working with retailers around the world, Body Shop, Benefit, Look Fantastic, leveraging their own employees to do makeup tutorials, product reviews. And actually the content we're doing at the Body Shop is the best performing video online because it's real and it connects.",
+      "t0": 30.67,
+      "t1": 30.67
+    },
+    {
+      "text": "We're working with some of the biggest organizations in the world already, connecting their employees from countries at a global scale to humanize their scale and bring their voices out at the front. Since founding the platform, or since actually in the last year, we've received over double the amount of video into the platform. But more importantly, we've seen a five and a half times increase in footage download.",
+      "t0": 35.29,
+      "t1": 35.29
+    },
+    {
+      "text": "This means our clients are doing more with the content, working more efficiently, and are more engaged with the platform. founding the company in 2014, we've worked with over a hundred clients today. Initially we started off as a pay-as-you-go, but now we're fully into a subscription model. Our revenue this year will be seven figures on a six-figure MRR. Going forward, we are so excited now to scale and to automate the product further.",
+      "t0": 39.1,
+      "t1": 39.1
+    },
+    {
+      "text": "This is why we're now leveraging all of the content and the data that we're collecting to invest in machine learning. Today I am so excited to to announce that we're coming.",
+      "t0": 44.51,
+      "t1": 44.51
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the BBC subscription is independently confirmed, but the revenue, client-count and usage claims behind the 'video at scale' thesis are all unverified and partly inconsistent.",
+    "summary": "Seenit (founded 2014) sells a toolset that lets companies such as the BBC, BT Sport, NBC Universal and Body Shop collect and edit video from their own fans, customers and employees. The BBC as a subscription client held up: 2016 press names it among about 13 yearly subscription clients, with BBC Earth as the first. Video-format growth is broadly supported, though by later, platform-specific sources. The core product claim and every financial and traction number are unverified, including seven-figure revenue on a six-figure MRR (a $100K-$999K range), 100+ clients, 2x uploads, 5.5x downloads, and the BBC's 240 videos from 39 people in 36 countries. The 100+ clients versus about 13 subscribers gap is probably pay-as-you-go history, but nothing confirms that. The pitch cut off before any ask was stated.",
+    "strengths": [
+      "The BBC is a confirmed subscription client, with independent press naming it and 2016 coverage listing it among 13 yearly subscribers",
+      "A named, credible client roster (BBC, BT Sport, NBC Universal, Body Shop, Benefit, Look Fantastic) points to enterprise demand, though only the BBC is verified",
+      "Reported usage growth (2x uploads, 5.5x downloads) suggests clients are actually using the footage, if the numbers hold",
+      "The market tailwind in video is supported, and the model moved from pay-as-you-go to subscription"
+    ],
+    "red_flags": [
+      {
+        "text": "Revenue is unclear: seven figures this year on a six-figure MRR spans $100K-$999K a month, so the run-rate could be far off the forecast. There is no split between recurring subscription and one-off project revenue.",
+        "claim_ids": [
+          "s29",
+          "s30"
+        ]
+      },
+      {
+        "text": "The 100+ clients figure sits against press profiles showing only about 13 yearly subscription clients. The number of paying subscribers today, and retention, are unknown.",
+        "claim_ids": [
+          "s28",
+          "s8"
+        ]
+      },
+      {
+        "text": "The core claim, high-impact video at scale from crowd-sourced contributors, rests on one BBC anecdote (240 videos, 39 contributors, six minutes of broadcast). The figures have no independent source, and a typical project looks much smaller than that.",
+        "claim_ids": [
+          "s5",
+          "s18",
+          "s20"
+        ]
+      },
+      {
+        "text": "Growth metrics have no baseline or period: 'over double' uploads and 5.5x downloads give no absolute numbers, and could come from a few large campaigns.",
+        "claim_ids": [
+          "s25",
+          "s26"
+        ]
+      },
+      {
+        "text": "Named clients and the claim that Body Shop is the best performing video online are unverified, and the scope of each engagement is unknown. The live demo also failed on sound.",
+        "claim_ids": [
+          "s21",
+          "s22",
+          "s23"
+        ]
+      }
+    ],
+    "questions": [
+      "Which is the real number today: seven-figure revenue or six-figure MRR? What is current MRR, and how much of this year's revenue is subscription versus one-off projects?",
+      "How many of the 100+ clients are paying subscribers today, what is the renewal and retention rate, and what did BT Sport, NBC Universal, Body Shop and Benefit actually sign up for?",
+      "What are the absolute upload and download numbers and the period behind the 2x and 5.5x growth, and is growth broad across clients or driven by a few big campaigns?",
+      "For a typical client project, how many contributors are invited, how many upload, and what share of footage is published?",
+      "What is the ask and use of funds, and what does the machine learning investment involve in practice?"
+    ],
+    "evidence_requests": [
+      "Monthly revenue and MRR for the last 12-18 months, split by subscription and project work, with an accounting or invoicing export",
+      "Customer list with contract type, start date, ACV and renewal status, plus signed contracts or order forms for BT Sport, NBC Universal, Body Shop and Benefit",
+      "Monthly uploads and downloads by client for the last 24 months",
+      "BBC Great North Run campaign report showing contributors, countries, videos and broadcast minutes used",
+      "Platform analytics by client project over the last 12 months: contributors invited, uploaded, videos published"
+    ],
+    "live_notes": [
+      "Live pitch only, with no deck to compare against, and no drift notes recorded",
+      "Revenue and MRR (seven figures and six-figure MRR), 100+ clients and the 2014 founding date were stated only live and are unverified",
+      "The 2x upload and 5.5x download growth, the BBC's 240 videos and six broadcast minutes, and the Body Shop 'best performing video' claim were also stated only live",
+      "The company said it is moving from pay-as-you-go to fully subscription, which may explain the gap between 100+ clients and about 13 subscribers",
+      "The demo video had sound problems, and the pitch ended mid-sentence on 'we're coming' with no ask stated"
+    ],
+    "generated_at": "2026-11-14T04:36:23+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=HhIbSFmIY8A",
+  "outcome": "Won TechCrunch Disrupt London 2016 Startup Battlefield",
+  "outcome_won": true,
+  "outcome_source": "https://techcrunch.com/2016/12/06/seenit-wins-startup-battlefield-disrupt-london-2016/",
+  "score": {
+    "total": 62.4,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 26.4,
+        "max_points": 40.0,
+        "detail": "2 supported and 0 contradicted of 25 claims; load-weighted 32% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 8.0,
+        "max_points": 20.0,
+        "detail": "10 of 25 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 20.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 0 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 8.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 0 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: consistency (20/20); weakest: specificity (8/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "s3",
+        "text": "Video is the fastest growing content format",
+        "part": "A",
+        "effect": 4.0,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Founder/CEO Emily Forbes is a film producer",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s12",
+        "text": "App has a community feed of captured content, plus shot selection, filming and upload",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s5",
+        "text": "Platform enables companies to produce high-impact video at scale via crowd-sourced fans, customers and employees",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "s8",
+        "text": "BBC is a subscription client",
+        "part": "A",
+        "effect": 2.3,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Founder/CEO Emily Forbes is a film producer",
+        "part": "B",
+        "effect": -0.8,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s12",
+        "text": "App has a community feed of captured content, plus shot selection, filming and upload",
+        "part": "B",
+        "effect": -0.8,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      },
+      {
+        "claim_id": "s13",
+        "text": "Uploaded video is automatically tagged, analysed and processed",
+        "part": "B",
+        "effect": -0.8,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [],
+  "capture": "recording"
+}

@@ -1,0 +1,962 @@
+{
+  "deck_id": "yt_liftigniter",
+  "status": "done",
+  "progress": "Finalized in 16s: 26 claims, 0 contradicted, 6 questions (2 arithmetic findings; web: 1 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "Machine learning personalization platform for websites and apps",
+      "quote": "We're a machine learning personalization platform for every single website and app",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.29,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Adam Spector is co-founder of Lyft Igniter",
+      "quote": "I'm Adam, the co-founder of Lyft igniter",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "Millions of dollars spent yearly on targeting the right information to the right people",
+      "quote": "millions of dollars are spent every single year to get the right information in front of the right people",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.81,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "Almost all targeting spend is wasted",
+      "quote": "Almost all of this is wasted.",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.81,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "Co-founder has a PhD and worked in Google's Machine Learning Research Group",
+      "quote": "After earning his PhD, my co-founder joined Google's Machine Learning Research Group",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 10.03,
+      "boxes": []
+    },
+    {
+      "id": "s9",
+      "text": "Real-time personalization for every user, including cold-start users",
+      "quote": "They figured out how to personalize in real time for every single user, even brand new cold start users.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s1"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 10.03,
+      "boxes": []
+    },
+    {
+      "id": "s10",
+      "text": "Google's personalization work generated billions of dollars in incremental revenue annually",
+      "quote": "billions of dollars in incremental new revenue a year",
+      "slide": null,
+      "category": "traction",
+      "value": 1000000000.0,
+      "unit": "USD_per_year",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 14.24,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Listia is a customer",
+      "quote": "Listia is one of our customers",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent sources, including an Emerj write-up and the Enlyft and iData tech-usage databases, show Listia integrated LiftIgniter's personalization on its site and apps.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Personalized Marketing with AI - 8 Current Applications",
+            "url": "https://emerj.com/personalized-marketing-with-ai/",
+            "quote": "They turned to LiftIgniter to train recommendation algorithms using specific product attributes in the Listia's eCommerce site, along with metadata and user behaviors.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "LiftIgniter commands 0.0% market share in Machine Learning",
+            "url": "https://enlyft.com/tech/products/liftigniter",
+            "quote": "Enlyft has data on **12 companies** that use LiftIgniter, most often in the United States and in the Internet industry.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Listia Technologies Stack and Company Profile",
+            "url": "https://sentry.idatalabs.com/tech/company/listia.com",
+            "quote": "They have above average use of several technologies including LiftIgniter, Java and Python.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 14.24,
+      "boxes": []
+    },
+    {
+      "id": "s16",
+      "text": "Platform supports adding business rules to personalization",
+      "quote": "there's a business rule that you can add",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 22.86,
+      "boxes": []
+    },
+    {
+      "id": "s17",
+      "text": "241% click-through rate improvement for Listia over 30-day trial",
+      "quote": "241% improvement in click-through rate",
+      "slide": null,
+      "category": "traction",
+      "value": 2.41,
+      "unit": "ratio",
+      "depends_on": [
+        "s12",
+        "s24"
+      ],
+      "load": 0.29,
+      "check": {
+        "verdict": "unverified",
+        "reason": "No source confirms the exact 241% figure for Listia over 30 days. Listia's own testimonial and case study cite 200% more item clicks, and a Google Cloud page cites a 240% CTR increase for unnamed customers. Those are close to the claim but not the same.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "How Listia's Conversion Rate Increased by 50% Thanks to Machine Learning Personalization (LiftIgniter blog)",
+            "url": "https://www.liftigniter.com/blog/blog/how-listias-conversion-rate-increased-by-50-thanks-to-machine-learning-personalization",
+            "quote": "Here are some of the metrics that improved as a direct result of LiftIgniter's algorithms: 200% more item clicks",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "LiftIgniter: Creating more personalized, profitable digital experiences with machine learning (Google Cloud)",
+            "url": "https://cloud.google.com/customers/liftigniter",
+            "quote": "It has already helped high-profile customers achieve a 240% increase in click through rate, 105% lift in conversion, and 159% improvement in time spent on site.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "11 Liftigniter Customer Reviews & References",
+            "url": "https://www.featuredcustomers.com/vendor/liftigniter",
+            "quote": "LiftIgniter supercharged Listia – 200% improvements in item clicks, … Nuff Co-Founder & CEO",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 26.47,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "150% engagement improvement for Listia (bids)",
+      "quote": "a 150% improvement in engagement",
+      "slide": null,
+      "category": "traction",
+      "value": 1.5,
+      "unit": "ratio",
+      "depends_on": [
+        "s12",
+        "s24"
+      ],
+      "load": 0.29,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 26.47,
+      "boxes": []
+    },
+    {
+      "id": "s19",
+      "text": "102% improvement in revenue conversion for Listia",
+      "quote": "102% improvement in actual on revenue new conversion",
+      "slide": null,
+      "category": "traction",
+      "value": 1.02,
+      "unit": "ratio",
+      "depends_on": [
+        "s12",
+        "s24"
+      ],
+      "load": 0.29,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 26.47,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Unnamed media customer",
+      "quote": "one of our media customers",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 32.09,
+      "boxes": []
+    },
+    {
+      "id": "s22",
+      "text": "228% click improvement for media customer",
+      "quote": "228% improvement in clicks",
+      "slide": null,
+      "category": "traction",
+      "value": 2.28,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 32.09,
+      "boxes": []
+    },
+    {
+      "id": "s23",
+      "text": "All trials are continuously A/B tested",
+      "quote": "all of these trials that we do are A-B tested at every single moment in time",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 32.09,
+      "boxes": []
+    },
+    {
+      "id": "s24",
+      "text": "Never lost an A/B test",
+      "quote": "We've never lost an A-B test once",
+      "slide": null,
+      "category": "traction",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.81,
+      "check": {
+        "verdict": "unverified",
+        "reason": "I found no independent source that confirms or contradicts the claim that LiftIgniter has never lost an A/B test. The only support is customer testimonials about winning tests, and those are selective, not a record of every test.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "11 Liftigniter Customer Reviews & References",
+            "url": "https://www.featuredcustomers.com/vendor/liftigniter",
+            "quote": "LiftIgniter's simple A/B test proved the power of personalization – doubling our CTR",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 32.09,
+      "boxes": []
+    },
+    {
+      "id": "s25",
+      "text": "No competitor achieves comparable results",
+      "quote": "we don't know of any machine learning, personalization, or recommendation provider that has resulted remotely close to these",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s17",
+        "s18",
+        "s19"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 32.09,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "Integration takes minutes, not months",
+      "quote": "it took minutes to integrate, not months",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 38.5,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Scans over 300 million items per day",
+      "quote": "We scan over 300 million items a day",
+      "slide": null,
+      "category": "product",
+      "value": 300000000.0,
+      "unit": "items_per_day",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 43.12,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Gathers 350 billion signals per month",
+      "quote": "We have 350 billion signals that we're gathering a month",
+      "slide": null,
+      "category": "product",
+      "value": 350000000000.0,
+      "unit": "signals_per_month",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 43.12,
+      "boxes": []
+    },
+    {
+      "id": "s33",
+      "text": "Over 50 additional customers not listed",
+      "quote": "over 50 that we haven't even listed here today",
+      "slide": null,
+      "category": "customers",
+      "value": 50.0,
+      "unit": "customers",
+      "depends_on": [],
+      "load": 0.29,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "customers",
+      "source": "spoken",
+      "t": 43.12,
+      "boxes": []
+    },
+    {
+      "id": "s34",
+      "text": "SaaS company with usage-based pricing",
+      "quote": "We're a SaaS based company and our pricing is usage based",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 48.93,
+      "boxes": []
+    },
+    {
+      "id": "s35",
+      "text": "20% month-over-month growth",
+      "quote": "We've grown 20% month over month",
+      "slide": null,
+      "category": "growth",
+      "value": 0.2,
+      "unit": "ratio_per_month",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "If 20% monthly growth held for 12 more months, MRR would reach $892k (9x).",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$100k x 1.2^12 = $892k",
+            "date": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "growth_rate_monthly",
+      "source": "spoken",
+      "t": 48.93,
+      "boxes": []
+    },
+    {
+      "id": "s36",
+      "text": "Company is profitable",
+      "quote": "We're profitable today",
+      "slide": null,
+      "category": "financials",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 48.93,
+      "boxes": []
+    },
+    {
+      "id": "s37",
+      "text": "Over $100K monthly recurring revenue",
+      "quote": "over six figures in revenue, monthly recurring revenue",
+      "slide": null,
+      "category": "traction",
+      "value": 100000.0,
+      "unit": "USD",
+      "depends_on": [
+        "s12",
+        "s33"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "$100k / 50 customers = $2k per customer per month.",
+        "sources": [
+          {
+            "kind": "math",
+            "title": "Deck arithmetic",
+            "url": null,
+            "quote": "$100k / 50 = $2k",
+            "date": null
+          }
+        ],
+        "method": "math"
+      },
+      "role": "mrr",
+      "source": "spoken",
+      "t": 48.93,
+      "boxes": []
+    },
+    {
+      "id": "s38",
+      "text": "Almost no spend on sales and marketing",
+      "quote": "we have spent almost no money on sales and marketing",
+      "slide": null,
+      "category": "financials",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 48.93,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq19",
+      "text": "What is your measured relevance or hit rate per impression? Surely it is not 100%.",
+      "claim_ids": [
+        "s9"
+      ],
+      "why": "Earlier claim was real-time personalization for every user; this is stronger, claiming perfect targeting on every impression.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "lq22",
+      "text": "Which enterprise B2B customers do you have, and are they paying or on trials?",
+      "claim_ids": [
+        "s21"
+      ],
+      "why": "Earlier only Listia and one unnamed media customer were cited; now claims enterprise B2B and e-commerce verticals too.",
+      "evidence_to_request": "",
+      "priority": 2
+    },
+    {
+      "id": "lq29",
+      "text": "Which touchpoints, content types and devices are live today, and is any of this beyond web and app?",
+      "claim_ids": [
+        "s26"
+      ],
+      "why": "Earlier claim was fast integration (minutes); now claims one integration covers every touchpoint, content type and device, a wider scope.",
+      "evidence_to_request": "",
+      "priority": 3
+    },
+    {
+      "id": "q1",
+      "text": "You cite 241% CTR lift for Listia over a 30-day trial, but Listia's own case study and testimonial say 200% more item clicks. Which number is right, and what are the exact test dates, sample size and control definition?",
+      "claim_ids": [
+        "s17",
+        "s24"
+      ],
+      "why": "The headline 241% Listia CTR result is unverified and public sources show a lower figure, and the 'no competitor comes close' pitch rests on it.",
+      "evidence_to_request": "Raw A/B test export for the Listia 30-day trial (dates, traffic split, impressions, clicks, significance calc) and Listia's written sign-off on the figures.",
+      "priority": 4
+    },
+    {
+      "id": "q2",
+      "text": "You say you've never lost an A/B test, and every trial is tested continuously. How many trials have you run in total, how many were inconclusive or ended without conversion, and can I see the ones that underperformed?",
+      "claim_ids": [
+        "s24",
+        "s23"
+      ],
+      "why": "'Never lost an A/B test' is unverified and only supported by selective testimonials, yet it underpins the Listia performance claims and the competitive moat.",
+      "evidence_to_request": "Log of all customer trials and pilots with outcomes, including losses, ties and churned trials, plus the pilot-to-paid conversion rate.",
+      "priority": 5
+    },
+    {
+      "id": "q3",
+      "text": "You report a 150% lift in engagement (bids) and 102% lift in revenue conversion for Listia, with no outside corroboration. How are 'engagement' and 'revenue conversion' defined, and will Listia take a reference call to confirm them?",
+      "claim_ids": [
+        "s18",
+        "s19",
+        "s12"
+      ],
+      "why": "Listia is the sole named proof point, and these two metrics are uncorroborated while the commercial case rests on them.",
+      "evidence_to_request": "Metric definitions and dashboards from the Listia trial, plus a reference call with Listia's product or growth lead.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:36:09.973+00:00",
+  "mode": "live",
+  "title": "LiftIgniter (Disrupt London 2016 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "OK, let's bring out our first finalist. The first finalist is Lyft igniter and presenting as co-founder Adam Spector. Hi there. I'm Adam, the co-founder of Lyft igniter. We're a machine learning personalization platform for every single website and app that cares about serving its users. What does it mean to serve your users? Well, it means you give them the items they love, the items they want to buy, and the items they want to share.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "It's been proven pretty definitively that if you give them the items they want and you can target them at the moment they most care about it, you'll succeed in your goal. The challenge, however, is that millions of dollars are spent every single year to get the right information in front of the right people. Almost all of this is wasted. The reason? Everyone is overwhelmed. Marketers, product managers, absolutely overwhelmed with data.",
+      "t0": 2.81,
+      "t1": 2.81
+    },
+    {
+      "text": "On top of it, every single person is massively diverse, not only from, of course, each other, but in fact, also from ourselves. If I do my job right, by the end of this presentation, every single one of you will be different than before I started. Now, in the past, personalization has really meant looking at historical data, likes that people have, different other things around, like cohorts and segments and A-B testing.",
+      "t0": 7.22,
+      "t1": 7.22
+    },
+    {
+      "text": "The problem is none of that really targets you at this very moment in time. At Lift Igniter, we look at all the information about all users on the site, combined with all content and kind of a dynamically changing soup of information with you at the center. After earning his PhD, my co-founder joined Google's Machine Learning Research Group. They figured out how to personalize in real time for every single user, even brand new cold start users.",
+      "t0": 10.03,
+      "t1": 10.03
+    },
+    {
+      "text": "And it was so successful to the tune of billions of dollars in incremental new revenue a year. Inspired by the success there, at Lift Igniter, we built a platform for every single vertical across all types of content, across every single touch point and across all devices. Now, let's go to the demo. So Listia is one of our customers. And their CEO came to us and said, we have a huge amount of user-generated content we want to target to each user.",
+      "t0": 14.24,
+      "t1": 14.24
+    },
+    {
+      "text": "We said, hey, why don't you come try the Lift Your Guider platform and we can see what we can do for you? So I told you, their CEO, do you want to start personalizing emails? Do you want to work on search? Do you want to personalize app? Or do you want to personalize on-site? We started with on-site. And we typed in their URL, and we're able to start collecting data pretty much right away.",
+      "t0": 19.26,
+      "t1": 19.26
+    },
+    {
+      "text": "We then can choose various parts of the site that we want to personalize. In this case, we started with recommendation area on the right-hand side with them. Then as a business, they have different goals that they want to optimize for. We could optimize for engagement, conversion. In this case, we focus on click-through rate to start with for their trial. And then there's a business rule that you can add.",
+      "t0": 22.86,
+      "t1": 22.86
+    },
+    {
+      "text": "And let's say, in this case, optimize for iPhones. Then you go to the next step, click Get Started. And just like that, we're personalizing for L sia on their site in real time. So fast forward 30 days to the end of the trial, and these are actual results that we got them. We had a 241% improvement in click-through rate, a 150% improvement in engagement, in this case those were bids for them, and a 102% improvement in actual on revenue new conversion.",
+      "t0": 26.47,
+      "t1": 26.47
+    },
+    {
+      "text": "So let's go back to the presentation. So here's one of our media customers. We got them with 228% improvement in clicks and a 327% improvement in engagement. And all of these trials that we do are A-B tested at every single moment in time. We've never lost an A-B test once. On top of that, we don't know of any machine learning, personalization, or recommendation provider that has resulted remotely close to these.",
+      "t0": 32.09,
+      "t1": 32.09
+    },
+    {
+      "text": "Finally, it took minutes to integrate, not months. The way we do it is we take the best machine learning in AI in the world, and we have a fantastic team behind it building it, merge that, and marry it with fantastically fast infrastructure, where every time that a user takes an action, it's processed by our algorithms, it's returned to the site all in 125 millisecond round trip. That means for every single action that a user takes, there's an intelligent real-time reaction immediately.",
+      "t0": 38.5,
+      "t1": 38.5
+    },
+    {
+      "text": "What this enables us to do is that we hit every single impression directly on the head every single time and we treat that impression as a cohort of one at that moment. We scan over 300 million items a day. We have 350 billion signals that we're gathering a month. We have fantastic customers in the media space, the enterprise B2B space, the e-commerce space, and over 50 that we haven't even listed here today.",
+      "t0": 43.12,
+      "t1": 43.12
+    },
+    {
+      "text": "We're a SaaS based company and our pricing is usage based which means that it's very easy for our customers to add new items and new parts of the site that they want to start personalizing. We've grown 20% month over month. We're profitable today and we have over six figures in revenue, monthly recurring revenue. And we have spent almost no money on sales and marketing. So we're launching today the Lift United platform.",
+      "t0": 48.93,
+      "t1": 48.93
+    },
+    {
+      "text": "You integrate it once and you personalize everything, every touchpoint, every type of content and every device. Thank you so much. Look at that lightning fast finish. All right, judges, who wants to start us off? I will. All right, go ahead, Francesca. Yeah, so great pitch. Well done. Thank you. I've seen a few companies in this space personalizing websites. One of the areas that you can differentiate yourselves is around proprietary data.",
+      "t0": 54.34,
+      "t1": 54.34
+    },
+    {
+      "text": "Can you start to build that in your models to close the door behind you? Yeah, no, absolutely. So I mean, in a sense, everyone gets...",
+      "t0": 56.96,
+      "t1": 56.96
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: Listia is a verified customer, but the headline A/B results and 'never lost a test' claim are unverified, and the live pitch drifted toward overreach.",
+    "summary": "LiftIgniter pitches a real-time ML personalization platform, founded by a former Google ML researcher, with a Listia trial showing 241% CTR, 150% engagement and 102% conversion lifts. It also claims 20% MoM growth, profitability and over $100K MRR across 50+ unlisted customers. Independent sources confirm Listia integrated the product, but the 241% figure does not match Listia's own case study (200% more item clicks), and the other Listia metrics and 'never lost an A/B test' have no outside confirmation. Nothing is contradicted with hard evidence, so this is not a pass. However, the founder described Listia as both a customer and a trial, and he escalated to 'hit every impression on the head every time', which is not credible as stated. The financial claims (profitable, $100K MRR, 20% MoM) are unchecked and imply only about $2K per customer per month if there are 50 customers.",
+    "strengths": [
+      "Listia as a customer is independently confirmed by an Emerj write-up and the Enlyft and iData tech-usage databases",
+      "Listia's own testimonial reports about 200% more item clicks, and a Google Cloud page cites a 240% CTR lift, so the order of magnitude of the lift is plausible",
+      "Claimed traction is strong if true: over $100K MRR, 20% MoM growth, profitable, with almost no sales and marketing spend",
+      "Founder background (PhD, Google ML Research) fits the product, and the 125 ms round trip with 350B monthly signals points to real infrastructure"
+    ],
+    "red_flags": [
+      {
+        "text": "The 241% CTR lift over a 30-day trial is not confirmed. Listia's own case study says 200% more item clicks. The 150% engagement (bids) and 102% revenue conversion figures have no outside corroboration, and the demo rests on a single customer.",
+        "claim_ids": [
+          "s17",
+          "s18",
+          "s19"
+        ]
+      },
+      {
+        "text": "'Never lost an A/B test' is unverified and rests only on selective testimonials. The claim is absolute, and survivorship bias is likely if only successful trials are reported. No trial count was given.",
+        "claim_ids": [
+          "s24",
+          "s23"
+        ]
+      },
+      {
+        "text": "Listia was called a customer, but the demo describes a trial. It is unclear whether Listia is paying, and that raises doubts about how many of the claimed 50+ unlisted customers are paying versus on trials.",
+        "claim_ids": [
+          "s12",
+          "s33"
+        ]
+      },
+      {
+        "text": "Financial claims are unchecked and thin: over $100K MRR across 50+ customers is about $2K per customer per month, and 20% MoM growth with 'profitable' and 'almost no sales spend' is an unusual combination. Compounded for 12 more months, 20% MoM would take MRR to about $892K.",
+        "claim_ids": [
+          "s37",
+          "s35",
+          "s36",
+          "s38"
+        ]
+      },
+      {
+        "text": "Claims escalated live: 'hit every single impression on the head every single time', every vertical, device and touchpoint, and no competitor comes close. These are implausible and unsupported, and only one customer and one unnamed media customer were actually shown.",
+        "claim_ids": [
+          "s9",
+          "s25",
+          "s1",
+          "s21"
+        ]
+      }
+    ],
+    "questions": [
+      "Is Listia paying today, and how many of the 50+ customers are paying versus on trial? What is the MRR split by customer?",
+      "Exactly how many trials have you run, how many ended without a win or conversion to paid, and can we see the ones that underperformed?",
+      "Which is correct for Listia: 241% CTR lift or Listia's published 200%? What were the test dates, sample size, traffic split and control definition?",
+      "How are 'engagement' (bids) and 'revenue conversion' defined, and will Listia take a reference call?",
+      "What is the real relevance or hit rate per impression, and which touchpoints, content types and devices are live today beyond web and app?"
+    ],
+    "evidence_requests": [
+      "Stripe or billing export of MRR by customer for the last 6-12 months, showing paying versus trial accounts",
+      "Raw A/B test export for the Listia 30-day trial (dates, traffic split, impressions, clicks, significance) with Listia's written sign-off",
+      "Log of all customer trials and pilots with outcomes (wins, ties, losses, churned) and pilot-to-paid conversion rate",
+      "P&L and cash balance for the last 12 months to substantiate profitability and low sales and marketing spend",
+      "Customer list by vertical, with reference call contacts including the media customer behind the 228% click lift"
+    ],
+    "live_notes": [
+      "Listia was introduced as 'one of our customers' but then described as a 'trial', with the results taken from a 30-day trial",
+      "Scope widened from 'every website and app' to every vertical, content type, touchpoint and device",
+      "Personalization claim escalated from real-time for every user to hitting 'every single impression directly on the head every single time'",
+      "Customer set expanded from Listia and one unnamed media customer to media, enterprise B2B and e-commerce plus 50+ unlisted",
+      "The integration claim went from 'minutes, not months' to 'integrate once and personalize everything, every touchpoint, content type and device'",
+      "Financials were stated only live, near the end: 20% MoM growth, profitable, over $100K MRR, almost no sales and marketing spend; the final Q&A started with a proprietary data moat question that was cut off before the answer"
+    ],
+    "generated_at": "2026-11-14T04:37:37+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=VPKgRJMOKFA",
+  "outcome": "Finalist, did not win TechCrunch Disrupt London 2016 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2016/12/06/seenit-wins-startup-battlefield-disrupt-london-2016/",
+  "score": {
+    "total": 45.6,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 23.9,
+        "max_points": 40.0,
+        "detail": "1 supported and 0 contradicted of 26 claims; load-weighted 19% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 7.7,
+        "max_points": 20.0,
+        "detail": "10 of 26 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 0.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 5 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 14.0,
+        "max_points": 20.0,
+        "detail": "3 of the 5 most load-bearing claims are backed or independently checked; 1 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: verifiable core (14/20); weakest: consistency (0/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Broader than earlier 'every website and app'; adds all verticals, content types and devices. (said at 14s: \"we built a platform for every single vertical across",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Listia was called a customer earlier, but it is described here as a trial. (said at 23s: \"we focus on click-through rate to start with for their trial\"; vs clai",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier claim was real-time personalization for every user; this is stronger, claiming perfect targeting on every impression. (said at 43s: \"we hit every single",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier only Listia and one unnamed media customer were cited; now claims enterprise B2B and e-commerce verticals too. (said at 43s: \"fantastic customers in the",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier claim was fast integration (minutes); now claims one integration covers every touchpoint, content type and device, a wider scope. (said at 54s: \"You int",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Machine learning personalization platform for websites and apps",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (29% load); it could not be checked."
+      },
+      {
+        "claim_id": "s12",
+        "text": "Listia is a customer",
+        "part": "A",
+        "effect": 3.9,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s18",
+        "text": "150% engagement improvement for Listia (bids)",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (29% load); concrete, but nobody has checked it yet."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Broader than earlier 'every website and app'; adds all verticals, content types and devices. (said at 14s: \"we built a platform for every single vertical across all types of content, across every single touch point and across all devices\"; vs claim s1)",
+    "Listia was called a customer earlier, but it is described here as a trial. (said at 23s: \"we focus on click-through rate to start with for their trial\"; vs claim s12)",
+    "Earlier claim was real-time personalization for every user; this is stronger, claiming perfect targeting on every impression. (said at 43s: \"we hit every single impression directly on the head every single time\"; vs claim s9)",
+    "Earlier only Listia and one unnamed media customer were cited; now claims enterprise B2B and e-commerce verticals too. (said at 43s: \"fantastic customers in the media space, the enterprise B2B space, the e-commerce space\"; vs claim s21)",
+    "Earlier claim was fast integration (minutes); now claims one integration covers every touchpoint, content type and device, a wider scope. (said at 54s: \"You integrate it once and you personalize everything, every touchpoint, every type of content and every device.\"; vs claim s26)"
+  ],
+  "capture": "recording"
+}

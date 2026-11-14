@@ -1,0 +1,780 @@
+{
+  "deck_id": "yt_augmedics",
+  "status": "done",
+  "progress": "Finalized in 18s: 19 claims, 0 contradicted, 6 questions (0 arithmetic findings; web: 2 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "Nissan is founder and CEO of FOGMEDIX",
+      "quote": "I'm the founder and CEO of FOGMEDIX",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Product gives real X-ray vision to see inside the human body",
+      "quote": "you can actually see through walls or even inside a human body",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.63,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "Target use case is spine surgery (pedicle screw placement)",
+      "quote": "Could be great for spine surgery, for example, where surgeons need to drill holes and insert screws into the spine",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s4"
+      ],
+      "load": 0.36,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s4",
+      "text": "Up to 23% of pedicle screws in spine surgery are malpositioned",
+      "quote": "up to 23% of all the screws placed during spine surgery are malpositioned",
+      "slide": null,
+      "category": "market",
+      "value": 0.23,
+      "unit": "ratio",
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent studies report pedicle screw malposition at or above 23%: one fluoroscopy-guided series found exactly 23%, and reviews cite ranges up to 40% or more. The deck's \"up to 23%\" is therefore conservative, though other studies report lower rates of roughly 5–15%.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Rate of pedicle screws misplacement in fluoroscopy-guided thoracolumbar surgeries (Al-Azhar Assiut Medical Journal)",
+            "url": "https://journals.lww.com/aamj/fulltext/2024/10000/rate_of_pedicle_screws_misplacement_in.2.aspx",
+            "quote": "A total of 117 (23%) of the screws had pedicle violations, while 391 (77%) had no reported violations.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Accuracy of Pedicle Screw Insertion Using Fluoroscopy-Based Navigation-Assisted Surgery (PMC)",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4185314/",
+            "quote": "Clinical studies of conventional pedicle screw placement have reported a malposition rate of up to 42% in the thoracic and lumbar spine",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Assessment of pedicle screw malposition rates in thoracolumbosacral spine: results of postoperative computed tomography in 100 patients",
+            "url": "https://www.researchgate.net/publication/325272947_Assessment_of_pedicle_screw_malposition_rates_in_thoracolumbosacral_spine_results_of_postoperative_computed_tomography_in_100_patients",
+            "quote": "Transpedicular screw malposition rates ranging from 21.1% to 39.8% have been reported in the",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 5.01,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Surgical navigation systems exist and guide instruments to the correct place",
+      "quote": "they can use a GPS-like surgical navigation systems that can help them to guide their instrument directly to the correct place",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent clinical literature shows that spine navigation systems, including CT-guided, robotic and AR types, already exist and are used to guide instruments and screws more accurately than freehand or fluoroscopy methods.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Navigation-Guided/Robot-Assisted Spinal Surgery: A Review Article",
+            "url": "https://www.e-neurospine.org/journal/view.php?number=1543",
+            "quote": "In summary, many reports have demonstrated that robotic systems can improve the accuracy of pedicle screw placement.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Accuracy of Pedicle Screw Placement Using Intraoperative CT-Guided Navigation and Conventional Fluoroscopy for Lumbar Spondylosis",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8389880/",
+            "quote": "The adoption of spine neuronavigation has shown a significant decrease in screw malposition morbidity.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.03,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "In navigated spine surgery, nobody in the OR looks at the patient because info is shown on a distant screen",
+      "quote": "Not a single person in the OR is actually looking at the patient during the procedure",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.36,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 8.03,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "All current surgical navigation solutions are uncomfortable and unintuitive for surgeons",
+      "quote": "All the current solutions for navigation are uncomfortable for the surgeons, they're not intuitive",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 11.64,
+      "boxes": []
+    },
+    {
+      "id": "s9",
+      "text": "Surgeons underuse navigation systems because of poor ergonomics and intuitiveness",
+      "quote": "that is the reason why surgeons are not using navigation systems so often",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s6",
+        "s7"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 11.64,
+      "boxes": []
+    },
+    {
+      "id": "s10",
+      "text": "Product lets surgeons use navigation while looking at the patient",
+      "quote": "how can we help surgeons use navigation systems and also look at their patient at the same time",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s2",
+        "s3"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 11.64,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Three years of development to reach working product",
+      "quote": "after three years of work we have accomplished that",
+      "slide": null,
+      "category": "product",
+      "value": 3.0,
+      "unit": "years",
+      "depends_on": [],
+      "load": 0.36,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.67,
+      "boxes": []
+    },
+    {
+      "id": "s15",
+      "text": "Device is patented",
+      "quote": "With our patented device",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.36,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.67,
+      "boxes": []
+    },
+    {
+      "id": "s16",
+      "text": "Surgical-level precision and outstanding depth perception",
+      "quote": "with surgical precision and with outstanding depth perception",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 16.67,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "System is running live during demo despite video feed freezing",
+      "quote": "the system is still running",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s2"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 26.29,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Workflow uses CT scan to build a 3D patient model, with a marker placed on the patient",
+      "quote": "we scan the patient just before the surgery. And then we take the CT scans, we build a 3D model",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 31.3,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "$900M/year surgical navigation market",
+      "quote": "Surgical navigation market is estimated to reach $900 million a year",
+      "slide": null,
+      "category": "market",
+      "value": 900000000.0,
+      "unit": "USD_per_year",
+      "depends_on": [],
+      "load": 0.36,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Independent estimates put the broad surgical navigation market near $10B, about ten times the deck's figure, but the spine-only navigation segment (the product's focus) is estimated at about $896M, so the $900M claim only holds if it refers to spine navigation.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Surgical Navigation Systems Market Size Report, 2026-2033 (Grand View Research)",
+            "url": "https://www.grandviewresearch.com/industry-analysis/surgical-navigation-systems-market",
+            "quote": "The global surgical navigation systems market size was estimated at USD 9.6 billion in 2025 and is expected to reach USD 11.0 billion in 2026.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Spinal Navigation Market Size and Forecast Research Report 2026 to 2035 (InsightAce Analytic)",
+            "url": "https://www.insightaceanalytic.com/report/spinal-navigation-market/3515",
+            "quote": "Spinal Navigation Market Size is valued at USD 896.50 Mn in 2025 and is predicted to reach USD 3,973.92 Mn by the year 2035",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": "tam",
+      "source": "spoken",
+      "t": 36.33,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "Business model: integrate visor into existing navigation and imaging systems",
+      "quote": "integrate the visor into existing surgical navigation systems and medical imaging systems",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s6"
+      ],
+      "load": 0.63,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 36.33,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "Signed strategic partnerships with several global leaders in the field",
+      "quote": "we already signed strategic partnership with several global leaders",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s27"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.97,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Clinical trials to start within a few months",
+      "quote": "In the next few months we plan to start our clinical trials",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s12",
+        "s15"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 40.97,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Commercial launch planned by Q1 2019",
+      "quote": "by Q1 2019 we plan to commercialize the product",
+      "slide": null,
+      "category": "growth",
+      "value": 2019.0,
+      "unit": "year",
+      "depends_on": [
+        "s26",
+        "s27"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": "forecast_year",
+      "source": "spoken",
+      "t": 40.97,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq13",
+      "text": "What exactly is the implanted marker, is it invasive, and has it been tested or approved for use in patients?",
+      "claim_ids": [
+        "s2"
+      ],
+      "why": "Earlier 'see through walls/inside body' implied no preparation; now an implanted marker is needed pre-op.",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "lq14",
+      "text": "If the workflow is the same as other navigation systems, what concretely makes it more intuitive for surgeons?",
+      "claim_ids": [
+        "s8"
+      ],
+      "why": "Earlier said all current navigation is uncomfortable and unintuitive; now says the workflow is identical.",
+      "evidence_to_request": "",
+      "priority": 2
+    },
+    {
+      "id": "lq16",
+      "text": "Is this a pre-op CT overlay rather than live imaging, and how do you handle patient movement after registration?",
+      "claim_ids": [
+        "s2"
+      ],
+      "why": "Earlier claim was 'X-ray vision' to see through walls. This is a registered CT-based overlay, not live imaging.",
+      "evidence_to_request": "",
+      "priority": 3
+    },
+    {
+      "id": "q1",
+      "text": "You say you've signed strategic partnerships with several global leaders, and your whole model is to integrate the visor into their existing navigation and imaging systems. Who are they, what exactly is signed (integration, distribution, exclusivity), and do they have any obligation to commit engineering or sales resources?",
+      "claim_ids": [
+        "s27",
+        "s28"
+      ],
+      "why": "Tests the integration-based business model and the partnerships, which carry the Q1 2019 commercial launch.",
+      "evidence_to_request": "Signed partnership agreements or LOIs (redacted if needed) with counterparties, scope, exclusivity, term, and any API/SDK access or integration milestones.",
+      "priority": 4
+    },
+    {
+      "id": "q2",
+      "text": "You said the visor lets surgeons \"see through walls or inside the human body\", and the video feed froze mid-demo. Is that overlay of CT-derived data registered to the patient in real time, what is the measured registration accuracy and latency, and how much of the demo was live versus pre-rendered?",
+      "claim_ids": [
+        "s2",
+        "s16",
+        "s18",
+        "s21"
+      ],
+      "why": "Tests the core product claim (X-ray vision with surgical precision) that underpins the case for surgeons navigating while looking at the patient.",
+      "evidence_to_request": "Accuracy and latency data from cadaver or phantom testing (target registration error in mm), raw unedited demo footage, and the technical validation report.",
+      "priority": 5
+    },
+    {
+      "id": "q3",
+      "text": "You are planning clinical trials in a few months and commercial launch by Q1 2019, on the basis of three years of development and a patented device. What is the regulatory pathway (FDA 510(k) or de novo, CE), where is each stage today, and what does the patent actually cover given that AR headsets and navigation systems already exist?",
+      "claim_ids": [
+        "s12",
+        "s15",
+        "s30",
+        "s31"
+      ],
+      "why": "Tests the timeline and defensibility, since launch depends on trials starting and on IP protecting the device.",
+      "evidence_to_request": "Patent numbers or filings with claims and priority dates, an FTO opinion, the regulatory strategy memo, any FDA pre-submission correspondence, and IRB or trial protocol status.",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:33:35.672+00:00",
+  "mode": "live",
+  "title": "Augmedics (Disrupt SF 2017 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "Hi, I'm Nissan. I'm the founder and CEO of FOGMEDIX. I want to talk about X-ray vision. And I mean real X-ray vision, when you can actually see through walls or even inside a human body. Imagine what if surgeons had X-ray vision and they could see their patients anatomy through skin and tissue. Cool, huh? Could be great for spine surgery, for example, where surgeons need to drill holes and insert screws into the spine.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "When surgeons drill holes and insert the screws to the spine, it needs to be very careful not to breach the bone or, God forbid, not to damage the spinal cord. The problem is that you cannot really see where the screw goes inside the vertebrae, right? In fact, although the spine surgeons are very experienced, up to 23% of all the screws placed during spine surgery are malpositioned and in some cases it can even make the patient paralyzed.",
+      "t0": 5.01,
+      "t1": 5.01
+    },
+    {
+      "text": "So what can surgeons do? Well, they can use a GPS-like surgical navigation systems that can help them to guide their instrument directly to the correct place. Now please take a look at these pictures. Well, the surgeons are looking at why are they facing away from the patient? What you are seeing here in this picture is the navigated spine surgery. Not a single person in the OR is actually looking at the patient during the procedure because all the navigated information is projected on the distance screen.",
+      "t0": 8.03,
+      "t1": 8.03
+    },
+    {
+      "text": "Just try to imagine that at the most critical moment when the surgeon actually drills inside the vertebra, you need to take his head off the patient and look aside on the distant screen to navigate. All the current solutions for navigation are uncomfortable for the surgeons, they're not intuitive and that is the reason why surgeons are not using navigation systems so often. So we asked ourselves how can we help surgeons use navigation systems and also look at their patient at the same time.",
+      "t0": 11.64,
+      "t1": 11.64
+    },
+    {
+      "text": "We realized that the best way to do it is to give surgeons and x-ray vision so they can see the patient's anatomy through the skin and tissue. I'm happy to say that after three years of work we have accomplished that by developing the visor, a see-through device that goes beyond the limitation of our eyes and beyond the complications of any other existing technology. With our patented device we are able to project the patient anatomy in real time directly onto the surgeon's retina with surgical precision and with outstanding depth perception.",
+      "t0": 16.67,
+      "t1": 16.67
+    },
+    {
+      "text": "Now let's switch to the demo and I'll show you how it works. Ron, step over here. I'll explain to you what you're gonna see here. So this is Ron here. This is a live demo of our system. This is a human phantom which represents the human body with a spine inside. I can show you that there is a spine over here as well. Just a few seconds.",
+      "t0": 23.28,
+      "t1": 23.28
+    },
+    {
+      "text": "Picture is stuck. Yeah, okay. So the video feed here is stuck, but the system is still running, so you can see it here. So anyway, this is a spine phantom. What we have inside is a phantom spine of a human being. And before the surgery, we placed a microinform in the patient. We do the whole Surgical navigation, the workflow is the same as all other navigation systems.",
+      "t0": 26.29,
+      "t1": 26.29
+    },
+    {
+      "text": "We place a marker on the patient and then we scan the patient just before the surgery. And then we take the CT scans, we build a 3D model of the CT scans and we register this 3D model to the real patient lying on the surgical table. Then we project the 3D model directly to the surgeon's retina, right and left, so we can see a true 3D spine model of the patient in a very good depth perception.",
+      "t0": 31.3,
+      "t1": 31.3
+    },
+    {
+      "text": "As you can see, there's a tool also that we can track. There's the tracking system, very accurate, and the tool can even be guided inside the patient's anatomy so you can see, the surgeon can see exactly where he's aiming for. Thank you. Let's switch back to the presentation. So let's talk a bit about our business. Surgical navigation market is estimated to reach $900 million a year. Our business model is to integrate the visor into existing surgical navigation systems and medical imaging systems.",
+      "t0": 36.33,
+      "t1": 36.33
+    },
+    {
+      "text": "And we already signed strategic partnership with several global leaders that will eventually sell our system together with their system. In the next few months we plan to start our clinical trials and by Q1 2019 we plan to commercialize the product. So if you're interested in having the visor in your operating room, please contact us at ogmedics.com. Thank you. Alright, judges.",
+      "t0": 40.97,
+      "t1": 40.97
+    }
+  ],
+  "brief": {
+    "recommendation": "dig_deeper",
+    "headline": "Dig deeper: the problem is real, but the 'X-ray vision' pitch drifted into a standard CT-overlay navigation workflow, and the partnership-based go-to-market, patent and regulatory timeline are all unverified.",
+    "summary": "Augmedics (pitching as FOGMEDIX) is building an AR visor that projects a CT-derived 3D spine model onto the surgeon's retina so they can navigate while looking at the patient. The problem framing held up: spine navigation exists, and pedicle screw malposition of up to 23% is supported by independent studies (other studies report roughly 5-15%). The $900M market figure only matches the spine-only navigation segment (about $896M), while the broad surgical navigation market is closer to $10B. The 'real X-ray vision' framing weakened live: the founder described a pre-op CT scan registered to the patient via a marker, with a 'same as all other navigation' workflow, and the demo video froze. The business depends on partner integrations, signed deals with unnamed 'global leaders', a patent, and clinical trials leading to a Q1 2019 launch, none of which is evidenced.",
+    "strengths": [
+      "Real, quantified clinical problem: up to 23% pedicle screw malposition is supported by independent studies, and navigation exists but forces surgeons to look at a distant screen",
+      "Clear wedge: spine navigation, where the $900M market figure matches the spine-only segment (about $896M)",
+      "Integrate-with-incumbents model avoids competing head-on with existing navigation and imaging vendors",
+      "Live demo with tool tracking on a spine phantom, though it was only partially visible"
+    ],
+    "red_flags": [
+      {
+        "text": "The 'real X-ray vision / see inside the body' claim is overstated: live he described a pre-op CT model registered to the patient with a marker, not live imaging. He also mentioned a marker placed in the patient, and the claim of real-time projection with surgical precision and depth perception has no accuracy or latency data.",
+        "claim_ids": [
+          "s2",
+          "s16",
+          "s21"
+        ]
+      },
+      {
+        "text": "Differentiation is unclear: he said all current navigation is uncomfortable and unintuitive, then said the workflow is the same as all other systems. The only edge is heads-up display ergonomics, and the claim that surgeons underuse navigation because of ergonomics is unsupported.",
+        "claim_ids": [
+          "s8",
+          "s9",
+          "s7"
+        ]
+      },
+      {
+        "text": "The go-to-market depends on integrating with incumbents' systems, but the strategic partnerships with 'several global leaders' are unnamed and unverified, and their scope and obligations are unknown.",
+        "claim_ids": [
+          "s27",
+          "s28"
+        ]
+      },
+      {
+        "text": "The demo video froze and the claim that the system was still running was not shown. The demo used a phantom, with no cadaver or clinical evidence.",
+        "claim_ids": [
+          "s18"
+        ]
+      },
+      {
+        "text": "The timeline is aggressive and unevidenced: clinical trials in a few months and commercial launch by Q1 2019 for a new AR medical device, with the patent and three-year development claims unverified. The market size is also only valid if it means spine navigation, not the broad market (about $10B).",
+        "claim_ids": [
+          "s30",
+          "s31",
+          "s15",
+          "s12",
+          "s26"
+        ]
+      }
+    ],
+    "questions": [
+      "Who are the strategic partners, what exactly is signed (integration, distribution, exclusivity), and are they committing engineering or sales resources?",
+      "What is the measured registration accuracy (target registration error in mm) and latency, how do you handle patient movement after registration, and how much of the demo was live versus pre-rendered?",
+      "What exactly is the marker, is it implanted or invasive, and has it been tested or approved for use in patients?",
+      "What is the regulatory pathway (FDA 510(k) or de novo, CE), where are you today, and what is the realistic timeline to first trial and to Q1 2019 launch?",
+      "If the workflow is the same as existing navigation, what concretely makes this more intuitive, and what does the patent cover given existing AR headsets and navigation systems?"
+    ],
+    "evidence_requests": [
+      "Signed partnership agreements or LOIs (redacted if needed) with scope, exclusivity, term and integration milestones",
+      "Accuracy and latency data from phantom or cadaver testing, plus raw unedited demo footage",
+      "Patent numbers or filings with claims and priority dates, and an FTO opinion",
+      "Regulatory strategy memo, any FDA pre-submission correspondence, and IRB or trial protocol status",
+      "Source and definition for the $900M market estimate (spine-only vs all surgical navigation)"
+    ],
+    "live_notes": [
+      "Opened with 'real X-ray vision, see through walls', but later described a pre-op CT scan, a 3D model registered to the patient, and a marker on the patient, which is a CT-based overlay rather than live imaging.",
+      "Said he placed a 'microinform' (apparently a marker) in the patient before surgery, which implies prior preparation not mentioned earlier.",
+      "Said all current navigation is uncomfortable and unintuitive, then said the workflow is the same as all other navigation systems.",
+      "Video feed froze mid-demo; the founder said the system was still running.",
+      "New claims made only live (no deck): signed partnerships with several global leaders, clinical trials in a few months, and commercialization by Q1 2019."
+    ],
+    "generated_at": "2026-11-14T04:34:53+00:00"
+  },
+  "source_url": "https://www.youtube.com/watch?v=hFi61rb1Lz8",
+  "outcome": "Finalist, did not win TechCrunch Disrupt SF 2017 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2017/09/20/pi-wins-startup-battlefield-at-disrupt-sf-2017/",
+  "score": {
+    "total": 44.7,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 25.5,
+        "max_points": 40.0,
+        "detail": "2 supported and 0 contradicted of 19 claims; load-weighted 28% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 4.2,
+        "max_points": 20.0,
+        "detail": "4 of 19 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 5.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 3 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 10.0,
+        "max_points": 20.0,
+        "detail": "2 of the 5 most load-bearing claims are backed or independently checked; 1 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: evidence balance (25.5/40); weakest: specificity (4.2/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Earlier 'see through walls/inside body' implied no preparation; now an implanted marker is needed pre-op. (said at 26s: \"before the surgery, we placed a microin",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier said all current navigation is uncomfortable and unintuitive; now says the workflow is identical. (said at 26s: \"the workflow is the same as all other n",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier claim was 'X-ray vision' to see through walls. This is a registered CT-based overlay, not live imaging. (said at 31s: \"we project the 3D model directly ",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s2",
+        "text": "Product gives real X-ray vision to see inside the human body",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (63% load); it could not be checked."
+      },
+      {
+        "claim_id": "s27",
+        "text": "Business model: integrate visor into existing navigation and imaging systems",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (63% load); it could not be checked."
+      },
+      {
+        "claim_id": "s6",
+        "text": "Surgical navigation systems exist and guide instruments to the correct place",
+        "part": "A",
+        "effect": 3.6,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s4",
+        "text": "Up to 23% of pedicle screws in spine surgery are malpositioned",
+        "part": "A",
+        "effect": 2.0,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s12",
+        "text": "Three years of development to reach working product",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (36% load); concrete, but nobody has checked it yet."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier 'see through walls/inside body' implied no preparation; now an implanted marker is needed pre-op. (said at 26s: \"before the surgery, we placed a microinform in the patient\"; vs claim s2)",
+    "Earlier said all current navigation is uncomfortable and unintuitive; now says the workflow is identical. (said at 26s: \"the workflow is the same as all other navigation systems\"; vs claim s8)",
+    "Earlier claim was 'X-ray vision' to see through walls. This is a registered CT-based overlay, not live imaging. (said at 31s: \"we project the 3D model directly to the surgeon's retina, right and left\"; vs claim s2)"
+  ],
+  "capture": "recording"
+}

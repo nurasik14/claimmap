@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClaimMap</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0A0A'/%3E%3Cpath d='M32 18 18 44M32 18l14 26M18 44h28' stroke='%23FAFAFA' stroke-width='3' fill='none'/%3E%3Ccircle cx='32' cy='18' r='7' fill='%2322C55E'/%3E%3Ccircle cx='18' cy='44' r='5' fill='%23FAFAFA'/%3E%3Ccircle cx='46' cy='44' r='5' fill='%23FAFAFA'/%3E%3C/svg%3E">
+<script>
+  // Set the theme before first paint (no flash). main.js keeps it in sync afterwards.
+  try {
+    var t = localStorage.getItem('claimmap.theme');
+    document.documentElement.dataset.theme = t === 'dark' || t === 'light' ? t
+      : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  } catch (e) { document.documentElement.dataset.theme = 'light'; }
+</script>
+<link rel="preload" href="/static/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body data-view="library">
+<header class="topbar">
+  <div id="topbar-main" class="topbar-main"></div>
+  <div class="topbar-right">
+    <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle theme"></button>
+    <div class="avatar" title="Signed in as Demo Capital (demo account)" aria-label="Demo Capital">DC</div>
+  </div>
+</header>
+<div id="app" class="app"></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<noscript>ClaimMap needs JavaScript.</noscript>
+<script src="/static/vendor/cytoscape.min.js"></script>
+<script src="/static/vendor/d3.min.js"></script>
+<script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,784 @@
+{
+  "deck_id": "yt_oxehealth",
+  "status": "done",
+  "progress": "Finalized in 16s: 21 claims, 0 contradicted, 6 questions (0 arithmetic findings; web: 1 verdicts)",
+  "error": null,
+  "company": "",
+  "website": null,
+  "slides": [],
+  "claims": [
+    {
+      "id": "s1",
+      "text": "Hugh Lloyd-Jukes is CEO and Dr. Oliver Gibson is research lead at OxyHealth",
+      "quote": "CEO Hugh Lloyd-Jukes and research lead, Dr. Oliver Gibson",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 0.0,
+      "boxes": []
+    },
+    {
+      "id": "s2",
+      "text": "Current standard of care: manual vital-sign rounds every four hours with wired monitors",
+      "quote": "Every four hours, you physically take a trolley down the corridor",
+      "slide": null,
+      "category": "product",
+      "value": 4.0,
+      "unit": "hours",
+      "depends_on": [],
+      "load": 0.86,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.81,
+      "boxes": []
+    },
+    {
+      "id": "s3",
+      "text": "Patients on step-down wards can die undetected between spot checks",
+      "quote": "they could be in either position and already dead, and that does happen",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 2.81,
+      "boxes": []
+    },
+    {
+      "id": "s5",
+      "text": "Forward-looking doctors are starting to install cameras in wards",
+      "quote": "quite far looking doctors are starting to put cameras into their wards",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s2"
+      ],
+      "load": 0.55,
+      "check": {
+        "verdict": "supported",
+        "reason": "Later independent sources show that many NHS trusts did install cameras in wards, using Oxehealth's own system, which fits the claim that forward-looking clinicians were starting to put cameras into wards. The claim is a vague 2016 statement about early adopters, so the evidence confirms the trend more than the 2016 detail. Said live; no arithmetic or web evidence found yet.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Patient monitor technology cuts falls and saves nurse time (Nursing Times)",
+            "url": "https://www.nursingtimes.net/digital-and-technology/patient-monitor-technology-cuts-falls-and-saves-nurse-time-18-03-2019/",
+            "quote": "Coventry and Warwickshire Partnership NHS Trust introduced the Oxehealth Digital Care Assistant in half of the bedrooms across Manor Hospital's Pembleton and Stanley wards, and measured the impact over eight months.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Cameras in patients' bedrooms may not reduce the incidence of self-harm (National Elf Service)",
+            "url": "https://www.nationalelfservice.net/populations-and-settings/patient-safety/the-enforced-use-of-cameras-in-patients-bedrooms-may-not-reduce-the-incidence-of-self-harm/",
+            "quote": "The technology, known as Oxevision, uses infra-red sensitive cameras in people's bedrooms to help staff visually confirm a person is safe",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 6.42,
+      "boxes": []
+    },
+    {
+      "id": "s6",
+      "text": "Standard ward cameras cannot proactively alert to patient deterioration on their own",
+      "quote": "they won't ever on their own proactively alert you to deterioration",
+      "slide": null,
+      "category": "competition",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 9.63,
+      "boxes": []
+    },
+    {
+      "id": "s7",
+      "text": "Software turns ordinary video cameras into patient health monitors",
+      "quote": "We transform video cameras, we turn them into health monitors",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s5"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 9.63,
+      "boxes": []
+    },
+    {
+      "id": "s8",
+      "text": "Proprietary algorithms analyse signals from every pixel of the camera sensor",
+      "quote": "proprietary algorithms analyzing the signals on every pixel on that sensor",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 1.0,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 9.63,
+      "boxes": []
+    },
+    {
+      "id": "s9",
+      "text": "Software runs on the camera or on a low-cost attached device",
+      "quote": "sit either on the camera itself or on a low-cost device attached to it",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.55,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 9.63,
+      "boxes": []
+    },
+    {
+      "id": "s10",
+      "text": "Cloud backend monitors device performance and pushes software updates",
+      "quote": "We hook that up to our cloud that monitors performance and it pushes updates",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [
+        "s9"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 15.04,
+      "boxes": []
+    },
+    {
+      "id": "s12",
+      "text": "Camera-derived breathing rate of 16 is medical grade and real-time",
+      "quote": "that's his breathing rate, medical grade real-time 16",
+      "slide": null,
+      "category": "product",
+      "value": 16.0,
+      "unit": "breaths_per_minute",
+      "depends_on": [
+        "s8"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 15.04,
+      "boxes": []
+    },
+    {
+      "id": "s13",
+      "text": "Camera-derived heart rate of 106 bpm shown live",
+      "quote": "106 beats a minute, that's his heart rate right now",
+      "slide": null,
+      "category": "product",
+      "value": 106.0,
+      "unit": "beats_per_minute",
+      "depends_on": [
+        "s8"
+      ],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 15.04,
+      "boxes": []
+    },
+    {
+      "id": "s17",
+      "text": "Product can show vital signs and activity status for 12 rooms at once",
+      "quote": "Tomorrow you're going to see these 12 rooms with vital signs and activity status",
+      "slide": null,
+      "category": "product",
+      "value": 12.0,
+      "unit": "rooms",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 24.47,
+      "boxes": []
+    },
+    {
+      "id": "s18",
+      "text": "Product provides visual and audible alerts",
+      "quote": "you're going to see visual alerts and here are audible alerts",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.07,
+      "boxes": []
+    },
+    {
+      "id": "s21",
+      "text": "Professor Lionel Tarassenko is founder and head of engineering at Oxford",
+      "quote": "This is Professor Lionel Tarasenko, our founder, the head of engineering at Oxford",
+      "slide": null,
+      "category": "team",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 28.07,
+      "boxes": []
+    },
+    {
+      "id": "s25",
+      "text": "Field deployment at Broadmoor Psychiatric Hospital (high secure)",
+      "quote": "this is Broadmoor Psychiatric Hospital, high secure mental health",
+      "slide": null,
+      "category": "customers",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "Independent sources confirm Oxehealth's camera monitoring was trialled at Broadmoor, the high-secure psychiatric hospital, from 2014 to 2015. It was later installed in every room of the new Broadmoor hospital in 2020.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Psychiatric hospital trials cameras acting as health monitors",
+            "url": "https://www.imveurope.com/news/Psychiatric-hospital-trials-cameras-acting-as-health-monitors",
+            "quote": "A trial monitoring the health of psychiatric patients with camera technology has taken place at Broadmoor High Secure Psychiatric Hospital in the UK.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Broadmoor Hospital rolls out patient monitoring technology",
+            "url": "https://www.buildingbetterhealthcare.com/news/article_page/Broadmoor_Hospital_rolls_out_patient_monitoring_technology/169540",
+            "quote": "West London NHS Trust's new state-of-the-art psychiatric hospital, Broadmoor, has installed Oxehealth's Digital Care Assistant (DCA) in every room.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "A service evaluation of passive remote monitoring technology for patients in a high-secure forensic psychiatric hospital: a qualitative study",
+            "url": "https://link.springer.com/article/10.1186/s12888-023-05437-w",
+            "quote": "Oxehealth has been implemented within several mental health hospitals across the UK, including Broadmoor Hospital in South England.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 33.09,
+      "boxes": []
+    },
+    {
+      "id": "s26",
+      "text": "Two-phase product: phase 1 video analytics (bed in/out, room activity)",
+      "quote": "We're going to mark it in two phases. The first is video analytics.",
+      "slide": null,
+      "category": "product",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 39.11,
+      "boxes": []
+    },
+    {
+      "id": "s27",
+      "text": "Ambition to deploy in every care setting globally (hospitals, care homes, homes)",
+      "quote": "delivering these systems into every care setting globally",
+      "slide": null,
+      "category": "market",
+      "value": null,
+      "unit": null,
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "supported",
+        "reason": "The company's actual rollout fits the stated ambition: it is deployed in hospitals, mental health units, care homes and skilled nursing facilities, and it expanded to Europe and the US. I found no evidence of deployment in private homes, and 'every care setting globally' is still aspirational. Critics say NHS uptake has been shrinking.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Oxehealth company information, funding & investors (Dealroom)",
+            "url": "https://app.dealroom.co/companies/oxehealth",
+            "quote": "Oxehealth's technology is deployed in inpatient mental health facilities, acute hospitals, skilled nursing facilities, and care homes.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "FDA green lights Oxehealth vital signs monitoring software (pharmaphorum)",
+            "url": "https://pharmaphorum.com/news/fda-green-lights-oxehealth-vital-signs-monitoring-software",
+            "quote": "The approval means the Oxford University spin-out can place Oxevision on the market in all US states.",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "About - Stop Oxevision",
+            "url": "https://stopoxevision.com/about-stop-oxevision/",
+            "quote": "It has also been used within care homes.",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 43.52,
+      "boxes": []
+    },
+    {
+      "id": "s28",
+      "text": "First two commercial video analytics deals at contract negotiation stage (not yet signed)",
+      "quote": "we're inking our first two commercial deals. They're at contract negotiation stage",
+      "slide": null,
+      "category": "traction",
+      "value": 2.0,
+      "unit": "deals",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet. Coverage from 2016 shows Oxehealth was still moving from research to commercial launch, but none of it confirms or contradicts two commercial deals at contract negotiation stage.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Oxehealth is turning video cameras into health monitors (Management Today)",
+            "url": "https://www.managementtoday.co.uk/start-up-turning-video-cameras-health-monitors/innovation/article/1422416",
+            "quote": "We\u2019re just scaling up the commercial team now because of the stage we\u2019ve reached,",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 46.52,
+      "boxes": []
+    },
+    {
+      "id": "s29",
+      "text": "Pipeline of 15 police forces and 8 mental health trusts for video analytics",
+      "quote": "We have 15 police forces, eight mental health trusts",
+      "slide": null,
+      "category": "traction",
+      "value": 23.0,
+      "unit": "pipeline_prospects",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet. I found no public source on Oxehealth's 2016 sales pipeline of 15 police forces and 8 mental health trusts, and later reports show far fewer police customers (two by 2019), though this doesn't disprove a pipeline.",
+        "sources": [
+          {
+            "kind": "web",
+            "title": "Digital nurse obs system 'step forward' in mental health care (Nursing Times)",
+            "url": "https://www.nursingtimes.net/research-and-innovation/digital-nurse-obs-system-step-forward-in-mental-health-care-17-07-2019/",
+            "quote": "Oxehealth's Digital Care Assistants are currently being used by 10 mental health trusts",
+            "date": null
+          },
+          {
+            "kind": "web",
+            "title": "Oxehealth - Mental health trust cuts falls and saves time with patient monitoring technology",
+            "url": "https://www.oxehealth.se/news/mental-health-trust-cuts-falls-and-saves-time-with-patient-monitoring-technology",
+            "quote": "Oxehealth's Digital Care Assistant products are already used by nine mental health trusts",
+            "date": null
+          }
+        ],
+        "method": "web"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 46.52,
+      "boxes": []
+    },
+    {
+      "id": "s30",
+      "text": "Two clinical studies running, third long-run study being added for medical analytics",
+      "quote": "we have those first clinical studies I mentioned, and we're adding a third, which is a long-run study",
+      "slide": null,
+      "category": "product",
+      "value": 3.0,
+      "unit": "clinical studies",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 46.52,
+      "boxes": []
+    },
+    {
+      "id": "s31",
+      "text": "Two medical analytics development partnerships at contract stage",
+      "quote": "at contract stage on two development partnerships",
+      "slide": null,
+      "category": "traction",
+      "value": 2.0,
+      "unit": "partnerships",
+      "depends_on": [],
+      "load": 0.1,
+      "check": {
+        "verdict": "unverified",
+        "reason": "Said live; no arithmetic or web evidence found yet.",
+        "sources": [],
+        "method": "none"
+      },
+      "role": null,
+      "source": "spoken",
+      "t": 46.52,
+      "boxes": []
+    }
+  ],
+  "questions": [
+    {
+      "id": "lq10",
+      "text": "Is the 109 reading validated against a reference device, and how does it vary from the 106 shown moments ago?",
+      "claim_ids": [
+        "s13"
+      ],
+      "why": "Earlier live reading was 106 bpm; now 109 bpm (could be live fluctuation).",
+      "evidence_to_request": "",
+      "priority": 1
+    },
+    {
+      "id": "q1",
+      "text": "You show a camera-derived heart rate of 106 bpm and a breathing rate of 16, and call it medical grade and real-time. What reference device was it validated against, on how many patients, and what were the error limits, especially with movement, poor lighting or darker skin tones?",
+      "claim_ids": [
+        "s8",
+        "s12",
+        "s13"
+      ],
+      "why": "The whole case rests on the proprietary pixel-level algorithm delivering medical-grade vitals, and the live demo numbers are unverified.",
+      "evidence_to_request": "Clinical validation data comparing camera-derived vitals against reference monitors (Bland-Altman analysis, sample sizes, conditions), plus the protocol and status of the two running clinical studies.",
+      "priority": 2
+    },
+    {
+      "id": "q2",
+      "text": "You say you have 15 police forces and 8 mental health trusts in the pipeline, and two commercial deals at contract negotiation. Which named organisations are these, what stage is each at, and what has actually been signed?",
+      "claim_ids": [
+        "s29",
+        "s28",
+        "s31"
+      ],
+      "why": "Traction claims are the main commercial proof for video analytics, and public sources found no corroboration of this pipeline in 2016.",
+      "evidence_to_request": "A CRM pipeline export with named accounts, stages and expected values, draft or signed contracts or LOIs for the two deals, and the two development partnership agreements.",
+      "priority": 3
+    },
+    {
+      "id": "q3",
+      "text": "Your pitch implies the standard of care is a trolley round every four hours with wired monitors, and that this gap is why doctors are putting cameras in wards. Do you have data on how often deterioration is missed between checks, and who pays to close that gap?",
+      "claim_ids": [
+        "s2",
+        "s5",
+        "s3"
+      ],
+      "why": "The problem framing and the early-adopter demand both depend on an unverified description of current practice.",
+      "evidence_to_request": "Clinical audit or literature on missed deterioration between observation rounds, and a list of the wards or trusts that have installed cameras, with budget holders and pricing.",
+      "priority": 4
+    },
+    {
+      "id": "q4",
+      "text": "You say the software runs on the camera itself or on a low-cost attached device, with a cloud backend pushing updates. Which cameras and hardware have you actually run it on, what is the compute cost per room, and where does the video and patient data go?",
+      "claim_ids": [
+        "s9",
+        "s10",
+        "s7"
+      ],
+      "why": "Hardware-agnostic, low-cost deployment underpins scalability and unit economics, and it is unverified.",
+      "evidence_to_request": "A technical architecture document, a list of tested camera and device models with performance benchmarks, a bill of materials per room, and the data protection impact assessment.",
+      "priority": 5
+    },
+    {
+      "id": "lq14",
+      "text": "Where were the two studies published, what were the sample sizes, and what were the accuracy/error metrics versus contact devices?",
+      "claim_ids": [
+        "s12"
+      ],
+      "why": "Earlier said 'medical grade'; now claims equivalence to contact devices, a stronger, specific accuracy claim.",
+      "evidence_to_request": "",
+      "priority": 6
+    }
+  ],
+  "created_at": "2026-11-14T04:36:23.088+00:00",
+  "mode": "live",
+  "title": "Oxehealth (Disrupt London 2016 final)",
+  "slide_count": 0,
+  "transcript": [
+    {
+      "text": "All right, we are almost there. We have one last company to see. That company is OxyHealth. Presenting for OxyHealth are CEO Hugh Lloyd-Jukes and research lead, Dr. Oliver Gibson. Good afternoon. I'm Hugh, Chief Executive of OxyHealth. Imagine for me, please, that you're the head nurse on a step-down ward post-operative, and it's midnight. This is what you see, 12 closed doors. Now, the patients behind those doors are in one of four states.",
+      "t0": 0.0,
+      "t1": 0.0
+    },
+    {
+      "text": "They're in bed, they're resting, don't wake them up. They're in bed, they're deteriorating unexpectedly, they need attention. They're out of bed, they've got into trouble, they need help, and tragically, they could be in either position and already dead, and that does happen. So as head nurse today, what you do is you go on your rounds. Every four hours, you physically take a trolley down the corridor, you enter the room, and you attach wired monitoring devices to those patients.",
+      "t0": 2.81,
+      "t1": 2.81
+    },
+    {
+      "text": "You wake them up and you take their vital signs. Now that's flawed because you wake them all up, irrespective of condition, and because four hours is a long time and a lot can happen in that space. So how could we apply technology to help that head nurse? Well, quite far looking doctors are starting to put cameras into their wards. So you're gonna feed like this. Can you tell how that patient's doing?",
+      "t0": 6.42,
+      "t1": 6.42
+    },
+    {
+      "text": "Can you see whether they're safe or deteriorating? Of course you can. Cameras are great if you're watching them for context gross information, but they won't ever on their own proactively alert you to deterioration. That is where we come in. We transform video cameras, we turn them into health monitors, we take a normal video camera, we add our software which has proprietary algorithms analyzing the signals on every pixel on that sensor that can sit either on the camera itself or on a low-cost device attached to it.",
+      "t0": 9.63,
+      "t1": 9.63
+    },
+    {
+      "text": "We hook that up to our cloud that monitors performance and it pushes updates and together that solution delivers to the nursing station real-time alerts, vital signs, and if the nurse chooses video on demand. So we're going to show you that live. Oliver's going to take us to Oxford now and I'll show you it working. So top left there's your patient through a two megapixel digital camera. Bottom left that's his breathing rate, medical grade real-time 16 and a 106 beats a minute, that's his heart rate right now, 100 miles away in Oxford.",
+      "t0": 15.04,
+      "t1": 15.04
+    },
+    {
+      "text": "So we can give you deterioration with medical accuracy through a camera. And what that does is it gives you medical insight. The insight here is quite straightforward. I know Nick, his resting heart rate is 60 beats a minute. He's currently running 109. Yesterday it was 112. And that means that even in Oxford, presenting to you a lot is pretty stressful. If you look above the heart rate where it says patient in bed, let's see something else.",
+      "t0": 20.66,
+      "t1": 20.66
+    },
+    {
+      "text": "So we're getting Nick out of bed now and we're waiting for him to respond down the Skype. There he goes. So just watch. There it says movement. Lose the vitals and shortly it will tell you he's out of bed. So we're giving you vital signs and we're giving you activity monitoring. Could we go back? So head nurse today, you're going to see this corridor. Tomorrow you're going to see these 12 rooms with vital signs and activity status.",
+      "t0": 24.47,
+      "t1": 24.47
+    },
+    {
+      "text": "to see visual alerts and here are audible alerts. If Oliver, can you click in on Room 4 for me? So you can click in. You can see, advantage of video, the context of what's going on in that room. And you can log your action and what you've decided to do with that information. So this is medical grade vital science. This is Professor Lionel Tarasenko, our founder, the head of engineering at Oxford.",
+      "t0": 28.07,
+      "t1": 28.07
+    },
+    {
+      "text": "He ran two foundational clinical studies that showed that our algorithms are as accurate as a contact medical device, something you put on the body. We took that technology and some of the research group, including Dr. Gibson here, out of the university, built a company around them, and went into the field. In the field, we've also, for example, this is Broadmoor Psychiatric Hospital, high secure mental health. We found that, again, we're as accurate as a contact medical device on both respiration and heart rate.",
+      "t0": 33.09,
+      "t1": 33.09
+    },
+    {
+      "text": "So this is a complex product. We're going to mark it in two phases. The first is video analytics. That's the in and out of bed, activity of a human being in a room. The second is medical analytics. That's the vital signs. And of course, that's going to be a medical device. The truth here, though, is that the scarce resource in our health care systems are doctors and nurses and their time.",
+      "t0": 39.11,
+      "t1": 39.11
+    },
+    {
+      "text": "We have to put that time onto the most urgent situations with the best data. We also badly need to step people down from expensive locations like hospitals to cheaper locations like nursing, care homes, and our own homes. And we believe that video cameras empowered by Oxycam software are the ideal platform, activity, vital signs, and context all in one place. So we passionately want to help doctors save lives and improve health care for everyone by delivering these systems into every care setting globally.",
+      "t0": 43.52,
+      "t1": 43.52
+    },
+    {
+      "text": "I'm really proud of the team, and I'm very proud of our momentum. In video analytics, we're inking our first two commercial deals. They're at contract negotiation stage. And our pipeline is very strong. We have 15 police forces, eight mental health trusts. In medical analytics, we have those first clinical studies I mentioned, and we're adding a third, which is a long-run study. But we're also, again, at contract stage on two development partnerships.",
+      "t0": 46.52,
+      "t1": 46.52
+    },
+    {
+      "text": "So that's NHS Trust, where we're looking at doing a series of very focused clinical studies, which are aimed at productizing a bundle of algorithms the doctors want out of our IP. So in summary, then, at OxyHealth, we transform video cameras. We turn them into health monitors.",
+      "t0": 52.14,
+      "t1": 52.14
+    }
+  ],
+  "brief": null,
+  "source_url": "https://www.youtube.com/watch?v=fH91MqFlbl0",
+  "outcome": "Finalist, did not win TechCrunch Disrupt London 2016 Startup Battlefield",
+  "outcome_won": false,
+  "outcome_source": "https://techcrunch.com/2016/12/06/seenit-wins-startup-battlefield-disrupt-london-2016/",
+  "score": {
+    "total": 46.8,
+    "parts": [
+      {
+        "name": "Evidence balance",
+        "points": 23.2,
+        "max_points": 40.0,
+        "detail": "3 supported and 0 contradicted of 21 claims; load-weighted 16% backed and 0% contradicted."
+      },
+      {
+        "name": "Specificity",
+        "points": 7.6,
+        "max_points": 20.0,
+        "detail": "8 of 21 claims carry a concrete number."
+      },
+      {
+        "name": "Consistency",
+        "points": 10.0,
+        "max_points": 20.0,
+        "detail": "0 arithmetic contradictions and 2 numbers that changed during the pitch."
+      },
+      {
+        "name": "Verifiable core",
+        "points": 6.0,
+        "max_points": 20.0,
+        "detail": "1 of the 5 most load-bearing claims are backed or independently checked; 1 more are concrete but not yet checked (half credit)."
+      }
+    ],
+    "summary": "Strongest: evidence balance (23.2/40); weakest: verifiable core (6/20).",
+    "version": "v1.1",
+    "drivers": [
+      {
+        "claim_id": "",
+        "text": "Earlier live reading was 106 bpm; now 109 bpm (could be live fluctuation). (said at 21s: \"His resting heart rate is 60 beats a minute. He's currently running 10",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "",
+        "text": "Earlier said 'medical grade'; now claims equivalence to contact devices, a stronger, specific accuracy claim. (said at 33s: \"our algorithms are as accurate as a",
+        "part": "C",
+        "effect": -5.0,
+        "reason": "The founder said something different live."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Hugh Lloyd-Jukes is CEO and Dr. Oliver Gibson is research lead at OxyHealth",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (10% load); it could not be checked."
+      },
+      {
+        "claim_id": "s8",
+        "text": "Proprietary algorithms analyse signals from every pixel of the camera sensor",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (100% load); it could not be checked."
+      },
+      {
+        "claim_id": "s9",
+        "text": "Software runs on the camera or on a low-cost attached device",
+        "part": "D",
+        "effect": -4.0,
+        "reason": "One of the 5 claims the deal rests on most (55% load); it could not be checked."
+      },
+      {
+        "claim_id": "s5",
+        "text": "Forward-looking doctors are starting to install cameras in wards",
+        "part": "A",
+        "effect": 2.4,
+        "reason": "Backed by evidence; the deal leans on it, so it adds trust."
+      },
+      {
+        "claim_id": "s2",
+        "text": "Current standard of care: manual vital-sign rounds every four hours with wired monitors",
+        "part": "D",
+        "effect": -2.0,
+        "reason": "One of the 5 claims the deal rests on most (86% load); concrete, but nobody has checked it yet."
+      },
+      {
+        "claim_id": "s1",
+        "text": "Hugh Lloyd-Jukes is CEO and Dr. Oliver Gibson is research lead at OxyHealth",
+        "part": "B",
+        "effect": -1.0,
+        "reason": "Carries no concrete number, so it cannot be checked against data."
+      }
+    ]
+  },
+  "drift_notes": [
+    "Earlier live reading was 106 bpm; now 109 bpm (could be live fluctuation). (said at 21s: \"His resting heart rate is 60 beats a minute. He's currently running 109.\"; vs claim s13)",
+    "Earlier said 'medical grade'; now claims equivalence to contact devices, a stronger, specific accuracy claim. (said at 33s: \"our algorithms are as accurate as a contact medical device\"; vs claim s12)"
+  ],
+  "capture": "recording"
+}
